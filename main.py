@@ -1,5 +1,5 @@
 import urllib.request
-import ssl
+import ssl,os
 context = ssl._create_unverified_context()
 
 #1.数据url
@@ -16,5 +16,8 @@ response = urllib.request.urlopen(request,context=context)
 data = response.read()
 #print(data)
 #6.保存到文件中 验证数据
-with open('subscribe/clash.yaml', 'wb') as f:
+dirs = './subscribe'
+if not os.path.exists(dirs):
+    os.makedirs(dirs)
+with open(dirs+'/clash.yaml', 'wb') as f:
     f.write(data)
