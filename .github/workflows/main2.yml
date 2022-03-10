@@ -1,4 +1,4 @@
-name: 自动采集
+name: 自动采集proxy
 
 # 触发条件
 on:
