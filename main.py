@@ -16,5 +16,5 @@ response = urllib.request.urlopen(request,context=context)
 data = response.read()
 #print(data)
 #6.保存到文件中 验证数据
-with open('clash.yaml', 'wb') as f:
+with open('subscribe/clash.yaml', 'wb') as f:
     f.write(data)
