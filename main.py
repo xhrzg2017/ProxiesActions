@@ -3,7 +3,7 @@ import ssl,os
 context = ssl._create_unverified_context()
 
 #1.数据url
-url = 'https://sub.789.st/sub?target=clash&new_name=true&url=https://hk.xhrzg2017.xyz/clash/proxies?nc=CN&type=vmess,trojan&config=https://raw.githubusercontent.com/xhrzg2017/listes/main/Clash/Config/low.ini&emoji=true&list=false&udp=false&tfo=false&scv=false&fdn=false&sort=false'
+url = 'https://hk.xhrzg2017.xyz/clash/proxies?nc=CN&type=vmess,trojan'
 #2.添加请求头
 headers = {
     'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
@@ -19,5 +19,5 @@ data = response.read()
 dirs = './subscribe'
 if not os.path.exists(dirs):
     os.makedirs(dirs)
-with open(dirs+'/clash.yaml', 'wb') as f:
+with open(dirs+'/clash.txt', 'wb') as f:
     f.write(data)
