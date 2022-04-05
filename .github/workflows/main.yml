@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
   # 定时触发
   schedule:
-    - cron: '50 * * * *'
+    - cron: '40 2,12 * * *'
 
 jobs:
   deploy:
