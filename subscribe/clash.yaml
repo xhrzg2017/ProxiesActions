@@ -136,13 +136,14 @@ cfw-conn-break-strategy:
   mode: true
 cfw-proxies-order: default
 proxies:
-  - {name: _06 |10.81Mb, server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇰🇷 Relay_🇬🇧GB-🇰🇷KR_21 |24.91Mb, server: 600201393260855809.zga.zengslb.com, port: 44170, type: vmess, uuid: 58fc393c-c6f0-482d-8293-51d5d3f21391, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 Pool_🇺🇸US_41 | 8.56Mb, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 45.35.84.162}}}
-  - {name: 🇺🇸 US_42 |223.07Mb, server: 152.70.94.8, port: 41371, type: vmess, uuid: 84f76f53-0461-4d71-fc4d-7332aa92ae34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 US_43 |100.68Mb, server: 152.70.88.168, port: 49081, type: vmess, uuid: e19ea4e5-d918-4d1c-a384-c232ebe7b803, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_44 |24.38Mb, server: vn.mumi.bid, port: 10125, type: vmess, uuid: 83ae9f04-47f0-4e34-9a1c-9c2e5161f586, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vn.mumi.bid}}}
-  - {name: 🇺🇸 US_45 | 8.33Mb, server: 67.207.92.252, port: 55239, type: vmess, uuid: 1a923713-6220-4246-fd24-7192619740d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|10.81Mb", server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: Relay_ |144.32Mb, server: nfjp1.qingyun123.xyz, port: 10000, type: trojan, password: b0dd80f5-2e66-4d3c-b41e-f3b10534fd90, skip-cert-verify: false}
+  - {name: Pool_ | 8.56Mb, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 45.35.84.162}}}
+  - {name: "|10.92Mb", server: 144.34.161.239, port: 158, type: vmess, uuid: c03a92ed-d64e-4096-8aae-ce6b96d887e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US_42 |20.55Mb, server: 209.141.32.70, port: 50369, type: vmess, uuid: 15bf42a4-91ef-4312-b7f4-14698c52df24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|100.68Mb", server: 152.70.88.168, port: 49081, type: vmess, uuid: e19ea4e5-d918-4d1c-a384-c232ebe7b803, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|223.07Mb", server: 152.70.94.8, port: 41371, type: vmess, uuid: 84f76f53-0461-4d71-fc4d-7332aa92ae34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: Relay_ |47.41Mb, server: in1.qingyun123.xyz, port: 443, type: trojan, password: b0dd80f5-2e66-4d3c-b41e-f3b10534fd90, skip-cert-verify: false}
 proxy-groups:
   - name: ✅ 节点选择
     type: select
@@ -162,23 +163,25 @@ proxy-groups:
     interval: 120
     tolerance: 5
     proxies:
-      - _06 |10.81Mb
-      - 🇰🇷 Relay_🇬🇧GB-🇰🇷KR_21 |24.91Mb
-      - 🇺🇸 Pool_🇺🇸US_41 | 8.56Mb
-      - 🇺🇸 US_42 |223.07Mb
-      - 🇺🇸 US_43 |100.68Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_44 |24.38Mb
-      - 🇺🇸 US_45 | 8.33Mb
+      - "|10.81Mb"
+      - Relay_ |144.32Mb
+      - Pool_ | 8.56Mb
+      - "|10.92Mb"
+      - 🇺🇸 US_42 |20.55Mb
+      - "|100.68Mb"
+      - "|223.07Mb"
+      - Relay_ |47.41Mb
   - name: 🌐 手动切换
     type: select
     proxies:
-      - _06 |10.81Mb
-      - 🇰🇷 Relay_🇬🇧GB-🇰🇷KR_21 |24.91Mb
-      - 🇺🇸 Pool_🇺🇸US_41 | 8.56Mb
-      - 🇺🇸 US_42 |223.07Mb
-      - 🇺🇸 US_43 |100.68Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_44 |24.38Mb
-      - 🇺🇸 US_45 | 8.33Mb
+      - "|10.81Mb"
+      - Relay_ |144.32Mb
+      - Pool_ | 8.56Mb
+      - "|10.92Mb"
+      - 🇺🇸 US_42 |20.55Mb
+      - "|100.68Mb"
+      - "|223.07Mb"
+      - Relay_ |47.41Mb
   - name: 🇭🇰 香港节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -196,11 +199,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 Pool_🇺🇸US_41 | 8.56Mb
-      - 🇺🇸 US_42 |223.07Mb
-      - 🇺🇸 US_43 |100.68Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_44 |24.38Mb
-      - 🇺🇸 US_45 | 8.33Mb
+      - 🇺🇸 US_42 |20.55Mb
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -218,7 +217,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇰🇷 Relay_🇬🇧GB-🇰🇷KR_21 |24.91Mb
+      - DIRECT
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,DIRECT
  - DOMAIN-SUFFIX,ip6-localhost,DIRECT
