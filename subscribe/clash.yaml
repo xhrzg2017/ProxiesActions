@@ -8,7 +8,6 @@ hosts:
   api.dler.io: 172.67.203.47
   api.wcc.best: 172.67.140.28
   sub.789.st: 172.67.193.176
-  doh.xhrzg2017.xyz: 146.56.181.43
   subconverter.herokuapp.com: 54.165.58.209
   sub.id9.cc: 104.218.235.103
   raw.githubusercontent.com: 185.199.108.133
@@ -136,17 +135,21 @@ cfw-conn-break-strategy:
   mode: true
 cfw-proxies-order: default
 proxies:
-  - {name: _06 | 8.96Mb, server: 49.234.158.14, port: 10909, type: vmess, uuid: c3082e6f-37b2-41b6-b40a-1063bc8e2853, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|29.40Mb", server: 129.154.54.75, port: 33004, type: vmess, uuid: 4f14695c-31b9-45bf-ca34-1d82170fc100, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 129.154.54.75}}}
-  - {name: Relay_ |37.41Mb, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}}
-  - {name: 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_17 |22.19Mb, server: jgw3.gaox.ml, port: 443, type: trojan, password: a1718180-d616-4b71-9bb6-3e96ba20f921, skip-cert-verify: false}
-  - {name: "|67.56Mb", server: 152.70.94.8, port: 41371, type: vmess, uuid: 84f76f53-0461-4d71-fc4d-7332aa92ae34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|56.38Mb", server: 152.70.88.168, port: 49081, type: vmess, uuid: e19ea4e5-d918-4d1c-a384-c232ebe7b803, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Pool_ |14.14Mb, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 45.35.84.162}}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_26 | 5.83Mb, server: meet-one.defun.us, port: 443, type: trojan, password: INvx7sPho4PyTLS6, skip-cert-verify: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_27 |74.88Mb, server: pro.tls.hongkongaz.dnsfree.top, port: 55094, type: trojan, password: a37a5947-0493-4a59-ba4c-5d36dd16063b, skip-cert-verify: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_28 |261.33Mb, server: aead.tls.sksupersususu.dnsfree.top, port: 12347, type: trojan, password: a37a5947-0493-4a59-ba4c-5d36dd16063b, skip-cert-verify: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_29 |105.06Mb, server: pro.tls.hongkongaz.dnsfree.top, port: 55092, type: trojan, password: a37a5947-0493-4a59-ba4c-5d36dd16063b, skip-cert-verify: false}
+  - {name: "| 8.96Mb", server: 49.234.158.14, port: 10909, type: vmess, uuid: c3082e6f-37b2-41b6-b40a-1063bc8e2853, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "| 5.43Mb", server: 154.23.190.162, port: 443, type: vmess, uuid: b9984674-f771-4e67-a198-c7e60720ba2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 154.23.190.162}}}
+  - {name: "| 6.35Mb", server: 129.154.54.75, port: 33004, type: vmess, uuid: 4f14695c-31b9-45bf-ca34-1d82170fc100, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 129.154.54.75}}}
+  - {name: Relay_ |49.81Mb, server: jgw3.gaox.ml, port: 443, type: trojan, password: a1718180-d616-4b71-9bb6-3e96ba20f921, skip-cert-verify: false}
+  - {name: Relay_ |11.02Mb, server: ai2.susenl.com, port: 30010, type: trojan, password: c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0, skip-cert-verify: false}
+  - {name: Relay_ |13.41Mb, server: ai2.susenl.com, port: 10030, type: trojan, password: c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0, skip-cert-verify: false}
+  - {name: Relay_ |24.19Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: false}
+  - {name: Relay_ |24.72Mb, server: 142.4.127.67, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/310910211916, headers: {Host: 142.4.127.67}}}
+  - {name: Pool_ |21.17Mb, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 45.35.84.162}}}
+  - {name: "|46.30Mb", server: 152.70.88.168, port: 49081, type: vmess, uuid: e19ea4e5-d918-4d1c-a384-c232ebe7b803, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|72.88Mb", server: 152.70.94.8, port: 41371, type: vmess, uuid: 84f76f53-0461-4d71-fc4d-7332aa92ae34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: Relay_ | 5.83Mb, server: meet-one.defun.us, port: 443, type: trojan, password: INvx7sPho4PyTLS6, skip-cert-verify: false}
+  - {name: Relay_ | 6.16Mb, server: rbmf.speedcncnforward3.tk, port: 10004, type: trojan, password: 04d83e9e-d6ff-49ca-9c32-082b9b9c9c54, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_33 | 7.02Mb, server: xjpmf.speedcncnforward2.tk, port: 10001, type: trojan, password: 32f3466c-2483-4de6-83b8-f4008c750102, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_34 |12.32Mb, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, skip-cert-verify: false}
 proxy-groups:
   - name: ✅ 节点选择
     type: select
@@ -166,31 +169,39 @@ proxy-groups:
     interval: 120
     tolerance: 5
     proxies:
-      - _06 | 8.96Mb
-      - "|29.40Mb"
-      - Relay_ |37.41Mb
-      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_17 |22.19Mb
-      - "|67.56Mb"
-      - "|56.38Mb"
-      - Pool_ |14.14Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_26 | 5.83Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_27 |74.88Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_28 |261.33Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_29 |105.06Mb
+      - "| 8.96Mb"
+      - "| 5.43Mb"
+      - "| 6.35Mb"
+      - Relay_ |49.81Mb
+      - Relay_ |11.02Mb
+      - Relay_ |13.41Mb
+      - Relay_ |24.19Mb
+      - Relay_ |24.72Mb
+      - Pool_ |21.17Mb
+      - "|46.30Mb"
+      - "|72.88Mb"
+      - Relay_ | 5.83Mb
+      - Relay_ | 6.16Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_33 | 7.02Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_34 |12.32Mb
   - name: 🌐 手动切换
     type: select
     proxies:
-      - _06 | 8.96Mb
-      - "|29.40Mb"
-      - Relay_ |37.41Mb
-      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_17 |22.19Mb
-      - "|67.56Mb"
-      - "|56.38Mb"
-      - Pool_ |14.14Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_26 | 5.83Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_27 |74.88Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_28 |261.33Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_29 |105.06Mb
+      - "| 8.96Mb"
+      - "| 5.43Mb"
+      - "| 6.35Mb"
+      - Relay_ |49.81Mb
+      - Relay_ |11.02Mb
+      - Relay_ |13.41Mb
+      - Relay_ |24.19Mb
+      - Relay_ |24.72Mb
+      - Pool_ |21.17Mb
+      - "|46.30Mb"
+      - "|72.88Mb"
+      - Relay_ | 5.83Mb
+      - Relay_ | 6.16Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_33 | 7.02Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_34 |12.32Mb
   - name: 🇭🇰 香港节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -208,10 +219,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_26 | 5.83Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_27 |74.88Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_28 |261.33Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_29 |105.06Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_33 | 7.02Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_34 |12.32Mb
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -229,7 +238,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_17 |22.19Mb
+      - DIRECT
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,DIRECT
  - DOMAIN-SUFFIX,ip6-localhost,DIRECT
