@@ -128,33 +128,31 @@ dns:
       - +.aaplimg.com
       - apps.apple.com
 cfw-latency-timeout: 3000
-cfw-latency-url: http://www.gstatic.com/generate_204
+cfw-latency-url: http://edge.microsoft.com/captiveportal/generate_204
 cfw-conn-break-strategy:
   proxy: chain
   profile: true
   mode: true
 cfw-proxies-order: default
 proxies:
-  - {name: "| 5.15Mb", server: 132.145.92.147, port: 29660, type: vmess, uuid: 2c02504a-1067-4835-9235-5d50840b4530, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 132.145.92.147}}}
+  - {name: "|11.63Mb", server: 154.23.190.162, port: 443, type: vmess, uuid: b9984674-f771-4e67-a198-c7e60720ba2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 154.23.190.162}}}
   - {name: 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_10 |32.35Mb, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, skip-cert-verify: false}
-  - {name: Relay_ |17.86Mb, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}}
-  - {name: Relay_ |69.37Mb, server: gyazm.susenl.com, port: 10030, type: trojan, password: c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0, skip-cert-verify: false}
-  - {name: Relay_ |150.58Mb, server: nfjp1.qingyun123.xyz, port: 10000, type: trojan, password: 599d9e75-08dc-4e9c-b93a-5e455fb5ec42, skip-cert-verify: false}
-  - {name: Relay_ |35.83Mb, server: jgw3.gaox.ml, port: 443, type: trojan, password: a1718180-d616-4b71-9bb6-3e96ba20f921, skip-cert-verify: false}
-  - {name: Relay_🇱🇹LT-🇱🇹LT_24 | 6.56Mb, server: ai2.susenl.com, port: 30010, type: trojan, password: c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0, skip-cert-verify: false}
-  - {name: Relay_🇱🇹LT-🇱🇹LT_25 | 6.82Mb, server: ai2.susenl.com, port: 10030, type: trojan, password: c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0, skip-cert-verify: false}
-  - {name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_29 |40.66Mb, server: sg.sharecentrepro.tk, port: 443, type: trojan, password: sharecentre, skip-cert-verify: false}
-  - {name: "|17.91Mb", server: 152.70.94.8, port: 41371, type: vmess, uuid: 84f76f53-0461-4d71-fc4d-7332aa92ae34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|35.07Mb", server: 152.70.88.168, port: 49081, type: vmess, uuid: e19ea4e5-d918-4d1c-a384-c232ebe7b803, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "| 9.19Mb", server: 65.49.214.110, port: 59750, type: vmess, uuid: 32531e8d-8ca7-443a-d6d8-9a5e091bdf4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Pool_ |23.23Mb, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 45.35.84.162}}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_38 | 8.77Mb, server: 172.67.68.58, port: 443, type: vmess, uuid: f2f578e4-692d-40b5-af99-9f1dd712eb32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shuier, headers: {Host: 172.67.68.58}}}
-  - {name: Relay_ |19.82Mb, server: yin1.qingyun123.xyz, port: 10000, type: trojan, password: 599d9e75-08dc-4e9c-b93a-5e455fb5ec42, skip-cert-verify: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_40 |25.97Mb, server: trojan1.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, skip-cert-verify: false}
+  - {name: 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_11 |29.68Mb, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: false}
+  - {name: Relay_ |22.40Mb, server: gyazm.susenl.com, port: 10030, type: trojan, password: c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0, skip-cert-verify: false}
+  - {name: Relay_ |169.96Mb, server: jgw3.gaox.ml, port: 443, type: trojan, password: a1718180-d616-4b71-9bb6-3e96ba20f921, skip-cert-verify: false}
+  - {name: Relay_ | 6.82Mb, server: ai2.susenl.com, port: 10030, type: trojan, password: c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0, skip-cert-verify: false}
+  - {name: Relay_ | 6.56Mb, server: ai2.susenl.com, port: 30010, type: trojan, password: c4b65d4c-ca53-328b-a4f2-4d8bc4b912b0, skip-cert-verify: false}
+  - {name: Relay_ |13.55Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: false}
+  - {name: Relay_ |29.66Mb, server: 142.4.127.67, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/310910211916, headers: {Host: 142.4.127.67}}}
+  - {name: Pool_ |21.61Mb, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 45.35.84.162}}}
+  - {name: "| 7.57Mb", server: 65.49.214.110, port: 59750, type: vmess, uuid: 32531e8d-8ca7-443a-d6d8-9a5e091bdf4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "|29.53Mb", server: 152.70.94.8, port: 41371, type: vmess, uuid: 84f76f53-0461-4d71-fc4d-7332aa92ae34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇬🇧GB_32 |14.02Mb, server: app.ssfree.ru, port: 443, type: vmess, uuid: 2fdb348c-bf95-11ec-ae3f-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}}
+  - {name: "|32.69Mb", server: 152.70.88.168, port: 49081, type: vmess, uuid: e19ea4e5-d918-4d1c-a384-c232ebe7b803, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_34 |151.29Mb, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_35 |30.83Mb, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: false}
+  - {name: Relay_ |10.83Mb, server: jgwhdlb4.gaox.ml, port: 443, type: trojan, password: 081a4198-d664-4bc5-a7c6-e35982da964b, skip-cert-verify: false}
   - {name: Relay_ | 5.83Mb, server: meet-one.defun.us, port: 443, type: trojan, password: INvx7sPho4PyTLS6, skip-cert-verify: false}
-  - {name: Relay_ |11.09Mb, server: jgwhdlb4.gaox.ml, port: 443, type: trojan, password: 081a4198-d664-4bc5-a7c6-e35982da964b, skip-cert-verify: false}
-  - {name: Relay_ | 9.24Mb, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: false}
-  - {name: Relay_ |12.98Mb, server: misaka1433.tk, port: 443, type: trojan, password: YcQgIbGZNNd1PwsF, skip-cert-verify: false}
 proxy-groups:
   - name: ✅ 节点选择
     type: select
@@ -170,88 +168,91 @@ proxy-groups:
       - DIRECT
   - name: 🧐 智能推荐
     type: url-test
-    url: http://www.gstatic.com/generate_204
+    url: http://edge.microsoft.com/captiveportal/generate_204
     interval: 120
     tolerance: 5
     proxies:
-      - "| 5.15Mb"
+      - "|11.63Mb"
       - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_10 |32.35Mb
-      - Relay_ |17.86Mb
-      - Relay_ |69.37Mb
-      - Relay_ |150.58Mb
-      - Relay_ |35.83Mb
-      - Relay_🇱🇹LT-🇱🇹LT_24 | 6.56Mb
-      - Relay_🇱🇹LT-🇱🇹LT_25 | 6.82Mb
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_29 |40.66Mb
-      - "|17.91Mb"
-      - "|35.07Mb"
-      - "| 9.19Mb"
-      - Pool_ |23.23Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_38 | 8.77Mb
-      - Relay_ |19.82Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_40 |25.97Mb
+      - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_11 |29.68Mb
+      - Relay_ |22.40Mb
+      - Relay_ |169.96Mb
+      - Relay_ | 6.82Mb
+      - Relay_ | 6.56Mb
+      - Relay_ |13.55Mb
+      - Relay_ |29.66Mb
+      - Pool_ |21.61Mb
+      - "| 7.57Mb"
+      - "|29.53Mb"
+      - 🇺🇸 Relay_🇺🇸US-🇬🇧GB_32 |14.02Mb
+      - "|32.69Mb"
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_34 |151.29Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_35 |30.83Mb
+      - Relay_ |10.83Mb
       - Relay_ | 5.83Mb
-      - Relay_ |11.09Mb
-      - Relay_ | 9.24Mb
-      - Relay_ |12.98Mb
   - name: 🌐 手动切换
     type: select
     proxies:
-      - "| 5.15Mb"
+      - "|11.63Mb"
       - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_10 |32.35Mb
-      - Relay_ |17.86Mb
-      - Relay_ |69.37Mb
-      - Relay_ |150.58Mb
-      - Relay_ |35.83Mb
-      - Relay_🇱🇹LT-🇱🇹LT_24 | 6.56Mb
-      - Relay_🇱🇹LT-🇱🇹LT_25 | 6.82Mb
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_29 |40.66Mb
-      - "|17.91Mb"
-      - "|35.07Mb"
-      - "| 9.19Mb"
-      - Pool_ |23.23Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_38 | 8.77Mb
-      - Relay_ |19.82Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_40 |25.97Mb
+      - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_11 |29.68Mb
+      - Relay_ |22.40Mb
+      - Relay_ |169.96Mb
+      - Relay_ | 6.82Mb
+      - Relay_ | 6.56Mb
+      - Relay_ |13.55Mb
+      - Relay_ |29.66Mb
+      - Pool_ |21.61Mb
+      - "| 7.57Mb"
+      - "|29.53Mb"
+      - 🇺🇸 Relay_🇺🇸US-🇬🇧GB_32 |14.02Mb
+      - "|32.69Mb"
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_34 |151.29Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_35 |30.83Mb
+      - Relay_ |10.83Mb
       - Relay_ | 5.83Mb
-      - Relay_ |11.09Mb
-      - Relay_ | 9.24Mb
-      - Relay_ |12.98Mb
   - name: 🇭🇰 香港节点
     type: url-test
-    url: http://www.gstatic.com/generate_204
+    url: http://edge.microsoft.com/captiveportal/generate_204
     interval: 300
+    tolerance: 5
     proxies:
       - DIRECT
   - name: 🇯🇵 日本节点
     type: url-test
-    url: http://www.gstatic.com/generate_204
+    url: http://edge.microsoft.com/captiveportal/generate_204
     interval: 300
+    tolerance: 5
     proxies:
       - DIRECT
   - name: 🇺🇲 美国节点
     type: url-test
-    url: http://www.gstatic.com/generate_204
+    url: http://edge.microsoft.com/captiveportal/generate_204
     interval: 300
+    tolerance: 5
     proxies:
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_38 | 8.77Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_40 |25.97Mb
+      - 🇺🇸 Relay_🇺🇸US-🇬🇧GB_32 |14.02Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_34 |151.29Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_35 |30.83Mb
   - name: 🇨🇳 台湾节点
     type: url-test
-    url: http://www.gstatic.com/generate_204
+    url: http://edge.microsoft.com/captiveportal/generate_204
     interval: 300
+    tolerance: 5
     proxies:
       - DIRECT
   - name: 🇸🇬 狮城节点
     type: url-test
-    url: http://www.gstatic.com/generate_204
+    url: http://edge.microsoft.com/captiveportal/generate_204
     interval: 300
+    tolerance: 5
     proxies:
-      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_29 |40.66Mb
+      - DIRECT
   - name: 🇰🇷 韩国节点
     type: url-test
-    url: http://www.gstatic.com/generate_204
+    url: http://edge.microsoft.com/captiveportal/generate_204
     interval: 300
+    tolerance: 5
     proxies:
       - DIRECT
 rules:
