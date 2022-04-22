@@ -135,37 +135,31 @@ cfw-conn-break-strategy:
   mode: true
 cfw-proxies-order: default
 proxies:
-  - {name: "|181.25Mb", server: 129.154.54.75, port: 33004, type: vmess, uuid: 4f14695c-31b9-45bf-ca34-1d82170fc100, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 129.154.54.75}}}
-  - {name: Relay_ |31.90Mb, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, skip-cert-verify: false}
-  - {name: Relay_ |182.49Mb, server: 2.hmykr1.tk, port: 58739, type: trojan, password: 7b567rw1Bp, skip-cert-verify: false}
-  - {name: Relay_ |11.71Mb, server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: aicoo6du.com}}}
-  - {name: Relay_ |84.94Mb, server: jpaz4.xmrth-node.xyz, port: 10091, type: vmess, uuid: f3d669ec-1617-3d40-be56-3c8a45fc44eb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: jpaz4.xmrth-node.xyz}}}
-  - {name: Relay_ |69.68Mb, server: 1.hmykr1.tk, port: 42045, type: trojan, password: ynr804OK7t, skip-cert-verify: false}
-  - {name: Relay_ |185.17Mb, server: fq.0112391.xyz, port: 12226, type: trojan, password: 1qaz2wsx, skip-cert-verify: false}
-  - {name: 🇺🇸 Relay_🇯🇵JP-🇺🇸US_27 | 9.91Mb, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, skip-cert-verify: false}
+  - {name: "|28.07Mb", server: 132.145.92.147, port: 29660, type: vmess, uuid: 2c02504a-1067-4835-9235-5d50840b4530, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 132.145.92.147}}}
+  - {name: 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_10 |27.01Mb, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: false}
+  - {name: Relay_ |10.99Mb, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, skip-cert-verify: false}
+  - {name: Relay_ | 6.23Mb, server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: aicoo6du.com}}}
+  - {name: Relay_ |15.64Mb, server: doin.node003.insnow.xyz, port: 9933, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, skip-cert-verify: false}
+  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_29 |76.62Mb, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, skip-cert-verify: false}
   - {name: Relay_ |364.01Mb, server: jgw3.gaox.ml, port: 443, type: trojan, password: a1718180-d616-4b71-9bb6-3e96ba20f921, skip-cert-verify: false}
-  - {name: Relay_ |29.74Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: false}
-  - {name: Relay_ | 8.19Mb, server: sg02.xqkj.cloud, port: 1416, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg02.xqkj.cloud}}}
-  - {name: Relay_ |23.41Mb, server: sg01.xqkj.cloud, port: 1416, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg01.xqkj.cloud}}}
-  - {name: Relay_ |23.93Mb, server: sg05.xqkj.cloud, port: 1416, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg05.xqkj.cloud}}}
-  - {name: Relay_ |11.39Mb, server: sg03.xqkj.cloud, port: 1416, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg03.xqkj.cloud}}}
-  - {name: Relay_ | 9.63Mb, server: sg04.xqkj.cloud, port: 1416, type: vmess, uuid: 518f28fc-4d66-4b89-81a0-0e43c4d7f7e3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg04.xqkj.cloud}}}
-  - {name: Relay_ | 5.81Mb, server: cz5.v2ce.com, port: 443, type: trojan, password: HTrovQkamDxNfaD5, skip-cert-verify: false}
-  - {name: Pool_ | 8.40Mb, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 104.166.135.10}}}
-  - {name: "| 7.62Mb", server: 65.49.214.110, port: 59750, type: vmess, uuid: 32531e8d-8ca7-443a-d6d8-9a5e091bdf4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Relay_ | 6.63Mb, server: 104.16.47.181, port: 443, type: vmess, uuid: 7824cbc1-f82d-48cf-fb1d-54d8911849c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /yorknodes-fr-par-1, headers: {Host: 104.16.47.181}}}
-  - {name: Pool_ |25.22Mb, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 45.35.84.162}}}
-  - {name: "|366.17Mb", server: 152.70.88.168, port: 49081, type: vmess, uuid: e19ea4e5-d918-4d1c-a384-c232ebe7b803, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "|110.34Mb", server: 152.70.94.8, port: 41371, type: vmess, uuid: 84f76f53-0461-4d71-fc4d-7332aa92ae34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Relay_ |28.27Mb, server: app.ssfree.ru, port: 443, type: vmess, uuid: 1a1f18f4-c18c-11ec-a3e8-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}}
-  - {name: Relay_ |28.38Mb, server: ussc.scsevers.cf, port: 443, type: trojan, password: sharecentre, skip-cert-verify: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_60 |299.07Mb, server: aead.tls.sksupersususu.dnsfree.top, port: 12345, type: trojan, password: 8d23f8a8-64b8-42c4-9c31-304f7c86669c, skip-cert-verify: false}
-  - {name: Relay_ |31.64Mb, server: asd1v.baozipay.top, port: 443, type: trojan, password: rYA8dFQI6R2qTwP0, skip-cert-verify: false}
-  - {name: Relay_ |10.99Mb, server: jgwhdlb4.gaox.ml, port: 443, type: trojan, password: 081a4198-d664-4bc5-a7c6-e35982da964b, skip-cert-verify: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇬🇧GB_63 | 8.84Mb, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: false}
-  - {name: Relay_ |29.60Mb, server: usd.scsevers.cf, port: 443, type: trojan, password: sharecentretest, skip-cert-verify: false}
-  - {name: Relay_ | 8.66Mb, server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, skip-cert-verify: false}
-  - {name: Relay_ | 5.83Mb, server: meet-one.defun.us, port: 443, type: trojan, password: INvx7sPho4PyTLS6, skip-cert-verify: false}
+  - {name: Relay_ |32.84Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: false}
+  - {name: Relay_ |43.22Mb, server: sg.sharecentrepro.tk, port: 443, type: trojan, password: sharecentre, skip-cert-verify: false}
+  - {name: Relay_ | 6.35Mb, server: tw.node001.insnow.xyz, port: 12001, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, skip-cert-verify: false}
+  - {name: Relay_ |29.78Mb, server: uscera.moonfree.top, port: 443, type: vmess, uuid: 6a856d0a-c374-4d25-b4db-327801ca9dc2, alterId: 3, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: uscera.moonfree.top}}}
+  - {name: "|11.43Mb", server: 65.49.214.110, port: 59750, type: vmess, uuid: 32531e8d-8ca7-443a-d6d8-9a5e091bdf4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: Pool_ |23.80Mb, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 45.35.84.162}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇬🇧GB_51 | 8.66Mb, server: app.ssfree.ru, port: 443, type: vmess, uuid: af69acb2-c1f0-11ec-b17f-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}}
+  - {name: Pool_ | 5.76Mb, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 104.166.135.10}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇬🇧GB_56 | 8.65Mb, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_57 | 5.83Mb, server: meet-one.defun.us, port: 443, type: trojan, password: INvx7sPho4PyTLS6, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_58 |16.07Mb, server: kr.node002.insnow.xyz, port: 9915, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_59 |126.65Mb, server: aead.tls.sksupersususu.dnsfree.top, port: 12345, type: trojan, password: 8d23f8a8-64b8-42c4-9c31-304f7c86669c, skip-cert-verify: false}
+  - {name: Relay_ |17.62Mb, server: ussc.scsevers.cf, port: 443, type: trojan, password: sharecentre, skip-cert-verify: false}
+  - {name: Relay_ | 7.53Mb, server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, skip-cert-verify: false}
+  - {name: Relay_ |39.73Mb, server: jgwhdlb4.gaox.ml, port: 443, type: trojan, password: 081a4198-d664-4bc5-a7c6-e35982da964b, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_63 | 6.57Mb, server: misaka1433.tk, port: 443, type: trojan, password: YcQgIbGZNNd1PwsF, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_64 | 7.75Mb, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_65 |31.70Mb, server: asd1v.baozipay.top, port: 443, type: trojan, password: rYA8dFQI6R2qTwP0, skip-cert-verify: false}
 proxy-groups:
   - name: ✅ 节点选择
     type: select
@@ -185,71 +179,59 @@ proxy-groups:
     interval: 120
     tolerance: 5
     proxies:
-      - "|181.25Mb"
-      - Relay_ |31.90Mb
-      - Relay_ |182.49Mb
-      - Relay_ |11.71Mb
-      - Relay_ |84.94Mb
-      - Relay_ |69.68Mb
-      - Relay_ |185.17Mb
-      - 🇺🇸 Relay_🇯🇵JP-🇺🇸US_27 | 9.91Mb
-      - Relay_ |364.01Mb
-      - Relay_ |29.74Mb
-      - Relay_ | 8.19Mb
-      - Relay_ |23.41Mb
-      - Relay_ |23.93Mb
-      - Relay_ |11.39Mb
-      - Relay_ | 9.63Mb
-      - Relay_ | 5.81Mb
-      - Pool_ | 8.40Mb
-      - "| 7.62Mb"
-      - Relay_ | 6.63Mb
-      - Pool_ |25.22Mb
-      - "|366.17Mb"
-      - "|110.34Mb"
-      - Relay_ |28.27Mb
-      - Relay_ |28.38Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_60 |299.07Mb
-      - Relay_ |31.64Mb
+      - "|28.07Mb"
+      - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_10 |27.01Mb
       - Relay_ |10.99Mb
-      - 🇺🇸 Relay_🇺🇸US-🇬🇧GB_63 | 8.84Mb
-      - Relay_ |29.60Mb
-      - Relay_ | 8.66Mb
-      - Relay_ | 5.83Mb
+      - Relay_ | 6.23Mb
+      - Relay_ |15.64Mb
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_29 |76.62Mb
+      - Relay_ |364.01Mb
+      - Relay_ |32.84Mb
+      - Relay_ |43.22Mb
+      - Relay_ | 6.35Mb
+      - Relay_ |29.78Mb
+      - "|11.43Mb"
+      - Pool_ |23.80Mb
+      - 🇺🇸 Relay_🇺🇸US-🇬🇧GB_51 | 8.66Mb
+      - Pool_ | 5.76Mb
+      - 🇺🇸 Relay_🇺🇸US-🇬🇧GB_56 | 8.65Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_57 | 5.83Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_58 |16.07Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_59 |126.65Mb
+      - Relay_ |17.62Mb
+      - Relay_ | 7.53Mb
+      - Relay_ |39.73Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_63 | 6.57Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_64 | 7.75Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_65 |31.70Mb
   - name: 🌐 手动切换
     type: select
     proxies:
-      - "|181.25Mb"
-      - Relay_ |31.90Mb
-      - Relay_ |182.49Mb
-      - Relay_ |11.71Mb
-      - Relay_ |84.94Mb
-      - Relay_ |69.68Mb
-      - Relay_ |185.17Mb
-      - 🇺🇸 Relay_🇯🇵JP-🇺🇸US_27 | 9.91Mb
-      - Relay_ |364.01Mb
-      - Relay_ |29.74Mb
-      - Relay_ | 8.19Mb
-      - Relay_ |23.41Mb
-      - Relay_ |23.93Mb
-      - Relay_ |11.39Mb
-      - Relay_ | 9.63Mb
-      - Relay_ | 5.81Mb
-      - Pool_ | 8.40Mb
-      - "| 7.62Mb"
-      - Relay_ | 6.63Mb
-      - Pool_ |25.22Mb
-      - "|366.17Mb"
-      - "|110.34Mb"
-      - Relay_ |28.27Mb
-      - Relay_ |28.38Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_60 |299.07Mb
-      - Relay_ |31.64Mb
+      - "|28.07Mb"
+      - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_10 |27.01Mb
       - Relay_ |10.99Mb
-      - 🇺🇸 Relay_🇺🇸US-🇬🇧GB_63 | 8.84Mb
-      - Relay_ |29.60Mb
-      - Relay_ | 8.66Mb
-      - Relay_ | 5.83Mb
+      - Relay_ | 6.23Mb
+      - Relay_ |15.64Mb
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_29 |76.62Mb
+      - Relay_ |364.01Mb
+      - Relay_ |32.84Mb
+      - Relay_ |43.22Mb
+      - Relay_ | 6.35Mb
+      - Relay_ |29.78Mb
+      - "|11.43Mb"
+      - Pool_ |23.80Mb
+      - 🇺🇸 Relay_🇺🇸US-🇬🇧GB_51 | 8.66Mb
+      - Pool_ | 5.76Mb
+      - 🇺🇸 Relay_🇺🇸US-🇬🇧GB_56 | 8.65Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_57 | 5.83Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_58 |16.07Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_59 |126.65Mb
+      - Relay_ |17.62Mb
+      - Relay_ | 7.53Mb
+      - Relay_ |39.73Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_63 | 6.57Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_64 | 7.75Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_65 |31.70Mb
   - name: 🇭🇰 港澳节点
     type: url-test
     url: http://edge.microsoft.com/captiveportal/generate_204
@@ -263,44 +245,38 @@ proxy-groups:
     interval: 300
     tolerance: 5
     proxies:
-      - 🇺🇸 Relay_🇯🇵JP-🇺🇸US_27 | 9.91Mb
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_29 |76.62Mb
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://edge.microsoft.com/captiveportal/generate_204
     interval: 300
     tolerance: 5
     proxies:
-      - "|181.25Mb"
-      - Relay_ |31.90Mb
-      - Relay_ |182.49Mb
-      - Relay_ |11.71Mb
-      - Relay_ |84.94Mb
-      - Relay_ |69.68Mb
-      - Relay_ |185.17Mb
-      - 🇺🇸 Relay_🇯🇵JP-🇺🇸US_27 | 9.91Mb
-      - Relay_ |364.01Mb
-      - Relay_ |29.74Mb
-      - Relay_ | 8.19Mb
-      - Relay_ |23.41Mb
-      - Relay_ |23.93Mb
-      - Relay_ |11.39Mb
-      - Relay_ | 9.63Mb
-      - Relay_ | 5.81Mb
-      - Pool_ | 8.40Mb
-      - "| 7.62Mb"
-      - Relay_ | 6.63Mb
-      - Pool_ |25.22Mb
-      - "|366.17Mb"
-      - "|110.34Mb"
-      - Relay_ |28.27Mb
-      - Relay_ |28.38Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_60 |299.07Mb
-      - Relay_ |31.64Mb
+      - "|28.07Mb"
+      - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_10 |27.01Mb
       - Relay_ |10.99Mb
-      - 🇺🇸 Relay_🇺🇸US-🇬🇧GB_63 | 8.84Mb
-      - Relay_ |29.60Mb
-      - Relay_ | 8.66Mb
-      - Relay_ | 5.83Mb
+      - Relay_ | 6.23Mb
+      - Relay_ |15.64Mb
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_29 |76.62Mb
+      - Relay_ |364.01Mb
+      - Relay_ |32.84Mb
+      - Relay_ |43.22Mb
+      - Relay_ | 6.35Mb
+      - Relay_ |29.78Mb
+      - "|11.43Mb"
+      - Pool_ |23.80Mb
+      - 🇺🇸 Relay_🇺🇸US-🇬🇧GB_51 | 8.66Mb
+      - Pool_ | 5.76Mb
+      - 🇺🇸 Relay_🇺🇸US-🇬🇧GB_56 | 8.65Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_57 | 5.83Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_58 |16.07Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_59 |126.65Mb
+      - Relay_ |17.62Mb
+      - Relay_ | 7.53Mb
+      - Relay_ |39.73Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_63 | 6.57Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_64 | 7.75Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_65 |31.70Mb
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://edge.microsoft.com/captiveportal/generate_204
