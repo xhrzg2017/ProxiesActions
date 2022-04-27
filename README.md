@@ -9,7 +9,7 @@
 >优点：文件都是最新的  
 >缺点：有时github抽风，国内无法访问，导致无法拉取到节点
 ```
-https://raw.githubusercontent.com/skywolf627/VmessActions/main/subscribe/clash.yml
+https://raw.githubusercontent.com/xhrzg2017/ProxiesActions/main/subscribe/clash.yaml
 ```
 
 
