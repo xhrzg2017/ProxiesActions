@@ -135,24 +135,37 @@ cfw-conn-break-strategy:
   mode: true
 cfw-proxies-order: default
 proxies:
-  - {name: 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_01 |30.58Mb, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, skip-cert-verify: false}
-  - {name: "|33.55Mb", server: 220.158.232.87, port: 443, type: vmess, uuid: 55dc9daf-ea0e-38f1-aa82-ed76c8b19df2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /apple-home, headers: {Host: 220.158.232.87}}}
-  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_11 |19.60Mb, server: jgw2.gaox.ml, port: 443, type: trojan, password: f2117e99-9b6e-47fd-b0a9-634a0b15b998, skip-cert-verify: false}
-  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_12 |51.38Mb, server: hgmf.speedcncnforward2.tk, port: 10004, type: trojan, password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, skip-cert-verify: false}
-  - {name: 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_20 | 8.47Mb, server: trojan33.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, skip-cert-verify: false}
-  - {name: Relay_ |53.18Mb, server: sgp002.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: false}
-  - {name: Relay_ |56.42Mb, server: sgp001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_31 |29.17Mb, server: lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: lvuft.com}}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_33 |25.15Mb, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}}
-  - {name: Pool_ |25.50Mb, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 45.35.84.162}}}
-  - {name: Pool_ |20.39Mb, server: 154.94.214.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 154.94.214.2}}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇩🇪DE_36 |14.07Mb, server: hkaz1.xmrth-node.xyz, port: 10033, type: vmess, uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: hkaz1.xmrth-node.xyz}}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_37 | 5.34Mb, server: misaka1433.tk, port: 443, type: trojan, password: YcQgIbGZNNd1PwsF, skip-cert-verify: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_38 |34.68Mb, server: asd1v.baozipay.top, port: 443, type: trojan, password: rYA8dFQI6R2qTwP0, skip-cert-verify: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_39 |31.68Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_40 | 8.01Mb, server: us003.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_41 | 8.90Mb, server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, skip-cert-verify: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_43 |14.17Mb, server: us002.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: false}
+  - {name: 🇩🇪 Relay_🇩🇪DE-🇩🇪DE_07 | 6.76Mb, server: deu001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: false}
+  - {name: 🇬🇧 Relay_🇬🇧GB-🇬🇧GB_09 |10.01Mb, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, skip-cert-verify: false}
+  - {name: 🇬🇧 Relay_🇬🇧GB-🇬🇧GB_10 | 9.16Mb, server: uk001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: false}
+  - {name: 🇬🇧 Relay_🇬🇧GB-🇬🇧GB_11 |10.88Mb, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, skip-cert-verify: false}
+  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_13 |68.32Mb, server: jp.567568.ml, port: 443, type: trojan, password: 1293e022-6347-4d7e-8425-e65576b6ae0e, skip-cert-verify: false}
+  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_14 |87.93Mb, server: jp001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: false}
+  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_16 |13.59Mb, server: hgmf.speedcncnforward2.tk, port: 10004, type: trojan, password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, skip-cert-verify: false}
+  - {name: 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_21 | 8.47Mb, server: trojan33.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, skip-cert-verify: false}
+  - {name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_22 |40.78Mb, server: sgp002.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: false}
+  - {name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_23 |40.55Mb, server: sgp001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_34 |19.30Mb, server: lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: lvuft.com}}}
+  - {name: 🇺🇸 Pool_🇺🇸US_35 |17.15Mb, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 45.35.84.162}}}
+  - {name: 🇺🇸 Pool_🇺🇸US_36 |13.69Mb, server: 154.94.214.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 154.94.214.2}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_37 |16.36Mb, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_38 |11.92Mb, server: shop-three.defun.us, port: 443, type: trojan, password: UvhTLyCf27fjxqPQ, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_40 |30.98Mb, server: asd1v.baozipay.top, port: 443, type: trojan, password: rYA8dFQI6R2qTwP0, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_41 | 5.63Mb, server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_42 |33.86Mb, server: usd.scsevers.cf, port: 443, type: trojan, password: sharecentretest, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_43 |276.96Mb, server: krnf1.qingyun123.xyz, port: 10050, type: trojan, password: 85f1f2fc-42e7-48a0-a6a2-a8bccb0d64cd, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_44 | 9.17Mb, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_45 | 5.57Mb, server: us002.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_47 |24.75Mb, server: us003.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_48 |33.47Mb, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_50 |111.15Mb, server: hknf2.qingyun123.xyz, port: 10070, type: trojan, password: 85f1f2fc-42e7-48a0-a6a2-a8bccb0d64cd, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_51 |13.00Mb, server: meet-one.defun.us, port: 443, type: trojan, password: INvx7sPho8PyTLS6, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_54 |11.29Mb, server: shop-two.defun.us, port: 8080, type: trojan, password: OzKXGbFNHwAurRQ0, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_56 | 8.29Mb, server: miner-one.pickaxe.sh, port: 443, type: trojan, password: 8JYTzmWdnn5Ilft0, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_57 |14.42Mb, server: miner-two.pickaxe.sh, port: 443, type: trojan, password: YzJI2mQftXqA6ZH4, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_58 | 6.75Mb, server: shop-one.defun.us, port: 443, type: trojan, password: OEfntmUGHmwQnNGr, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_60 |34.68Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_61 | 6.32Mb, server: zones.defun.us, port: 443, type: trojan, password: lpmMwDKeBbKKPq8K, skip-cert-verify: false}
 proxy-groups:
   - name: ✅ 节点选择
     type: select
@@ -172,45 +185,71 @@ proxy-groups:
     interval: 120
     tolerance: 5
     proxies:
-      - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_01 |30.58Mb
-      - "|33.55Mb"
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_11 |19.60Mb
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_12 |51.38Mb
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_20 | 8.47Mb
-      - Relay_ |53.18Mb
-      - Relay_ |56.42Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_31 |29.17Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_33 |25.15Mb
-      - Pool_ |25.50Mb
-      - Pool_ |20.39Mb
-      - 🇺🇸 Relay_🇺🇸US-🇩🇪DE_36 |14.07Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_37 | 5.34Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_38 |34.68Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_39 |31.68Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_40 | 8.01Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_41 | 8.90Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_43 |14.17Mb
+      - 🇩🇪 Relay_🇩🇪DE-🇩🇪DE_07 | 6.76Mb
+      - 🇬🇧 Relay_🇬🇧GB-🇬🇧GB_09 |10.01Mb
+      - 🇬🇧 Relay_🇬🇧GB-🇬🇧GB_10 | 9.16Mb
+      - 🇬🇧 Relay_🇬🇧GB-🇬🇧GB_11 |10.88Mb
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_13 |68.32Mb
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_14 |87.93Mb
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_16 |13.59Mb
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_21 | 8.47Mb
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_22 |40.78Mb
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_23 |40.55Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_34 |19.30Mb
+      - 🇺🇸 Pool_🇺🇸US_35 |17.15Mb
+      - 🇺🇸 Pool_🇺🇸US_36 |13.69Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_37 |16.36Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_38 |11.92Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_40 |30.98Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_41 | 5.63Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_42 |33.86Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_43 |276.96Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_44 | 9.17Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_45 | 5.57Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_47 |24.75Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_48 |33.47Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_50 |111.15Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_51 |13.00Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_54 |11.29Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_56 | 8.29Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_57 |14.42Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_58 | 6.75Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_60 |34.68Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_61 | 6.32Mb
   - name: 🌐 手动切换
     type: select
     proxies:
-      - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_01 |30.58Mb
-      - "|33.55Mb"
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_11 |19.60Mb
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_12 |51.38Mb
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_20 | 8.47Mb
-      - Relay_ |53.18Mb
-      - Relay_ |56.42Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_31 |29.17Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_33 |25.15Mb
-      - Pool_ |25.50Mb
-      - Pool_ |20.39Mb
-      - 🇺🇸 Relay_🇺🇸US-🇩🇪DE_36 |14.07Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_37 | 5.34Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_38 |34.68Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_39 |31.68Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_40 | 8.01Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_41 | 8.90Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_43 |14.17Mb
+      - 🇩🇪 Relay_🇩🇪DE-🇩🇪DE_07 | 6.76Mb
+      - 🇬🇧 Relay_🇬🇧GB-🇬🇧GB_09 |10.01Mb
+      - 🇬🇧 Relay_🇬🇧GB-🇬🇧GB_10 | 9.16Mb
+      - 🇬🇧 Relay_🇬🇧GB-🇬🇧GB_11 |10.88Mb
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_13 |68.32Mb
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_14 |87.93Mb
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_16 |13.59Mb
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_21 | 8.47Mb
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_22 |40.78Mb
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_23 |40.55Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_34 |19.30Mb
+      - 🇺🇸 Pool_🇺🇸US_35 |17.15Mb
+      - 🇺🇸 Pool_🇺🇸US_36 |13.69Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_37 |16.36Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_38 |11.92Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_40 |30.98Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_41 | 5.63Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_42 |33.86Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_43 |276.96Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_44 | 9.17Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_45 | 5.57Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_47 |24.75Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_48 |33.47Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_50 |111.15Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_51 |13.00Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_54 |11.29Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_56 | 8.29Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_57 |14.42Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_58 | 6.75Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_60 |34.68Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_61 | 6.32Mb
   - name: 🇭🇰 港澳节点
     type: url-test
     url: http://edge.microsoft.com/captiveportal/generate_204
@@ -224,32 +263,46 @@ proxy-groups:
     interval: 300
     tolerance: 5
     proxies:
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_11 |19.60Mb
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_12 |51.38Mb
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_13 |68.32Mb
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_14 |87.93Mb
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_16 |13.59Mb
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://edge.microsoft.com/captiveportal/generate_204
     interval: 300
     tolerance: 5
     proxies:
-      - 🇦🇺 Relay_🇦🇺AU-🇦🇺AU_01 |30.58Mb
-      - "|33.55Mb"
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_11 |19.60Mb
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_12 |51.38Mb
-      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_20 | 8.47Mb
-      - Relay_ |53.18Mb
-      - Relay_ |56.42Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_31 |29.17Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_33 |25.15Mb
-      - Pool_ |25.50Mb
-      - Pool_ |20.39Mb
-      - 🇺🇸 Relay_🇺🇸US-🇩🇪DE_36 |14.07Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_37 | 5.34Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_38 |34.68Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_39 |31.68Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_40 | 8.01Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_41 | 8.90Mb
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_43 |14.17Mb
+      - 🇩🇪 Relay_🇩🇪DE-🇩🇪DE_07 | 6.76Mb
+      - 🇬🇧 Relay_🇬🇧GB-🇬🇧GB_09 |10.01Mb
+      - 🇬🇧 Relay_🇬🇧GB-🇬🇧GB_10 | 9.16Mb
+      - 🇬🇧 Relay_🇬🇧GB-🇬🇧GB_11 |10.88Mb
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_13 |68.32Mb
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_14 |87.93Mb
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_16 |13.59Mb
+      - 🇷🇺 Relay_🇷🇺RU-🇷🇺RU_21 | 8.47Mb
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_22 |40.78Mb
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_23 |40.55Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_34 |19.30Mb
+      - 🇺🇸 Pool_🇺🇸US_35 |17.15Mb
+      - 🇺🇸 Pool_🇺🇸US_36 |13.69Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_37 |16.36Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_38 |11.92Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_40 |30.98Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_41 | 5.63Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_42 |33.86Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_43 |276.96Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_44 | 9.17Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_45 | 5.57Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_47 |24.75Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_48 |33.47Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_50 |111.15Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_51 |13.00Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_54 |11.29Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_56 | 8.29Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_57 |14.42Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_58 | 6.75Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_60 |34.68Mb
+      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_61 | 6.32Mb
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://edge.microsoft.com/captiveportal/generate_204
@@ -263,7 +316,8 @@ proxy-groups:
     interval: 300
     tolerance: 5
     proxies:
-      - DIRECT
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_22 |40.78Mb
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_23 |40.55Mb
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://edge.microsoft.com/captiveportal/generate_204
