@@ -3,7 +3,7 @@ import ssl,os
 context = ssl._create_unverified_context()
 
 #1.数据url
-url = 'https://hk.xhrzg2017.xyz/clash/proxies?nc=CN&type=vmess,trojan&speed=5'
+url = 'https://sspool.herokuapp.com/clash/proxies?nc=CN&type=vmess,trojan&speed=5'
 #2.添加请求头
 headers = {
     'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36'
