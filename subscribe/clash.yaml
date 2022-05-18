@@ -84,7 +84,6 @@ dns:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
   fallback:
-    - https://kr.xhrzg2017.xyz/low
     - https://dns.google/dns-query
     - https://doh.dns.sb/dns-query
     - https://rubyfish.cn/dns-query
