@@ -136,100 +136,137 @@ cfw-conn-break-strategy:
   mode: true
 cfw-proxies-order: default
 proxies:
-  - {name: _62 |30.39Mb, server: jp1.trojan.tel, port: 443, type: trojan, password: f736834f-1fc8-4738-9884-9afe0eb0d818, sni: douyincdn.com, skip-cert-verify: false}
-  - {name: _63 |12.66Mb, server: jp2.trojan.tel, port: 443, type: trojan, password: f736834f-1fc8-4738-9884-9afe0eb0d818, sni: douyincdn.com, skip-cert-verify: false}
-  - {name: 🇦🇺 AU_77 |25.70Mb, server: 129.154.48.221, port: 37372, type: vmess, uuid: 6f4454a9-e732-46c6-c50f-73f13da31f7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇦🇺 AU_82 |13.46Mb, server: kr04.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: false}
-  - {name: 🇦🇺 AU_88 |20.05Mb, server: neteasy.cf, port: 45929, type: trojan, password: 2XWUtOT64u, skip-cert-verify: false}
-  - {name: 🇦🇺 AU_89 |32.07Mb, server: jgwdb1.gaox.ml, port: 443, type: trojan, password: a580d839-ee41-4df1-bf03-6789dca32e30, skip-cert-verify: false}
-  - {name: CA_163 |10.00Mb, server: 511hk.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 511hk.fans8.xyz}}}
-  - {name: CA_164 |123.29Mb, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 192.186.129.66}}}
-  - {name: CA_165 |118.86Mb, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-buffalo.lvuft.com}}}
-  - {name: CZ_272 | 5.22Mb, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, skip-cert-verify: false}
-  - {name: 🇩🇪 DE_433 |47.57Mb, server: 146.0.42.87, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 146.0.42.87}}}
-  - {name: 🇩🇪 DE_434 |54.90Mb, server: 78.46.244.34, port: 33655, type: vmess, uuid: b41303b4-e2c8-4771-cb6c-ef62244a7621, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇩🇪 DE_435 |34.86Mb, server: germany-dusseldorf.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: germany-dusseldorf.mah3Hoet.com}}}
-  - {name: 🇩🇪 DE_437 |23.59Mb, server: au2-4.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: false}
-  - {name: 🇩🇪 DE_439 |25.38Mb, server: au2-3.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: false}
-  - {name: 🇬🇧 GB_570 |53.31Mb, server: 146.70.46.68, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 146.70.46.68}}}
-  - {name: 🇬🇧 GB_571 |53.13Mb, server: uk-manchester.eiw2eemo.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: uk-manchester.eiw2eemo.com}}}
-  - {name: 🇬🇧 GB_574 |66.17Mb, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, skip-cert-verify: false}
-  - {name: 🇭🇰 HK_580 |23.87Mb, server: hk3.grpc.stream, port: 8300, type: vmess, uuid: 6031b5c3-d8ba-5756-b708-f61084a2b678, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /event, headers: {Host: hk3.grpc.stream}}}
-  - {name: HU_591 |14.93Mb, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: IN_596 |23.95Mb, server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: aicoo6du.com}}}
-  - {name: IN_597 |22.49Mb, server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 129.227.201.234}}}
-  - {name: 🇯🇵 JP_614 |25.06Mb, server: 210.140.75.152, port: 80, type: vmess, uuid: f613af75-f9eb-3d84-9357-7c3b00d950a2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /live/cctv6_2/index.m3u8, headers: {Host: 210.140.75.152}}}
-  - {name: 🇯🇵 JP_628 |30.92Mb, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, skip-cert-verify: false}
-  - {name: MN_781 |24.49Mb, server: 182.160.12.239, port: 45524, type: vmess, uuid: a265dcb2-04a3-48c0-a703-fad0e008d474, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇳🇱 NL_873 |89.05Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: false}
-  - {name: 🇷🇺 RU_1053 | 6.87Mb, server: 422wkl.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 422wkl.fans8.xyz}}}
-  - {name: 🇸🇬 SG_1057 |15.48Mb, server: 129.226.94.145, port: 51848, type: vmess, uuid: ad4757f1-e28c-47b8-970c-51b232c653d8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1084 | 6.05Mb, server: 129.226.216.128, port: 52258, type: vmess, uuid: 36bd70e5-0a29-4148-8d9b-5efc87cc4c20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1085 |11.49Mb, server: 129.226.217.42, port: 47383, type: vmess, uuid: 555d823c-e15f-4638-8963-c17eb9d45eea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1086 |11.66Mb, server: 129.226.93.198, port: 57696, type: vmess, uuid: 1ec2c6a9-f727-412d-a433-fbb87c3aca50, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1089 | 7.82Mb, server: 129.226.213.30, port: 35006, type: vmess, uuid: 1bdeedc8-ab5d-4d0e-ce89-72a8deb80b64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1092 |22.75Mb, server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 202.61.141.130}}}
-  - {name: 🇸🇬 SG_1093 |12.05Mb, server: 129.226.217.6, port: 58599, type: vmess, uuid: db312c19-1116-4656-d5d2-8b3adc21f117, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1094 | 7.29Mb, server: 129.226.214.114, port: 28902, type: vmess, uuid: c8377db4-6a17-4575-c04a-a91cb037dc6d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1096 |10.63Mb, server: 129.226.217.215, port: 29971, type: vmess, uuid: 696085ad-1886-454b-eb65-db1743a8ec2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1097 | 6.11Mb, server: 129.226.217.153, port: 15184, type: vmess, uuid: bb02fa5b-1d15-46f4-fa47-053c6db61e39, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1098 |11.20Mb, server: 129.226.215.217, port: 16096, type: vmess, uuid: b96c53db-bc13-4baa-f838-77dad5af49b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1100 | 9.54Mb, server: 129.226.94.27, port: 23785, type: vmess, uuid: d0771055-cccc-4b79-c4db-d2942f8c9e62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1101 |10.49Mb, server: 129.226.94.107, port: 22404, type: vmess, uuid: d7bb58cb-56e6-4063-d4ac-70b80ad92c47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1102 |10.16Mb, server: 129.226.216.176, port: 46865, type: vmess, uuid: dbc10445-901c-44e1-be29-1f011c53ab1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1103 | 8.93Mb, server: 129.226.95.252, port: 14631, type: vmess, uuid: 85fcb40a-826f-4b19-ffd1-f6dcb32711ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1104 |10.92Mb, server: 129.226.215.182, port: 14231, type: vmess, uuid: 5d10b5de-9eaf-45b1-c35e-ad4b1ade9820, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1107 | 8.49Mb, server: 129.226.217.71, port: 24000, type: vmess, uuid: 8155e01b-1b54-410d-9550-555390a90d9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1108 |11.17Mb, server: 129.226.94.28, port: 10870, type: vmess, uuid: 3675aabf-4fab-491e-982d-14207cad8901, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1109 | 8.48Mb, server: 129.226.215.114, port: 39927, type: vmess, uuid: 0783b758-2388-4389-f9c0-d84fceab1ad6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1110 |17.61Mb, server: 129.226.214.28, port: 15430, type: vmess, uuid: 6e9a4ae9-e60b-4cea-af9f-9de18d37404e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1111 |23.75Mb, server: ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: ycgyg.com}}}
-  - {name: 🇸🇬 SG_1112 |10.67Mb, server: 129.226.217.8, port: 40699, type: vmess, uuid: 86a40159-0f77-4105-f5b2-169696ccf501, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1113 |10.63Mb, server: 129.226.216.119, port: 21863, type: vmess, uuid: 3daf7487-9879-494a-c563-2904d58a17b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1115 |11.03Mb, server: 129.226.217.139, port: 35846, type: vmess, uuid: 5d468799-dff3-4ecd-8323-c3ee23094069, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1116 |10.29Mb, server: 129.226.94.188, port: 55954, type: vmess, uuid: e44c28f6-c24d-4541-bc29-847cdc5a067b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1117 |11.26Mb, server: 129.226.215.70, port: 27155, type: vmess, uuid: 645f2069-74f0-4ea9-c1a3-584d7e80f453, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1118 |11.33Mb, server: 129.226.215.139, port: 51936, type: vmess, uuid: 8720623e-1c52-4205-f5da-5762b5010ea0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1119 |11.89Mb, server: 129.226.94.134, port: 31149, type: vmess, uuid: 883557f2-88c9-4963-bd0e-2083353f7901, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1120 | 5.96Mb, server: 81.90.188.59, port: 41657, type: vmess, uuid: 930a425e-2fc8-4930-8735-141f6b237755, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1123 |11.02Mb, server: 129.226.214.27, port: 56389, type: vmess, uuid: 589bcbef-5962-460f-a82e-1a877d690833, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1125 |11.52Mb, server: 129.226.213.191, port: 39389, type: vmess, uuid: 5ed960c2-1752-48de-b41b-fc8dc70bc3be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1127 |12.30Mb, server: 129.226.217.108, port: 47395, type: vmess, uuid: f42d814a-6ee7-4285-d31b-1ae5c73c9402, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1129 |11.64Mb, server: 129.226.95.143, port: 45381, type: vmess, uuid: cd2a260c-f244-4e12-83c3-8a259cf29fc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1130 | 7.46Mb, server: 129.226.213.15, port: 52943, type: vmess, uuid: 81792fc6-45fb-4bd6-b89a-cd94d3d62735, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1131 |11.05Mb, server: 129.226.95.125, port: 59428, type: vmess, uuid: 79f4ae3a-68ef-4aaa-b42b-484467acdacc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1132 |11.68Mb, server: 129.226.94.77, port: 25551, type: vmess, uuid: 03330845-8efa-4dc9-cc21-919bdbfd6ea0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1134 | 7.20Mb, server: 129.226.94.48, port: 54695, type: vmess, uuid: 82c1b469-e50e-4309-d803-5b15b8dbd3ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1135 | 9.87Mb, server: 129.226.215.176, port: 46601, type: vmess, uuid: 57becf81-97bd-46fe-8022-a4bfbca4df8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_1136 |11.58Mb, server: 129.226.214.134, port: 48057, type: vmess, uuid: 3b550135-036a-4d12-8553-535953d167aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 TW_1149 |20.90Mb, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 61.222.202.140}}}
-  - {name: 🇨🇳 TW_1150 |21.15Mb, server: 61.222.202.140, port: 15789, type: vmess, uuid: 4535e708-5988-4377-a083-755ed60d8068, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: UA_1161 | 8.46Mb, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, skip-cert-verify: false}
-  - {name: UA_1162 | 6.08Mb, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, skip-cert-verify: false}
-  - {name: UA_1163 |20.80Mb, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, skip-cert-verify: false}
-  - {name: UA_1164 |15.87Mb, server: ce.rutracker-cn.com, port: 443, type: trojan, password: 5y8y3CwxRVYhyfSY, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1165 |33.05Mb, server: 20.243.71.225, port: 80, type: vmess, uuid: 5f405152-88b2-4e5e-9091-b730e65e8983, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20.243.71.225}}}
-  - {name: 🇺🇸 US_1830 |28.22Mb, server: 23.105.206.94, port: 43908, type: vmess, uuid: 34d2688a-6e4a-4bd6-d946-ec58990868c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1831 |69.17Mb, server: 51us.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 51us.fans8.xyz}}}
-  - {name: 🇺🇸 US_1832 |82.73Mb, server: 154.17.28.38, port: 49353, type: vmess, uuid: f762694a-948b-4918-a657-6ca9b10f2d32, alterId: 233, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1834 |57.39Mb, server: 20.123.187.212, port: 27931, type: vmess, uuid: 256eae41-0b8f-4faa-bce8-6366011dc19f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1837 |56.63Mb, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 45.35.84.162}}}
-  - {name: 🇺🇸 US_1838 |59.93Mb, server: 23.94.120.19, port: 28554, type: vmess, uuid: 4a4c96c5-7b8b-4612-c715-6b91a9c34d07, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1839 |23.78Mb, server: viibah6u.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: viibah6u.com}}}
-  - {name: 🇺🇸 US_1840 |71.17Mb, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}}
-  - {name: 🇺🇸 US_1841 |31.22Mb, server: 154.94.214.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 154.94.214.2}}}
-  - {name: 🇺🇸 US_1843 |28.78Mb, server: lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: lvuft.com}}}
-  - {name: 🇺🇸 US_1844 |38.95Mb, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 192.96.204.250}}}
-  - {name: 🇺🇸 US_1845 | 9.68Mb, server: v4.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v4.ssrsub.com}}}
-  - {name: 🇺🇸 US_1846 |108.89Mb, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}}
-  - {name: 🇺🇸 US_1848 | 8.81Mb, server: 154.94.218.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 154.94.218.130}}}
-  - {name: 🇺🇸 US_1849 |159.51Mb, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 208.98.48.2}}}
-  - {name: 🇺🇸 US_1850 |58.03Mb, server: iesei1ei.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}}
-  - {name: 🇺🇸 US_1853 |12.75Mb, server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1871 | 6.71Mb, server: jgwhdlb4.gaox.ml, port: 443, type: trojan, password: 081a4198-d664-4bc5-a7c6-e35982da964b, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1877 | 6.69Mb, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1887 |31.97Mb, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1892 |68.21Mb, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: false}
+  - {name: 🇦🇺 AU_106 |24.30Mb, server: 129.154.48.221, port: 37372, type: vmess, uuid: 6f4454a9-e732-46c6-c50f-73f13da31f7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇦🇺 AU_114 |22.11Mb, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, skip-cert-verify: false}
+  - {name: 🇦🇺 AU_115 | 5.82Mb, server: neteasy.ga, port: 28931, type: trojan, password: MnROfwtPYa, skip-cert-verify: false}
+  - {name: 🇦🇺 AU_119 |12.19Mb, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, skip-cert-verify: false}
+  - {name: 🇦🇺 AU_122 |29.90Mb, server: jgwdb1.gaox.ml, port: 443, type: trojan, password: a580d839-ee41-4df1-bf03-6789dca32e30, skip-cert-verify: false}
+  - {name: 🇦🇺 AU_123 |14.15Mb, server: neteasy.cf, port: 45929, type: trojan, password: 2XWUtOT64u, skip-cert-verify: false}
+  - {name: CA_180 |122.57Mb, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 192.186.129.66}}}
+  - {name: CA_181 |43.09Mb, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-buffalo.lvuft.com}}}
+  - {name: CA_184 | 7.53Mb, server: 511hk.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 511hk.fans8.xyz}}}
+  - {name: CA_206 |25.36Mb, server: 331tw9.fans8.xyz, port: 443, type: trojan, password: 4b8f1bc5-9b36-4df8-9e4f-5864b330632f, skip-cert-verify: false}
+  - {name: CA_207 |48.81Mb, server: t04.tgfaka.com, port: 18443, type: trojan, password: 3c22e6eb-32fa-43be-a744-1a7ebd4691f2, skip-cert-verify: false}
+  - {name: 🇩🇪 DE_292 |23.42Mb, server: au2-2.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: false}
+  - {name: 🇩🇪 DE_449 |48.16Mb, server: 78.46.244.34, port: 33655, type: vmess, uuid: b41303b4-e2c8-4771-cb6c-ef62244a7621, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇩🇪 DE_450 |43.77Mb, server: 146.0.42.87, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 146.0.42.87}}}
+  - {name: 🇩🇪 DE_451 |39.92Mb, server: germany-dusseldorf.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: germany-dusseldorf.mah3Hoet.com}}}
+  - {name: 🇩🇪 DE_452 |24.19Mb, server: au2-3.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: false}
+  - {name: 🇩🇪 DE_454 |19.81Mb, server: au2-1.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: false}
+  - {name: 🇩🇪 DE_455 |23.59Mb, server: au2-4.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: false}
+  - {name: 🇫🇷 FR_519 | 5.22Mb, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}}
+  - {name: 🇬🇧 GB_585 |51.00Mb, server: uk-manchester.eiw2eemo.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: uk-manchester.eiw2eemo.com}}}
+  - {name: 🇬🇧 GB_587 |53.10Mb, server: 146.70.46.68, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 146.70.46.68}}}
+  - {name: 🇬🇧 GB_591 |63.12Mb, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, skip-cert-verify: false}
+  - {name: 🇭🇰 HK_595 |23.87Mb, server: hk3.grpc.stream, port: 8300, type: vmess, uuid: 6031b5c3-d8ba-5756-b708-f61084a2b678, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /event, headers: {Host: hk3.grpc.stream}}}
+  - {name: HU_606 |23.16Mb, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: IN_611 |25.17Mb, server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 129.227.201.234}}}
+  - {name: IN_612 |25.62Mb, server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: aicoo6du.com}}}
+  - {name: 🇯🇵 JP_630 |26.33Mb, server: 210.140.75.152, port: 80, type: vmess, uuid: f613af75-f9eb-3d84-9357-7c3b00d950a2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /live/cctv6_2/index.m3u8, headers: {Host: 210.140.75.152}}}
+  - {name: MN_805 |24.27Mb, server: 182.160.12.239, port: 45524, type: vmess, uuid: a265dcb2-04a3-48c0-a703-fad0e008d474, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇳🇱 NL_886 |45.11Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: false}
+  - {name: 🇷🇺 RU_1046 | 6.11Mb, server: 422wkl.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 422wkl.fans8.xyz}}}
+  - {name: 🇸🇬 SG_1051 |15.48Mb, server: 129.226.94.145, port: 51848, type: vmess, uuid: ad4757f1-e28c-47b8-970c-51b232c653d8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1079 |11.74Mb, server: 129.226.214.134, port: 48057, type: vmess, uuid: 3b550135-036a-4d12-8553-535953d167aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1080 | 6.42Mb, server: 129.226.94.31, port: 21509, type: vmess, uuid: fbeb626c-8095-4e3b-aaf6-5a57971955b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1081 |11.53Mb, server: 129.226.217.139, port: 35846, type: vmess, uuid: 5d468799-dff3-4ecd-8323-c3ee23094069, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1082 |10.14Mb, server: 129.226.94.188, port: 55954, type: vmess, uuid: e44c28f6-c24d-4541-bc29-847cdc5a067b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1083 |12.49Mb, server: 129.226.215.70, port: 27155, type: vmess, uuid: 645f2069-74f0-4ea9-c1a3-584d7e80f453, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1084 |10.83Mb, server: 129.226.94.152, port: 56382, type: vmess, uuid: b14dc53a-1505-4909-8f23-2f9391e30d56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1085 |15.10Mb, server: 129.226.216.119, port: 21863, type: vmess, uuid: 3daf7487-9879-494a-c563-2904d58a17b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1086 |15.60Mb, server: 129.226.217.8, port: 40699, type: vmess, uuid: 86a40159-0f77-4105-f5b2-169696ccf501, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1087 |15.44Mb, server: 129.226.215.139, port: 51936, type: vmess, uuid: 8720623e-1c52-4205-f5da-5762b5010ea0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1088 | 5.18Mb, server: 81.90.188.59, port: 41657, type: vmess, uuid: 930a425e-2fc8-4930-8735-141f6b237755, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1090 |11.22Mb, server: 129.226.214.27, port: 56389, type: vmess, uuid: 589bcbef-5962-460f-a82e-1a877d690833, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1091 |14.57Mb, server: 129.226.215.176, port: 46601, type: vmess, uuid: 57becf81-97bd-46fe-8022-a4bfbca4df8e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1093 | 9.69Mb, server: 129.226.213.15, port: 52943, type: vmess, uuid: 81792fc6-45fb-4bd6-b89a-cd94d3d62735, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1094 |19.45Mb, server: 129.226.215.186, port: 27431, type: vmess, uuid: 6448f537-fa29-4582-c51a-e9defe6e3f89, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1096 |12.07Mb, server: 129.226.94.77, port: 25551, type: vmess, uuid: 03330845-8efa-4dc9-cc21-919bdbfd6ea0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1098 | 6.17Mb, server: 129.226.216.121, port: 49381, type: vmess, uuid: 2f6d0f82-80c4-42ed-fd46-c76e7cc81de0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1099 |25.47Mb, server: 129.226.93.161, port: 40236, type: vmess, uuid: 931416fe-98f2-4098-c8e7-3634e27ce6f4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1100 | 8.13Mb, server: 129.226.215.218, port: 39758, type: vmess, uuid: e1afb696-1e40-4a45-e6de-792c1bd94038, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1101 | 7.82Mb, server: 129.226.213.30, port: 35006, type: vmess, uuid: 1bdeedc8-ab5d-4d0e-ce89-72a8deb80b64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1102 | 9.02Mb, server: 129.226.216.128, port: 52258, type: vmess, uuid: 36bd70e5-0a29-4148-8d9b-5efc87cc4c20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1103 | 8.48Mb, server: 129.226.213.224, port: 29305, type: vmess, uuid: 15e37a24-6f4b-46d4-ba32-b9d0aef73c30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1104 |16.20Mb, server: 129.226.217.108, port: 47395, type: vmess, uuid: f42d814a-6ee7-4285-d31b-1ae5c73c9402, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1105 |16.77Mb, server: 129.226.213.191, port: 39389, type: vmess, uuid: 5ed960c2-1752-48de-b41b-fc8dc70bc3be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1107 | 8.78Mb, server: 129.226.93.140, port: 18499, type: vmess, uuid: 704ef218-a4f6-41b7-a997-6d57077d6b6d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1108 |13.03Mb, server: 129.226.94.107, port: 22404, type: vmess, uuid: d7bb58cb-56e6-4063-d4ac-70b80ad92c47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1109 |10.62Mb, server: 129.226.217.101, port: 19660, type: vmess, uuid: 0d47b5c9-24ce-4774-c300-58e79b77a9eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1110 | 8.98Mb, server: 129.226.214.28, port: 15430, type: vmess, uuid: 6e9a4ae9-e60b-4cea-af9f-9de18d37404e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1111 |11.74Mb, server: 129.226.94.28, port: 10870, type: vmess, uuid: 3675aabf-4fab-491e-982d-14207cad8901, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1112 |15.67Mb, server: 129.226.215.217, port: 16096, type: vmess, uuid: b96c53db-bc13-4baa-f838-77dad5af49b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1113 |12.70Mb, server: 129.226.217.42, port: 47383, type: vmess, uuid: 555d823c-e15f-4638-8963-c17eb9d45eea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1114 |12.07Mb, server: 129.226.93.198, port: 57696, type: vmess, uuid: 1ec2c6a9-f727-412d-a433-fbb87c3aca50, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1116 |14.82Mb, server: 129.226.217.215, port: 29971, type: vmess, uuid: 696085ad-1886-454b-eb65-db1743a8ec2c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1118 |11.12Mb, server: 129.226.215.149, port: 12709, type: vmess, uuid: 7875765c-3c12-402e-a76a-ff9e2bca8404, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1120 |11.94Mb, server: 129.226.215.182, port: 14231, type: vmess, uuid: 5d10b5de-9eaf-45b1-c35e-ad4b1ade9820, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1121 |11.95Mb, server: 129.226.95.252, port: 14631, type: vmess, uuid: 85fcb40a-826f-4b19-ffd1-f6dcb32711ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1122 | 7.84Mb, server: 129.226.214.114, port: 28902, type: vmess, uuid: c8377db4-6a17-4575-c04a-a91cb037dc6d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1123 |14.31Mb, server: 129.226.216.176, port: 46865, type: vmess, uuid: dbc10445-901c-44e1-be29-1f011c53ab1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1124 |12.05Mb, server: 129.226.217.6, port: 58599, type: vmess, uuid: db312c19-1116-4656-d5d2-8b3adc21f117, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1125 |14.85Mb, server: 129.226.215.114, port: 39927, type: vmess, uuid: 0783b758-2388-4389-f9c0-d84fceab1ad6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1126 |16.39Mb, server: 103.253.26.20, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 103.253.26.20}}}
+  - {name: 🇸🇬 SG_1127 | 7.52Mb, server: 103.253.26.134, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 103.253.26.134}}}
+  - {name: 🇸🇬 SG_1128 |15.24Mb, server: zecjk.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: zecjk.com}}}
+  - {name: 🇸🇬 SG_1129 |23.30Mb, server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 202.61.141.130}}}
+  - {name: 🇸🇬 SG_1130 |23.76Mb, server: ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: ycgyg.com}}}
+  - {name: 🇸🇬 SG_1131 | 8.69Mb, server: eeh7iewe.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: eeh7iewe.com}}}
+  - {name: 🇸🇬 SG_1132 | 6.79Mb, server: 129.226.95.12, port: 14597, type: vmess, uuid: 4d346473-716f-404a-819c-e56fc07b0234, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1133 |11.57Mb, server: 129.226.95.125, port: 59428, type: vmess, uuid: 79f4ae3a-68ef-4aaa-b42b-484467acdacc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1134 | 6.30Mb, server: 129.226.93.27, port: 41875, type: vmess, uuid: ca2d1bf9-11f1-4025-fab2-043098ed1a17, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_1137 |16.09Mb, server: sg.sharecentrepro.tk, port: 443, type: trojan, password: sharecentre, skip-cert-verify: false}
+  - {name: 🇨🇳 TW_1146 |19.52Mb, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 61.222.202.140}}}
+  - {name: 🇨🇳 TW_1147 |11.88Mb, server: 61.222.202.140, port: 15789, type: vmess, uuid: 4535e708-5988-4377-a083-755ed60d8068, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: UA_1157 |10.85Mb, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, skip-cert-verify: false}
+  - {name: UA_1158 |17.55Mb, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, skip-cert-verify: false}
+  - {name: UA_1159 | 9.30Mb, server: ce.rutracker-cn.com, port: 443, type: trojan, password: 5y8y3CwxRVYhyfSY, skip-cert-verify: false}
+  - {name: UA_1160 |10.52Mb, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, skip-cert-verify: false}
+  - {name: UA_1161 | 5.89Mb, server: cz5.v2ce.com, port: 443, type: trojan, password: HTrovQkamDxNfaD5, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1165 |29.35Mb, server: 20.243.69.62, port: 80, type: vmess, uuid: 5f405152-88b2-4e5e-9091-b730e65e8983, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20.243.69.62}}}
+  - {name: 🇺🇸 US_1166 |20.25Mb, server: 20.222.106.239, port: 80, type: vmess, uuid: 5f405152-88b2-4e5e-9091-b730e65e8983, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20.222.106.239}}}
+  - {name: 🇺🇸 US_1170 |30.17Mb, server: 20.243.71.225, port: 80, type: vmess, uuid: 5f405152-88b2-4e5e-9091-b730e65e8983, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 20.243.71.225}}}
+  - {name: 🇺🇸 US_1171 |41.51Mb, server: rooms.starspace.link, port: 443, type: trojan, password: 5HfENR8nt2PR8reH, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1172 |43.46Mb, server: wireless.starspace.link, port: 443, type: trojan, password: 5LN8SGTqxk336nFg, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1173 |41.57Mb, server: outdoor.starspace.link, port: 443, type: trojan, password: 4brytjljFgnUu3WU, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1174 |36.84Mb, server: living.starspace.link, port: 443, type: trojan, password: NNhSlVRhte1Vzw5D, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1175 |31.53Mb, server: snacks.starspace.link, port: 443, type: trojan, password: 0lbw6RXSl7eqCYMv, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1176 |27.84Mb, server: events.starspace.link, port: 443, type: trojan, password: 3RWFPCmWd4lYIMof, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1177 |42.16Mb, server: storage.starspace.link, port: 443, type: trojan, password: W8gVbKNAZlFzgGPn, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1178 |36.96Mb, server: holidays.starspace.link, port: 443, type: trojan, password: XCPKaaV8I1rmb7Ai, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1848 |33.52Mb, server: u2.anmu.one, port: 16499, type: vmess, uuid: 32b306e1-d5b1-4913-d8d3-56ac23637de7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1850 |38.82Mb, server: 23.105.206.94, port: 43908, type: vmess, uuid: 34d2688a-6e4a-4bd6-d946-ec58990868c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1851 |43.41Mb, server: 154.17.28.38, port: 49353, type: vmess, uuid: f762694a-948b-4918-a657-6ca9b10f2d32, alterId: 233, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1852 |16.44Mb, server: sg.guiqing.ml, port: 43956, type: vmess, uuid: 91df6837-896d-45bc-ec6f-0fe4b792b369, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1853 | 6.71Mb, server: 20.123.187.212, port: 27931, type: vmess, uuid: 256eae41-0b8f-4faa-bce8-6366011dc19f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1854 |133.90Mb, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 45.35.84.162}}}
+  - {name: 🇺🇸 US_1855 |55.74Mb, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 208.98.48.2}}}
+  - {name: 🇺🇸 US_1856 |64.02Mb, server: 23.94.120.19, port: 28554, type: vmess, uuid: 4a4c96c5-7b8b-4612-c715-6b91a9c34d07, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1857 | 6.43Mb, server: viibah6u.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: viibah6u.com}}}
+  - {name: 🇺🇸 US_1858 |48.15Mb, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}}
+  - {name: 🇺🇸 US_1859 | 8.81Mb, server: 154.94.218.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 154.94.218.130}}}
+  - {name: 🇺🇸 US_1860 |77.64Mb, server: 154.94.214.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 154.94.214.2}}}
+  - {name: 🇺🇸 US_1862 |75.00Mb, server: lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: lvuft.com}}}
+  - {name: 🇺🇸 US_1863 |40.86Mb, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 192.96.204.250}}}
+  - {name: 🇺🇸 US_1864 | 9.68Mb, server: v4.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v4.ssrsub.com}}}
+  - {name: 🇺🇸 US_1865 |16.55Mb, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}}
+  - {name: 🇺🇸 US_1866 |51.56Mb, server: iesei1ei.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}}
+  - {name: 🇺🇸 US_1868 | 5.31Mb, server: u4.anmu.one, port: 16166, type: vmess, uuid: 8228550e-7f53-4809-8cb1-5f9420380d13, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1870 |17.63Mb, server: app.ssfree.ru, port: 443, type: vmess, uuid: 9068c384-e031-11ec-a31d-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}}
+  - {name: 🇺🇸 US_1871 | 9.24Mb, server: u2.anmu.one, port: 16161, type: vmess, uuid: 919ac815-1776-47fe-8b54-508ef4f39421, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1883 |48.16Mb, server: s3.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1887 | 8.89Mb, server: jgwhdlb4.gaox.ml, port: 443, type: trojan, password: 081a4198-d664-4bc5-a7c6-e35982da964b, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1892 | 9.99Mb, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1895 |62.48Mb, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1896 |81.98Mb, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1899 |38.37Mb, server: silicon.starspace.link, port: 443, type: trojan, password: 4ZPDeqJ6g766UKDJ, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1906 | 8.67Mb, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1907 |12.22Mb, server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1908 |50.84Mb, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1914 |21.17Mb, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1915 | 5.17Mb, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: false}
+  - {name: ZZ_1922 |10.44Mb, server: 5.44.249.43, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: false}
+  - {name: ZZ_1923 |11.41Mb, server: 5.44.249.43, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: false}
 proxy-groups:
   - name: ✅ 节点选择
     type: select
@@ -249,365 +286,486 @@ proxy-groups:
     interval: 120
     tolerance: 5
     proxies:
-      - _62 |30.39Mb
-      - _63 |12.66Mb
-      - 🇦🇺 AU_77 |25.70Mb
-      - 🇦🇺 AU_82 |13.46Mb
-      - 🇦🇺 AU_88 |20.05Mb
-      - 🇦🇺 AU_89 |32.07Mb
-      - CA_163 |10.00Mb
-      - CA_164 |123.29Mb
-      - CA_165 |118.86Mb
-      - CZ_272 | 5.22Mb
-      - 🇩🇪 DE_433 |47.57Mb
-      - 🇩🇪 DE_434 |54.90Mb
-      - 🇩🇪 DE_435 |34.86Mb
-      - 🇩🇪 DE_437 |23.59Mb
-      - 🇩🇪 DE_439 |25.38Mb
-      - 🇬🇧 GB_570 |53.31Mb
-      - 🇬🇧 GB_571 |53.13Mb
-      - 🇬🇧 GB_574 |66.17Mb
-      - 🇭🇰 HK_580 |23.87Mb
-      - HU_591 |14.93Mb
-      - IN_596 |23.95Mb
-      - IN_597 |22.49Mb
-      - 🇯🇵 JP_614 |25.06Mb
-      - 🇯🇵 JP_628 |30.92Mb
-      - MN_781 |24.49Mb
-      - 🇳🇱 NL_873 |89.05Mb
-      - 🇷🇺 RU_1053 | 6.87Mb
-      - 🇸🇬 SG_1057 |15.48Mb
-      - 🇸🇬 SG_1084 | 6.05Mb
-      - 🇸🇬 SG_1085 |11.49Mb
-      - 🇸🇬 SG_1086 |11.66Mb
-      - 🇸🇬 SG_1089 | 7.82Mb
-      - 🇸🇬 SG_1092 |22.75Mb
-      - 🇸🇬 SG_1093 |12.05Mb
-      - 🇸🇬 SG_1094 | 7.29Mb
-      - 🇸🇬 SG_1096 |10.63Mb
-      - 🇸🇬 SG_1097 | 6.11Mb
-      - 🇸🇬 SG_1098 |11.20Mb
-      - 🇸🇬 SG_1100 | 9.54Mb
-      - 🇸🇬 SG_1101 |10.49Mb
-      - 🇸🇬 SG_1102 |10.16Mb
-      - 🇸🇬 SG_1103 | 8.93Mb
-      - 🇸🇬 SG_1104 |10.92Mb
-      - 🇸🇬 SG_1107 | 8.49Mb
-      - 🇸🇬 SG_1108 |11.17Mb
-      - 🇸🇬 SG_1109 | 8.48Mb
-      - 🇸🇬 SG_1110 |17.61Mb
-      - 🇸🇬 SG_1111 |23.75Mb
-      - 🇸🇬 SG_1112 |10.67Mb
-      - 🇸🇬 SG_1113 |10.63Mb
-      - 🇸🇬 SG_1115 |11.03Mb
-      - 🇸🇬 SG_1116 |10.29Mb
-      - 🇸🇬 SG_1117 |11.26Mb
-      - 🇸🇬 SG_1118 |11.33Mb
-      - 🇸🇬 SG_1119 |11.89Mb
-      - 🇸🇬 SG_1120 | 5.96Mb
-      - 🇸🇬 SG_1123 |11.02Mb
-      - 🇸🇬 SG_1125 |11.52Mb
-      - 🇸🇬 SG_1127 |12.30Mb
-      - 🇸🇬 SG_1129 |11.64Mb
-      - 🇸🇬 SG_1130 | 7.46Mb
-      - 🇸🇬 SG_1131 |11.05Mb
-      - 🇸🇬 SG_1132 |11.68Mb
-      - 🇸🇬 SG_1134 | 7.20Mb
-      - 🇸🇬 SG_1135 | 9.87Mb
-      - 🇸🇬 SG_1136 |11.58Mb
-      - 🇨🇳 TW_1149 |20.90Mb
-      - 🇨🇳 TW_1150 |21.15Mb
-      - UA_1161 | 8.46Mb
-      - UA_1162 | 6.08Mb
-      - UA_1163 |20.80Mb
-      - UA_1164 |15.87Mb
-      - 🇺🇸 US_1165 |33.05Mb
-      - 🇺🇸 US_1830 |28.22Mb
-      - 🇺🇸 US_1831 |69.17Mb
-      - 🇺🇸 US_1832 |82.73Mb
-      - 🇺🇸 US_1834 |57.39Mb
-      - 🇺🇸 US_1837 |56.63Mb
-      - 🇺🇸 US_1838 |59.93Mb
-      - 🇺🇸 US_1839 |23.78Mb
-      - 🇺🇸 US_1840 |71.17Mb
-      - 🇺🇸 US_1841 |31.22Mb
-      - 🇺🇸 US_1843 |28.78Mb
-      - 🇺🇸 US_1844 |38.95Mb
-      - 🇺🇸 US_1845 | 9.68Mb
-      - 🇺🇸 US_1846 |108.89Mb
-      - 🇺🇸 US_1848 | 8.81Mb
-      - 🇺🇸 US_1849 |159.51Mb
-      - 🇺🇸 US_1850 |58.03Mb
-      - 🇺🇸 US_1853 |12.75Mb
-      - 🇺🇸 US_1871 | 6.71Mb
-      - 🇺🇸 US_1877 | 6.69Mb
-      - 🇺🇸 US_1887 |31.97Mb
-      - 🇺🇸 US_1892 |68.21Mb
+      - 🇦🇺 AU_106 |24.30Mb
+      - 🇦🇺 AU_114 |22.11Mb
+      - 🇦🇺 AU_115 | 5.82Mb
+      - 🇦🇺 AU_119 |12.19Mb
+      - 🇦🇺 AU_122 |29.90Mb
+      - 🇦🇺 AU_123 |14.15Mb
+      - CA_180 |122.57Mb
+      - CA_181 |43.09Mb
+      - CA_184 | 7.53Mb
+      - CA_206 |25.36Mb
+      - CA_207 |48.81Mb
+      - 🇩🇪 DE_292 |23.42Mb
+      - 🇩🇪 DE_449 |48.16Mb
+      - 🇩🇪 DE_450 |43.77Mb
+      - 🇩🇪 DE_451 |39.92Mb
+      - 🇩🇪 DE_452 |24.19Mb
+      - 🇩🇪 DE_454 |19.81Mb
+      - 🇩🇪 DE_455 |23.59Mb
+      - 🇫🇷 FR_519 | 5.22Mb
+      - 🇬🇧 GB_585 |51.00Mb
+      - 🇬🇧 GB_587 |53.10Mb
+      - 🇬🇧 GB_591 |63.12Mb
+      - 🇭🇰 HK_595 |23.87Mb
+      - HU_606 |23.16Mb
+      - IN_611 |25.17Mb
+      - IN_612 |25.62Mb
+      - 🇯🇵 JP_630 |26.33Mb
+      - MN_805 |24.27Mb
+      - 🇳🇱 NL_886 |45.11Mb
+      - 🇷🇺 RU_1046 | 6.11Mb
+      - 🇸🇬 SG_1051 |15.48Mb
+      - 🇸🇬 SG_1079 |11.74Mb
+      - 🇸🇬 SG_1080 | 6.42Mb
+      - 🇸🇬 SG_1081 |11.53Mb
+      - 🇸🇬 SG_1082 |10.14Mb
+      - 🇸🇬 SG_1083 |12.49Mb
+      - 🇸🇬 SG_1084 |10.83Mb
+      - 🇸🇬 SG_1085 |15.10Mb
+      - 🇸🇬 SG_1086 |15.60Mb
+      - 🇸🇬 SG_1087 |15.44Mb
+      - 🇸🇬 SG_1088 | 5.18Mb
+      - 🇸🇬 SG_1090 |11.22Mb
+      - 🇸🇬 SG_1091 |14.57Mb
+      - 🇸🇬 SG_1093 | 9.69Mb
+      - 🇸🇬 SG_1094 |19.45Mb
+      - 🇸🇬 SG_1096 |12.07Mb
+      - 🇸🇬 SG_1098 | 6.17Mb
+      - 🇸🇬 SG_1099 |25.47Mb
+      - 🇸🇬 SG_1100 | 8.13Mb
+      - 🇸🇬 SG_1101 | 7.82Mb
+      - 🇸🇬 SG_1102 | 9.02Mb
+      - 🇸🇬 SG_1103 | 8.48Mb
+      - 🇸🇬 SG_1104 |16.20Mb
+      - 🇸🇬 SG_1105 |16.77Mb
+      - 🇸🇬 SG_1107 | 8.78Mb
+      - 🇸🇬 SG_1108 |13.03Mb
+      - 🇸🇬 SG_1109 |10.62Mb
+      - 🇸🇬 SG_1110 | 8.98Mb
+      - 🇸🇬 SG_1111 |11.74Mb
+      - 🇸🇬 SG_1112 |15.67Mb
+      - 🇸🇬 SG_1113 |12.70Mb
+      - 🇸🇬 SG_1114 |12.07Mb
+      - 🇸🇬 SG_1116 |14.82Mb
+      - 🇸🇬 SG_1118 |11.12Mb
+      - 🇸🇬 SG_1120 |11.94Mb
+      - 🇸🇬 SG_1121 |11.95Mb
+      - 🇸🇬 SG_1122 | 7.84Mb
+      - 🇸🇬 SG_1123 |14.31Mb
+      - 🇸🇬 SG_1124 |12.05Mb
+      - 🇸🇬 SG_1125 |14.85Mb
+      - 🇸🇬 SG_1126 |16.39Mb
+      - 🇸🇬 SG_1127 | 7.52Mb
+      - 🇸🇬 SG_1128 |15.24Mb
+      - 🇸🇬 SG_1129 |23.30Mb
+      - 🇸🇬 SG_1130 |23.76Mb
+      - 🇸🇬 SG_1131 | 8.69Mb
+      - 🇸🇬 SG_1132 | 6.79Mb
+      - 🇸🇬 SG_1133 |11.57Mb
+      - 🇸🇬 SG_1134 | 6.30Mb
+      - 🇸🇬 SG_1137 |16.09Mb
+      - 🇨🇳 TW_1146 |19.52Mb
+      - 🇨🇳 TW_1147 |11.88Mb
+      - UA_1157 |10.85Mb
+      - UA_1158 |17.55Mb
+      - UA_1159 | 9.30Mb
+      - UA_1160 |10.52Mb
+      - UA_1161 | 5.89Mb
+      - 🇺🇸 US_1165 |29.35Mb
+      - 🇺🇸 US_1166 |20.25Mb
+      - 🇺🇸 US_1170 |30.17Mb
+      - 🇺🇸 US_1171 |41.51Mb
+      - 🇺🇸 US_1172 |43.46Mb
+      - 🇺🇸 US_1173 |41.57Mb
+      - 🇺🇸 US_1174 |36.84Mb
+      - 🇺🇸 US_1175 |31.53Mb
+      - 🇺🇸 US_1176 |27.84Mb
+      - 🇺🇸 US_1177 |42.16Mb
+      - 🇺🇸 US_1178 |36.96Mb
+      - 🇺🇸 US_1848 |33.52Mb
+      - 🇺🇸 US_1850 |38.82Mb
+      - 🇺🇸 US_1851 |43.41Mb
+      - 🇺🇸 US_1852 |16.44Mb
+      - 🇺🇸 US_1853 | 6.71Mb
+      - 🇺🇸 US_1854 |133.90Mb
+      - 🇺🇸 US_1855 |55.74Mb
+      - 🇺🇸 US_1856 |64.02Mb
+      - 🇺🇸 US_1857 | 6.43Mb
+      - 🇺🇸 US_1858 |48.15Mb
+      - 🇺🇸 US_1859 | 8.81Mb
+      - 🇺🇸 US_1860 |77.64Mb
+      - 🇺🇸 US_1862 |75.00Mb
+      - 🇺🇸 US_1863 |40.86Mb
+      - 🇺🇸 US_1864 | 9.68Mb
+      - 🇺🇸 US_1865 |16.55Mb
+      - 🇺🇸 US_1866 |51.56Mb
+      - 🇺🇸 US_1868 | 5.31Mb
+      - 🇺🇸 US_1870 |17.63Mb
+      - 🇺🇸 US_1871 | 9.24Mb
+      - 🇺🇸 US_1883 |48.16Mb
+      - 🇺🇸 US_1887 | 8.89Mb
+      - 🇺🇸 US_1892 | 9.99Mb
+      - 🇺🇸 US_1895 |62.48Mb
+      - 🇺🇸 US_1896 |81.98Mb
+      - 🇺🇸 US_1899 |38.37Mb
+      - 🇺🇸 US_1906 | 8.67Mb
+      - 🇺🇸 US_1907 |12.22Mb
+      - 🇺🇸 US_1908 |50.84Mb
+      - 🇺🇸 US_1914 |21.17Mb
+      - 🇺🇸 US_1915 | 5.17Mb
+      - ZZ_1922 |10.44Mb
+      - ZZ_1923 |11.41Mb
   - name: 🌐 手动切换
     type: select
     proxies:
-      - _62 |30.39Mb
-      - _63 |12.66Mb
-      - 🇦🇺 AU_77 |25.70Mb
-      - 🇦🇺 AU_82 |13.46Mb
-      - 🇦🇺 AU_88 |20.05Mb
-      - 🇦🇺 AU_89 |32.07Mb
-      - CA_163 |10.00Mb
-      - CA_164 |123.29Mb
-      - CA_165 |118.86Mb
-      - CZ_272 | 5.22Mb
-      - 🇩🇪 DE_433 |47.57Mb
-      - 🇩🇪 DE_434 |54.90Mb
-      - 🇩🇪 DE_435 |34.86Mb
-      - 🇩🇪 DE_437 |23.59Mb
-      - 🇩🇪 DE_439 |25.38Mb
-      - 🇬🇧 GB_570 |53.31Mb
-      - 🇬🇧 GB_571 |53.13Mb
-      - 🇬🇧 GB_574 |66.17Mb
-      - 🇭🇰 HK_580 |23.87Mb
-      - HU_591 |14.93Mb
-      - IN_596 |23.95Mb
-      - IN_597 |22.49Mb
-      - 🇯🇵 JP_614 |25.06Mb
-      - 🇯🇵 JP_628 |30.92Mb
-      - MN_781 |24.49Mb
-      - 🇳🇱 NL_873 |89.05Mb
-      - 🇷🇺 RU_1053 | 6.87Mb
-      - 🇸🇬 SG_1057 |15.48Mb
-      - 🇸🇬 SG_1084 | 6.05Mb
-      - 🇸🇬 SG_1085 |11.49Mb
-      - 🇸🇬 SG_1086 |11.66Mb
-      - 🇸🇬 SG_1089 | 7.82Mb
-      - 🇸🇬 SG_1092 |22.75Mb
-      - 🇸🇬 SG_1093 |12.05Mb
-      - 🇸🇬 SG_1094 | 7.29Mb
-      - 🇸🇬 SG_1096 |10.63Mb
-      - 🇸🇬 SG_1097 | 6.11Mb
-      - 🇸🇬 SG_1098 |11.20Mb
-      - 🇸🇬 SG_1100 | 9.54Mb
-      - 🇸🇬 SG_1101 |10.49Mb
-      - 🇸🇬 SG_1102 |10.16Mb
-      - 🇸🇬 SG_1103 | 8.93Mb
-      - 🇸🇬 SG_1104 |10.92Mb
-      - 🇸🇬 SG_1107 | 8.49Mb
-      - 🇸🇬 SG_1108 |11.17Mb
-      - 🇸🇬 SG_1109 | 8.48Mb
-      - 🇸🇬 SG_1110 |17.61Mb
-      - 🇸🇬 SG_1111 |23.75Mb
-      - 🇸🇬 SG_1112 |10.67Mb
-      - 🇸🇬 SG_1113 |10.63Mb
-      - 🇸🇬 SG_1115 |11.03Mb
-      - 🇸🇬 SG_1116 |10.29Mb
-      - 🇸🇬 SG_1117 |11.26Mb
-      - 🇸🇬 SG_1118 |11.33Mb
-      - 🇸🇬 SG_1119 |11.89Mb
-      - 🇸🇬 SG_1120 | 5.96Mb
-      - 🇸🇬 SG_1123 |11.02Mb
-      - 🇸🇬 SG_1125 |11.52Mb
-      - 🇸🇬 SG_1127 |12.30Mb
-      - 🇸🇬 SG_1129 |11.64Mb
-      - 🇸🇬 SG_1130 | 7.46Mb
-      - 🇸🇬 SG_1131 |11.05Mb
-      - 🇸🇬 SG_1132 |11.68Mb
-      - 🇸🇬 SG_1134 | 7.20Mb
-      - 🇸🇬 SG_1135 | 9.87Mb
-      - 🇸🇬 SG_1136 |11.58Mb
-      - 🇨🇳 TW_1149 |20.90Mb
-      - 🇨🇳 TW_1150 |21.15Mb
-      - UA_1161 | 8.46Mb
-      - UA_1162 | 6.08Mb
-      - UA_1163 |20.80Mb
-      - UA_1164 |15.87Mb
-      - 🇺🇸 US_1165 |33.05Mb
-      - 🇺🇸 US_1830 |28.22Mb
-      - 🇺🇸 US_1831 |69.17Mb
-      - 🇺🇸 US_1832 |82.73Mb
-      - 🇺🇸 US_1834 |57.39Mb
-      - 🇺🇸 US_1837 |56.63Mb
-      - 🇺🇸 US_1838 |59.93Mb
-      - 🇺🇸 US_1839 |23.78Mb
-      - 🇺🇸 US_1840 |71.17Mb
-      - 🇺🇸 US_1841 |31.22Mb
-      - 🇺🇸 US_1843 |28.78Mb
-      - 🇺🇸 US_1844 |38.95Mb
-      - 🇺🇸 US_1845 | 9.68Mb
-      - 🇺🇸 US_1846 |108.89Mb
-      - 🇺🇸 US_1848 | 8.81Mb
-      - 🇺🇸 US_1849 |159.51Mb
-      - 🇺🇸 US_1850 |58.03Mb
-      - 🇺🇸 US_1853 |12.75Mb
-      - 🇺🇸 US_1871 | 6.71Mb
-      - 🇺🇸 US_1877 | 6.69Mb
-      - 🇺🇸 US_1887 |31.97Mb
-      - 🇺🇸 US_1892 |68.21Mb
+      - 🇦🇺 AU_106 |24.30Mb
+      - 🇦🇺 AU_114 |22.11Mb
+      - 🇦🇺 AU_115 | 5.82Mb
+      - 🇦🇺 AU_119 |12.19Mb
+      - 🇦🇺 AU_122 |29.90Mb
+      - 🇦🇺 AU_123 |14.15Mb
+      - CA_180 |122.57Mb
+      - CA_181 |43.09Mb
+      - CA_184 | 7.53Mb
+      - CA_206 |25.36Mb
+      - CA_207 |48.81Mb
+      - 🇩🇪 DE_292 |23.42Mb
+      - 🇩🇪 DE_449 |48.16Mb
+      - 🇩🇪 DE_450 |43.77Mb
+      - 🇩🇪 DE_451 |39.92Mb
+      - 🇩🇪 DE_452 |24.19Mb
+      - 🇩🇪 DE_454 |19.81Mb
+      - 🇩🇪 DE_455 |23.59Mb
+      - 🇫🇷 FR_519 | 5.22Mb
+      - 🇬🇧 GB_585 |51.00Mb
+      - 🇬🇧 GB_587 |53.10Mb
+      - 🇬🇧 GB_591 |63.12Mb
+      - 🇭🇰 HK_595 |23.87Mb
+      - HU_606 |23.16Mb
+      - IN_611 |25.17Mb
+      - IN_612 |25.62Mb
+      - 🇯🇵 JP_630 |26.33Mb
+      - MN_805 |24.27Mb
+      - 🇳🇱 NL_886 |45.11Mb
+      - 🇷🇺 RU_1046 | 6.11Mb
+      - 🇸🇬 SG_1051 |15.48Mb
+      - 🇸🇬 SG_1079 |11.74Mb
+      - 🇸🇬 SG_1080 | 6.42Mb
+      - 🇸🇬 SG_1081 |11.53Mb
+      - 🇸🇬 SG_1082 |10.14Mb
+      - 🇸🇬 SG_1083 |12.49Mb
+      - 🇸🇬 SG_1084 |10.83Mb
+      - 🇸🇬 SG_1085 |15.10Mb
+      - 🇸🇬 SG_1086 |15.60Mb
+      - 🇸🇬 SG_1087 |15.44Mb
+      - 🇸🇬 SG_1088 | 5.18Mb
+      - 🇸🇬 SG_1090 |11.22Mb
+      - 🇸🇬 SG_1091 |14.57Mb
+      - 🇸🇬 SG_1093 | 9.69Mb
+      - 🇸🇬 SG_1094 |19.45Mb
+      - 🇸🇬 SG_1096 |12.07Mb
+      - 🇸🇬 SG_1098 | 6.17Mb
+      - 🇸🇬 SG_1099 |25.47Mb
+      - 🇸🇬 SG_1100 | 8.13Mb
+      - 🇸🇬 SG_1101 | 7.82Mb
+      - 🇸🇬 SG_1102 | 9.02Mb
+      - 🇸🇬 SG_1103 | 8.48Mb
+      - 🇸🇬 SG_1104 |16.20Mb
+      - 🇸🇬 SG_1105 |16.77Mb
+      - 🇸🇬 SG_1107 | 8.78Mb
+      - 🇸🇬 SG_1108 |13.03Mb
+      - 🇸🇬 SG_1109 |10.62Mb
+      - 🇸🇬 SG_1110 | 8.98Mb
+      - 🇸🇬 SG_1111 |11.74Mb
+      - 🇸🇬 SG_1112 |15.67Mb
+      - 🇸🇬 SG_1113 |12.70Mb
+      - 🇸🇬 SG_1114 |12.07Mb
+      - 🇸🇬 SG_1116 |14.82Mb
+      - 🇸🇬 SG_1118 |11.12Mb
+      - 🇸🇬 SG_1120 |11.94Mb
+      - 🇸🇬 SG_1121 |11.95Mb
+      - 🇸🇬 SG_1122 | 7.84Mb
+      - 🇸🇬 SG_1123 |14.31Mb
+      - 🇸🇬 SG_1124 |12.05Mb
+      - 🇸🇬 SG_1125 |14.85Mb
+      - 🇸🇬 SG_1126 |16.39Mb
+      - 🇸🇬 SG_1127 | 7.52Mb
+      - 🇸🇬 SG_1128 |15.24Mb
+      - 🇸🇬 SG_1129 |23.30Mb
+      - 🇸🇬 SG_1130 |23.76Mb
+      - 🇸🇬 SG_1131 | 8.69Mb
+      - 🇸🇬 SG_1132 | 6.79Mb
+      - 🇸🇬 SG_1133 |11.57Mb
+      - 🇸🇬 SG_1134 | 6.30Mb
+      - 🇸🇬 SG_1137 |16.09Mb
+      - 🇨🇳 TW_1146 |19.52Mb
+      - 🇨🇳 TW_1147 |11.88Mb
+      - UA_1157 |10.85Mb
+      - UA_1158 |17.55Mb
+      - UA_1159 | 9.30Mb
+      - UA_1160 |10.52Mb
+      - UA_1161 | 5.89Mb
+      - 🇺🇸 US_1165 |29.35Mb
+      - 🇺🇸 US_1166 |20.25Mb
+      - 🇺🇸 US_1170 |30.17Mb
+      - 🇺🇸 US_1171 |41.51Mb
+      - 🇺🇸 US_1172 |43.46Mb
+      - 🇺🇸 US_1173 |41.57Mb
+      - 🇺🇸 US_1174 |36.84Mb
+      - 🇺🇸 US_1175 |31.53Mb
+      - 🇺🇸 US_1176 |27.84Mb
+      - 🇺🇸 US_1177 |42.16Mb
+      - 🇺🇸 US_1178 |36.96Mb
+      - 🇺🇸 US_1848 |33.52Mb
+      - 🇺🇸 US_1850 |38.82Mb
+      - 🇺🇸 US_1851 |43.41Mb
+      - 🇺🇸 US_1852 |16.44Mb
+      - 🇺🇸 US_1853 | 6.71Mb
+      - 🇺🇸 US_1854 |133.90Mb
+      - 🇺🇸 US_1855 |55.74Mb
+      - 🇺🇸 US_1856 |64.02Mb
+      - 🇺🇸 US_1857 | 6.43Mb
+      - 🇺🇸 US_1858 |48.15Mb
+      - 🇺🇸 US_1859 | 8.81Mb
+      - 🇺🇸 US_1860 |77.64Mb
+      - 🇺🇸 US_1862 |75.00Mb
+      - 🇺🇸 US_1863 |40.86Mb
+      - 🇺🇸 US_1864 | 9.68Mb
+      - 🇺🇸 US_1865 |16.55Mb
+      - 🇺🇸 US_1866 |51.56Mb
+      - 🇺🇸 US_1868 | 5.31Mb
+      - 🇺🇸 US_1870 |17.63Mb
+      - 🇺🇸 US_1871 | 9.24Mb
+      - 🇺🇸 US_1883 |48.16Mb
+      - 🇺🇸 US_1887 | 8.89Mb
+      - 🇺🇸 US_1892 | 9.99Mb
+      - 🇺🇸 US_1895 |62.48Mb
+      - 🇺🇸 US_1896 |81.98Mb
+      - 🇺🇸 US_1899 |38.37Mb
+      - 🇺🇸 US_1906 | 8.67Mb
+      - 🇺🇸 US_1907 |12.22Mb
+      - 🇺🇸 US_1908 |50.84Mb
+      - 🇺🇸 US_1914 |21.17Mb
+      - 🇺🇸 US_1915 | 5.17Mb
+      - ZZ_1922 |10.44Mb
+      - ZZ_1923 |11.41Mb
   - name: 🇭🇰 港澳节点
     type: url-test
     url: http://edge.microsoft.com/captiveportal/generate_204
     interval: 300
     tolerance: 5
     proxies:
-      - 🇭🇰 HK_580 |23.87Mb
+      - 🇭🇰 HK_595 |23.87Mb
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://edge.microsoft.com/captiveportal/generate_204
     interval: 300
     tolerance: 5
     proxies:
-      - 🇯🇵 JP_614 |25.06Mb
-      - 🇯🇵 JP_628 |30.92Mb
+      - 🇯🇵 JP_630 |26.33Mb
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://edge.microsoft.com/captiveportal/generate_204
     interval: 300
     tolerance: 5
     proxies:
-      - _62 |30.39Mb
-      - _63 |12.66Mb
-      - 🇦🇺 AU_77 |25.70Mb
-      - 🇦🇺 AU_82 |13.46Mb
-      - 🇦🇺 AU_88 |20.05Mb
-      - 🇦🇺 AU_89 |32.07Mb
-      - CA_163 |10.00Mb
-      - CA_164 |123.29Mb
-      - CA_165 |118.86Mb
-      - CZ_272 | 5.22Mb
-      - 🇩🇪 DE_433 |47.57Mb
-      - 🇩🇪 DE_434 |54.90Mb
-      - 🇩🇪 DE_435 |34.86Mb
-      - 🇩🇪 DE_437 |23.59Mb
-      - 🇩🇪 DE_439 |25.38Mb
-      - 🇬🇧 GB_570 |53.31Mb
-      - 🇬🇧 GB_571 |53.13Mb
-      - 🇬🇧 GB_574 |66.17Mb
-      - 🇭🇰 HK_580 |23.87Mb
-      - HU_591 |14.93Mb
-      - IN_596 |23.95Mb
-      - IN_597 |22.49Mb
-      - 🇯🇵 JP_614 |25.06Mb
-      - 🇯🇵 JP_628 |30.92Mb
-      - MN_781 |24.49Mb
-      - 🇳🇱 NL_873 |89.05Mb
-      - 🇷🇺 RU_1053 | 6.87Mb
-      - 🇸🇬 SG_1057 |15.48Mb
-      - 🇸🇬 SG_1084 | 6.05Mb
-      - 🇸🇬 SG_1085 |11.49Mb
-      - 🇸🇬 SG_1086 |11.66Mb
-      - 🇸🇬 SG_1089 | 7.82Mb
-      - 🇸🇬 SG_1092 |22.75Mb
-      - 🇸🇬 SG_1093 |12.05Mb
-      - 🇸🇬 SG_1094 | 7.29Mb
-      - 🇸🇬 SG_1096 |10.63Mb
-      - 🇸🇬 SG_1097 | 6.11Mb
-      - 🇸🇬 SG_1098 |11.20Mb
-      - 🇸🇬 SG_1100 | 9.54Mb
-      - 🇸🇬 SG_1101 |10.49Mb
-      - 🇸🇬 SG_1102 |10.16Mb
-      - 🇸🇬 SG_1103 | 8.93Mb
-      - 🇸🇬 SG_1104 |10.92Mb
-      - 🇸🇬 SG_1107 | 8.49Mb
-      - 🇸🇬 SG_1108 |11.17Mb
-      - 🇸🇬 SG_1109 | 8.48Mb
-      - 🇸🇬 SG_1110 |17.61Mb
-      - 🇸🇬 SG_1111 |23.75Mb
-      - 🇸🇬 SG_1112 |10.67Mb
-      - 🇸🇬 SG_1113 |10.63Mb
-      - 🇸🇬 SG_1115 |11.03Mb
-      - 🇸🇬 SG_1116 |10.29Mb
-      - 🇸🇬 SG_1117 |11.26Mb
-      - 🇸🇬 SG_1118 |11.33Mb
-      - 🇸🇬 SG_1119 |11.89Mb
-      - 🇸🇬 SG_1120 | 5.96Mb
-      - 🇸🇬 SG_1123 |11.02Mb
-      - 🇸🇬 SG_1125 |11.52Mb
-      - 🇸🇬 SG_1127 |12.30Mb
-      - 🇸🇬 SG_1129 |11.64Mb
-      - 🇸🇬 SG_1130 | 7.46Mb
-      - 🇸🇬 SG_1131 |11.05Mb
-      - 🇸🇬 SG_1132 |11.68Mb
-      - 🇸🇬 SG_1134 | 7.20Mb
-      - 🇸🇬 SG_1135 | 9.87Mb
-      - 🇸🇬 SG_1136 |11.58Mb
-      - 🇨🇳 TW_1149 |20.90Mb
-      - 🇨🇳 TW_1150 |21.15Mb
-      - UA_1161 | 8.46Mb
-      - UA_1162 | 6.08Mb
-      - UA_1163 |20.80Mb
-      - UA_1164 |15.87Mb
-      - 🇺🇸 US_1165 |33.05Mb
-      - 🇺🇸 US_1830 |28.22Mb
-      - 🇺🇸 US_1831 |69.17Mb
-      - 🇺🇸 US_1832 |82.73Mb
-      - 🇺🇸 US_1834 |57.39Mb
-      - 🇺🇸 US_1837 |56.63Mb
-      - 🇺🇸 US_1838 |59.93Mb
-      - 🇺🇸 US_1839 |23.78Mb
-      - 🇺🇸 US_1840 |71.17Mb
-      - 🇺🇸 US_1841 |31.22Mb
-      - 🇺🇸 US_1843 |28.78Mb
-      - 🇺🇸 US_1844 |38.95Mb
-      - 🇺🇸 US_1845 | 9.68Mb
-      - 🇺🇸 US_1846 |108.89Mb
-      - 🇺🇸 US_1848 | 8.81Mb
-      - 🇺🇸 US_1849 |159.51Mb
-      - 🇺🇸 US_1850 |58.03Mb
-      - 🇺🇸 US_1853 |12.75Mb
-      - 🇺🇸 US_1871 | 6.71Mb
-      - 🇺🇸 US_1877 | 6.69Mb
-      - 🇺🇸 US_1887 |31.97Mb
-      - 🇺🇸 US_1892 |68.21Mb
+      - 🇦🇺 AU_106 |24.30Mb
+      - 🇦🇺 AU_114 |22.11Mb
+      - 🇦🇺 AU_115 | 5.82Mb
+      - 🇦🇺 AU_119 |12.19Mb
+      - 🇦🇺 AU_122 |29.90Mb
+      - 🇦🇺 AU_123 |14.15Mb
+      - CA_180 |122.57Mb
+      - CA_181 |43.09Mb
+      - CA_184 | 7.53Mb
+      - CA_206 |25.36Mb
+      - CA_207 |48.81Mb
+      - 🇩🇪 DE_292 |23.42Mb
+      - 🇩🇪 DE_449 |48.16Mb
+      - 🇩🇪 DE_450 |43.77Mb
+      - 🇩🇪 DE_451 |39.92Mb
+      - 🇩🇪 DE_452 |24.19Mb
+      - 🇩🇪 DE_454 |19.81Mb
+      - 🇩🇪 DE_455 |23.59Mb
+      - 🇫🇷 FR_519 | 5.22Mb
+      - 🇬🇧 GB_585 |51.00Mb
+      - 🇬🇧 GB_587 |53.10Mb
+      - 🇬🇧 GB_591 |63.12Mb
+      - 🇭🇰 HK_595 |23.87Mb
+      - HU_606 |23.16Mb
+      - IN_611 |25.17Mb
+      - IN_612 |25.62Mb
+      - 🇯🇵 JP_630 |26.33Mb
+      - MN_805 |24.27Mb
+      - 🇳🇱 NL_886 |45.11Mb
+      - 🇷🇺 RU_1046 | 6.11Mb
+      - 🇸🇬 SG_1051 |15.48Mb
+      - 🇸🇬 SG_1079 |11.74Mb
+      - 🇸🇬 SG_1080 | 6.42Mb
+      - 🇸🇬 SG_1081 |11.53Mb
+      - 🇸🇬 SG_1082 |10.14Mb
+      - 🇸🇬 SG_1083 |12.49Mb
+      - 🇸🇬 SG_1084 |10.83Mb
+      - 🇸🇬 SG_1085 |15.10Mb
+      - 🇸🇬 SG_1086 |15.60Mb
+      - 🇸🇬 SG_1087 |15.44Mb
+      - 🇸🇬 SG_1088 | 5.18Mb
+      - 🇸🇬 SG_1090 |11.22Mb
+      - 🇸🇬 SG_1091 |14.57Mb
+      - 🇸🇬 SG_1093 | 9.69Mb
+      - 🇸🇬 SG_1094 |19.45Mb
+      - 🇸🇬 SG_1096 |12.07Mb
+      - 🇸🇬 SG_1098 | 6.17Mb
+      - 🇸🇬 SG_1099 |25.47Mb
+      - 🇸🇬 SG_1100 | 8.13Mb
+      - 🇸🇬 SG_1101 | 7.82Mb
+      - 🇸🇬 SG_1102 | 9.02Mb
+      - 🇸🇬 SG_1103 | 8.48Mb
+      - 🇸🇬 SG_1104 |16.20Mb
+      - 🇸🇬 SG_1105 |16.77Mb
+      - 🇸🇬 SG_1107 | 8.78Mb
+      - 🇸🇬 SG_1108 |13.03Mb
+      - 🇸🇬 SG_1109 |10.62Mb
+      - 🇸🇬 SG_1110 | 8.98Mb
+      - 🇸🇬 SG_1111 |11.74Mb
+      - 🇸🇬 SG_1112 |15.67Mb
+      - 🇸🇬 SG_1113 |12.70Mb
+      - 🇸🇬 SG_1114 |12.07Mb
+      - 🇸🇬 SG_1116 |14.82Mb
+      - 🇸🇬 SG_1118 |11.12Mb
+      - 🇸🇬 SG_1120 |11.94Mb
+      - 🇸🇬 SG_1121 |11.95Mb
+      - 🇸🇬 SG_1122 | 7.84Mb
+      - 🇸🇬 SG_1123 |14.31Mb
+      - 🇸🇬 SG_1124 |12.05Mb
+      - 🇸🇬 SG_1125 |14.85Mb
+      - 🇸🇬 SG_1126 |16.39Mb
+      - 🇸🇬 SG_1127 | 7.52Mb
+      - 🇸🇬 SG_1128 |15.24Mb
+      - 🇸🇬 SG_1129 |23.30Mb
+      - 🇸🇬 SG_1130 |23.76Mb
+      - 🇸🇬 SG_1131 | 8.69Mb
+      - 🇸🇬 SG_1132 | 6.79Mb
+      - 🇸🇬 SG_1133 |11.57Mb
+      - 🇸🇬 SG_1134 | 6.30Mb
+      - 🇸🇬 SG_1137 |16.09Mb
+      - 🇨🇳 TW_1146 |19.52Mb
+      - 🇨🇳 TW_1147 |11.88Mb
+      - UA_1157 |10.85Mb
+      - UA_1158 |17.55Mb
+      - UA_1159 | 9.30Mb
+      - UA_1160 |10.52Mb
+      - UA_1161 | 5.89Mb
+      - 🇺🇸 US_1165 |29.35Mb
+      - 🇺🇸 US_1166 |20.25Mb
+      - 🇺🇸 US_1170 |30.17Mb
+      - 🇺🇸 US_1171 |41.51Mb
+      - 🇺🇸 US_1172 |43.46Mb
+      - 🇺🇸 US_1173 |41.57Mb
+      - 🇺🇸 US_1174 |36.84Mb
+      - 🇺🇸 US_1175 |31.53Mb
+      - 🇺🇸 US_1176 |27.84Mb
+      - 🇺🇸 US_1177 |42.16Mb
+      - 🇺🇸 US_1178 |36.96Mb
+      - 🇺🇸 US_1848 |33.52Mb
+      - 🇺🇸 US_1850 |38.82Mb
+      - 🇺🇸 US_1851 |43.41Mb
+      - 🇺🇸 US_1852 |16.44Mb
+      - 🇺🇸 US_1853 | 6.71Mb
+      - 🇺🇸 US_1854 |133.90Mb
+      - 🇺🇸 US_1855 |55.74Mb
+      - 🇺🇸 US_1856 |64.02Mb
+      - 🇺🇸 US_1857 | 6.43Mb
+      - 🇺🇸 US_1858 |48.15Mb
+      - 🇺🇸 US_1859 | 8.81Mb
+      - 🇺🇸 US_1860 |77.64Mb
+      - 🇺🇸 US_1862 |75.00Mb
+      - 🇺🇸 US_1863 |40.86Mb
+      - 🇺🇸 US_1864 | 9.68Mb
+      - 🇺🇸 US_1865 |16.55Mb
+      - 🇺🇸 US_1866 |51.56Mb
+      - 🇺🇸 US_1868 | 5.31Mb
+      - 🇺🇸 US_1870 |17.63Mb
+      - 🇺🇸 US_1871 | 9.24Mb
+      - 🇺🇸 US_1883 |48.16Mb
+      - 🇺🇸 US_1887 | 8.89Mb
+      - 🇺🇸 US_1892 | 9.99Mb
+      - 🇺🇸 US_1895 |62.48Mb
+      - 🇺🇸 US_1896 |81.98Mb
+      - 🇺🇸 US_1899 |38.37Mb
+      - 🇺🇸 US_1906 | 8.67Mb
+      - 🇺🇸 US_1907 |12.22Mb
+      - 🇺🇸 US_1908 |50.84Mb
+      - 🇺🇸 US_1914 |21.17Mb
+      - 🇺🇸 US_1915 | 5.17Mb
+      - ZZ_1922 |10.44Mb
+      - ZZ_1923 |11.41Mb
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://edge.microsoft.com/captiveportal/generate_204
     interval: 300
     tolerance: 5
     proxies:
-      - 🇨🇳 TW_1149 |20.90Mb
-      - 🇨🇳 TW_1150 |21.15Mb
+      - 🇨🇳 TW_1146 |19.52Mb
+      - 🇨🇳 TW_1147 |11.88Mb
   - name: 🇸🇬 狮城节点
     type: url-test
     url: http://edge.microsoft.com/captiveportal/generate_204
     interval: 300
     tolerance: 5
     proxies:
-      - 🇸🇬 SG_1057 |15.48Mb
-      - 🇸🇬 SG_1084 | 6.05Mb
-      - 🇸🇬 SG_1085 |11.49Mb
-      - 🇸🇬 SG_1086 |11.66Mb
-      - 🇸🇬 SG_1089 | 7.82Mb
-      - 🇸🇬 SG_1092 |22.75Mb
-      - 🇸🇬 SG_1093 |12.05Mb
-      - 🇸🇬 SG_1094 | 7.29Mb
-      - 🇸🇬 SG_1096 |10.63Mb
-      - 🇸🇬 SG_1097 | 6.11Mb
-      - 🇸🇬 SG_1098 |11.20Mb
-      - 🇸🇬 SG_1100 | 9.54Mb
-      - 🇸🇬 SG_1101 |10.49Mb
-      - 🇸🇬 SG_1102 |10.16Mb
-      - 🇸🇬 SG_1103 | 8.93Mb
-      - 🇸🇬 SG_1104 |10.92Mb
-      - 🇸🇬 SG_1107 | 8.49Mb
-      - 🇸🇬 SG_1108 |11.17Mb
-      - 🇸🇬 SG_1109 | 8.48Mb
-      - 🇸🇬 SG_1110 |17.61Mb
-      - 🇸🇬 SG_1111 |23.75Mb
-      - 🇸🇬 SG_1112 |10.67Mb
-      - 🇸🇬 SG_1113 |10.63Mb
-      - 🇸🇬 SG_1115 |11.03Mb
-      - 🇸🇬 SG_1116 |10.29Mb
-      - 🇸🇬 SG_1117 |11.26Mb
-      - 🇸🇬 SG_1118 |11.33Mb
-      - 🇸🇬 SG_1119 |11.89Mb
-      - 🇸🇬 SG_1120 | 5.96Mb
-      - 🇸🇬 SG_1123 |11.02Mb
-      - 🇸🇬 SG_1125 |11.52Mb
-      - 🇸🇬 SG_1127 |12.30Mb
-      - 🇸🇬 SG_1129 |11.64Mb
-      - 🇸🇬 SG_1130 | 7.46Mb
-      - 🇸🇬 SG_1131 |11.05Mb
-      - 🇸🇬 SG_1132 |11.68Mb
-      - 🇸🇬 SG_1134 | 7.20Mb
-      - 🇸🇬 SG_1135 | 9.87Mb
-      - 🇸🇬 SG_1136 |11.58Mb
+      - 🇸🇬 SG_1051 |15.48Mb
+      - 🇸🇬 SG_1079 |11.74Mb
+      - 🇸🇬 SG_1080 | 6.42Mb
+      - 🇸🇬 SG_1081 |11.53Mb
+      - 🇸🇬 SG_1082 |10.14Mb
+      - 🇸🇬 SG_1083 |12.49Mb
+      - 🇸🇬 SG_1084 |10.83Mb
+      - 🇸🇬 SG_1085 |15.10Mb
+      - 🇸🇬 SG_1086 |15.60Mb
+      - 🇸🇬 SG_1087 |15.44Mb
+      - 🇸🇬 SG_1088 | 5.18Mb
+      - 🇸🇬 SG_1090 |11.22Mb
+      - 🇸🇬 SG_1091 |14.57Mb
+      - 🇸🇬 SG_1093 | 9.69Mb
+      - 🇸🇬 SG_1094 |19.45Mb
+      - 🇸🇬 SG_1096 |12.07Mb
+      - 🇸🇬 SG_1098 | 6.17Mb
+      - 🇸🇬 SG_1099 |25.47Mb
+      - 🇸🇬 SG_1100 | 8.13Mb
+      - 🇸🇬 SG_1101 | 7.82Mb
+      - 🇸🇬 SG_1102 | 9.02Mb
+      - 🇸🇬 SG_1103 | 8.48Mb
+      - 🇸🇬 SG_1104 |16.20Mb
+      - 🇸🇬 SG_1105 |16.77Mb
+      - 🇸🇬 SG_1107 | 8.78Mb
+      - 🇸🇬 SG_1108 |13.03Mb
+      - 🇸🇬 SG_1109 |10.62Mb
+      - 🇸🇬 SG_1110 | 8.98Mb
+      - 🇸🇬 SG_1111 |11.74Mb
+      - 🇸🇬 SG_1112 |15.67Mb
+      - 🇸🇬 SG_1113 |12.70Mb
+      - 🇸🇬 SG_1114 |12.07Mb
+      - 🇸🇬 SG_1116 |14.82Mb
+      - 🇸🇬 SG_1118 |11.12Mb
+      - 🇸🇬 SG_1120 |11.94Mb
+      - 🇸🇬 SG_1121 |11.95Mb
+      - 🇸🇬 SG_1122 | 7.84Mb
+      - 🇸🇬 SG_1123 |14.31Mb
+      - 🇸🇬 SG_1124 |12.05Mb
+      - 🇸🇬 SG_1125 |14.85Mb
+      - 🇸🇬 SG_1126 |16.39Mb
+      - 🇸🇬 SG_1127 | 7.52Mb
+      - 🇸🇬 SG_1128 |15.24Mb
+      - 🇸🇬 SG_1129 |23.30Mb
+      - 🇸🇬 SG_1130 |23.76Mb
+      - 🇸🇬 SG_1131 | 8.69Mb
+      - 🇸🇬 SG_1132 | 6.79Mb
+      - 🇸🇬 SG_1133 |11.57Mb
+      - 🇸🇬 SG_1134 | 6.30Mb
+      - 🇸🇬 SG_1137 |16.09Mb
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://edge.microsoft.com/captiveportal/generate_204
