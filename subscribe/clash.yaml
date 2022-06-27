@@ -137,91 +137,85 @@ cfw-conn-break-strategy:
   mode: true
 cfw-proxies-order: default
 proxies:
-  - {name: _23 | 6.58Mb, server: t03.ssrsub.com, port: 8443, type: trojan, password: fb61d738-ef95-446d-9004-c93a1a975cad, sni: d76bb35696.wns.windows.com, skip-cert-verify: false}
-  - {name: _24 | 6.88Mb, server: t03.ssrsub.com, port: 8443, type: trojan, password: 8fefb1b5-bee7-4736-8e00-cad32ab113d1, sni: d76bb35696.wns.windows.com, skip-cert-verify: false}
-  - {name: 🇦🇺 AU_99 |16.29Mb, server: 129.154.48.221, port: 37372, type: vmess, uuid: 6f4454a9-e732-46c6-c50f-73f13da31f7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇦🇺 AU_100 |11.30Mb, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, skip-cert-verify: false}
-  - {name: 🇦🇺 AU_101 |18.87Mb, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: false}
-  - {name: 🇦🇺 AU_102 |25.81Mb, server: kk.2046.gq, port: 4443, type: trojan, password: 794871c6-022b-4498-b816-296e8a581d86, skip-cert-verify: false}
-  - {name: CA_134 |21.16Mb, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1c08f35bdafe74a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}}
-  - {name: CA_135 |18.53Mb, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 192.186.129.66}}}
-  - {name: CA_136 |35.04Mb, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-buffalo.lvuft.com}}}
-  - {name: CA_137 |11.08Mb, server: bai-piao-wang-zhe.hk2.jackson2025.cf, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: bai-piao-wang-zhe.hk2.jackson2025.cf}}}
-  - {name: CA_138 |22.50Mb, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}}
-  - {name: CA_139 |11.08Mb, server: 527hk1.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 527hk1.fans8.xyz}}}
-  - {name: CZ_213 |10.29Mb, server: v2cross.com.02.v2ce.com, port: 443, type: trojan, password: 3gLlCYBipVwr6Y5F, skip-cert-verify: false}
-  - {name: CZ_214 | 5.93Mb, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, skip-cert-verify: false}
-  - {name: 🇩🇪 DE_260 |44.67Mb, server: germany-dusseldorf.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: germany-dusseldorf.mah3Hoet.com}}}
-  - {name: 🇩🇪 DE_261 |42.03Mb, server: 146.0.42.87, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 146.0.42.87}}}
-  - {name: 🇩🇪 DE_262 | 5.74Mb, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: false}
-  - {name: 🇫🇷 FR_327 |27.33Mb, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}}
-  - {name: 🇫🇷 FR_328 |71.47Mb, server: 193.178.210.29, port: 443, type: trojan, password: iKR3Ft, skip-cert-verify: false}
-  - {name: 🇬🇧 GB_354 |51.65Mb, server: uk-manchester.eiw2eemo.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: uk-manchester.eiw2eemo.com}}}
-  - {name: 🇬🇧 GB_355 |52.17Mb, server: 146.70.46.68, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 146.70.46.68}}}
-  - {name: 🇬🇧 GB_357 |10.40Mb, server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: false}
-  - {name: 🇬🇧 GB_358 |66.78Mb, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, skip-cert-verify: false}
-  - {name: 🇬🇧 GB_360 |39.94Mb, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, skip-cert-verify: false}
-  - {name: 🇭🇰 HK_367 |10.43Mb, server: 119.28.92.125, port: 7654, type: vmess, uuid: 9481e525-557b-485d-8b64-ec14270974d2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: IN_383 |15.73Mb, server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 129.227.201.234}}}
-  - {name: IN_384 |16.04Mb, server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: aicoo6du.com}}}
-  - {name: 🇯🇵 JP_416 |19.68Mb, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, skip-cert-verify: false}
-  - {name: 🇳🇱 NL_619 | 8.16Mb, server: 41.216.177.41, port: 443, type: trojan, password: 274c1b23-2bfe-40ac-943c-ebc1aa044b22, skip-cert-verify: false}
-  - {name: 🇷🇺 RU_749 |37.15Mb, server: 422wkl.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 422wkl.fans8.xyz}}}
-  - {name: 🇸🇬 SG_844 |22.64Mb, server: 8.210.127.214, port: 443, type: vmess, uuid: 5b00bd34-a2a7-4471-8b17-3f4768ac0330, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_845 | 7.82Mb, server: eeh7iewe.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: eeh7iewe.com}}}
-  - {name: 🇸🇬 SG_846 |15.90Mb, server: ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: ycgyg.com}}}
-  - {name: 🇸🇬 SG_847 |16.13Mb, server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 202.61.141.130}}}
-  - {name: 🇸🇬 SG_848 |19.10Mb, server: zecjk.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: zecjk.com}}}
-  - {name: 🇸🇬 SG_849 |18.86Mb, server: 103.253.26.134, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 103.253.26.134}}}
-  - {name: 🇸🇬 SG_850 |19.04Mb, server: 103.253.26.20, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 103.253.26.20}}}
-  - {name: 🇸🇬 SG_851 | 6.24Mb, server: 81.90.188.59, port: 41657, type: vmess, uuid: 930a425e-2fc8-4930-8735-141f6b237755, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_853 |11.26Mb, server: trojan1.udpgw.com, port: 443, type: trojan, password: affae2e0-e84b-11ec-b09f-1239d0255272, skip-cert-verify: false}
-  - {name: 🇸🇬 SG_855 |19.30Mb, server: sg.sharecentrepro.tk, port: 443, type: trojan, password: sharecentre, skip-cert-verify: false}
-  - {name: 🇨🇳 TW_871 |20.58Mb, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 61.222.202.140}}}
-  - {name: 🇨🇳 TW_872 |16.63Mb, server: 61.222.202.140, port: 15789, type: vmess, uuid: 4535e708-5988-4377-a083-755ed60d8068, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: UA_883 |17.12Mb, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, skip-cert-verify: false}
-  - {name: UA_884 | 8.33Mb, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, skip-cert-verify: false}
-  - {name: UA_885 |14.82Mb, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, skip-cert-verify: false}
-  - {name: UA_887 | 8.25Mb, server: ce.rutracker-cn.com, port: 443, type: trojan, password: 5y8y3CwxRVYhyfSY, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1431 | 5.49Mb, server: 51.81.223.10, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1432 |37.61Mb, server: 51.81.223.0, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1436 |29.94Mb, server: 20.123.187.212, port: 27931, type: vmess, uuid: 256eae41-0b8f-4faa-bce8-6366011dc19f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1437 |38.51Mb, server: 51.81.223.31, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1438 |75.90Mb, server: 150.230.41.9, port: 23292, type: vmess, uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1440 |33.02Mb, server: 23.94.120.19, port: 28554, type: vmess, uuid: 4a4c96c5-7b8b-4612-c715-6b91a9c34d07, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1441 |33.01Mb, server: 138.2.15.23, port: 46370, type: vmess, uuid: 998151e5-0bc5-4377-e390-c41bb26fdd0c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1442 |45.21Mb, server: viibah6u.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: viibah6u.com}}}
-  - {name: 🇺🇸 US_1443 |51.27Mb, server: 51.81.223.17, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1444 |19.06Mb, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 104.166.135.10}}}
-  - {name: 🇺🇸 US_1445 |50.95Mb, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 45.35.84.162}}}
-  - {name: 🇺🇸 US_1446 |65.79Mb, server: us2.asasas.top, port: 18117, type: vmess, uuid: 80efa71b-a164-3057-bdfd-ed28521256fe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: us2.asasas.top}}}
-  - {name: 🇺🇸 US_1447 |19.29Mb, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 208.98.48.2}}}
-  - {name: 🇺🇸 US_1448 |10.60Mb, server: 51.81.223.32, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1449 |27.22Mb, server: 138.2.38.46, port: 25565, type: vmess, uuid: 49a1f87e-abf9-4180-8700-72fe502f3fae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1451 |33.45Mb, server: 173.82.226.27, port: 23662, type: vmess, uuid: efa2ab76-539d-4b6a-9572-24ba709fb81b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 173.82.226.27}}}
-  - {name: 🇺🇸 US_1452 |72.03Mb, server: 154.94.214.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 154.94.214.2}}}
-  - {name: 🇺🇸 US_1453 |41.94Mb, server: iesei1ei.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}}
-  - {name: 🇺🇸 US_1454 |46.88Mb, server: 154.94.218.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 154.94.218.130}}}
-  - {name: 🇺🇸 US_1455 |253.02Mb, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 192.96.204.250}}}
-  - {name: 🇺🇸 US_1456 |20.21Mb, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}}
-  - {name: 🇺🇸 US_1457 |53.98Mb, server: 34.215.130.186, port: 10089, type: vmess, uuid: 3608c9dc-1eeb-48b0-b570-43074b4a0c9e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 34.215.130.186}}}
-  - {name: 🇺🇸 US_1458 |80.11Mb, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}}
-  - {name: 🇺🇸 US_1459 |29.10Mb, server: 150.230.4.136, port: 11151, type: vmess, uuid: 18ef8b86-5dfe-48a9-b4e4-b5f595f7e555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1460 |55.39Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1470 |42.55Mb, server: tj-us01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1472 |51.71Mb, server: ss2.2046.gq, port: 4443, type: trojan, password: 794871c6-022b-4498-b816-296e8a581d86, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1473 |15.08Mb, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1474 |11.00Mb, server: tj-sg02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1479 | 9.11Mb, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1481 | 7.91Mb, server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1482 |49.09Mb, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1483 |89.94Mb, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1485 |88.98Mb, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1493 |64.55Mb, server: lsj02.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1498 | 9.14Mb, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1501 |56.63Mb, server: vs.2046.gq, port: 4443, type: trojan, password: 794871c6-022b-4498-b816-296e8a581d86, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1507 |53.87Mb, server: usfree2.jiantian.xyz, port: 32462, type: trojan, password: cb5e2135-4d64-4454-be98-5bae4f2618d1, skip-cert-verify: false}
-  - {name: 🇺🇸 US_1515 |37.93Mb, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: false}
+  - {name: _38 | 6.57Mb, server: t03.ssrsub.com, port: 8443, type: trojan, password: 8fefb1b5-bee7-4736-8e00-cad32ab113d1, sni: d76bb35696.wns.windows.com, skip-cert-verify: false}
+  - {name: _39 | 6.66Mb, server: t03.ssrsub.com, port: 8443, type: trojan, password: fb61d738-ef95-446d-9004-c93a1a975cad, sni: d76bb35696.wns.windows.com, skip-cert-verify: false}
+  - {name: 🇦🇺 AU_52 |22.05Mb, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: false}
+  - {name: CA_153 | 8.15Mb, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-buffalo.lvuft.com}}}
+  - {name: CA_154 |11.30Mb, server: bai-piao-wang-zhe.hk2.jackson2025.cf, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: bai-piao-wang-zhe.hk2.jackson2025.cf}}}
+  - {name: CA_155 |22.68Mb, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}}
+  - {name: CA_156 |22.38Mb, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1c08f35bdafe74a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}}
+  - {name: CA_157 |15.72Mb, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 192.186.129.66}}}
+  - {name: CZ_235 |15.69Mb, server: v2cross.com.02.v2ce.com, port: 443, type: trojan, password: 3gLlCYBipVwr6Y5F, skip-cert-verify: false}
+  - {name: CZ_236 | 7.55Mb, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, skip-cert-verify: false}
+  - {name: 🇩🇪 DE_282 |46.37Mb, server: 146.0.42.87, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 146.0.42.87}}}
+  - {name: 🇩🇪 DE_283 |43.25Mb, server: germany-dusseldorf.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: germany-dusseldorf.mah3Hoet.com}}}
+  - {name: 🇩🇪 DE_285 |23.09Mb, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: false}
+  - {name: 🇫🇷 FR_349 | 9.35Mb, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: ahdaeph8.com}}}
+  - {name: 🇬🇧 GB_353 |31.41Mb, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, skip-cert-verify: false}
+  - {name: 🇬🇧 GB_354 |42.22Mb, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: false}
+  - {name: 🇬🇧 GB_379 |52.86Mb, server: 146.70.46.68, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 146.70.46.68}}}
+  - {name: 🇬🇧 GB_380 |52.89Mb, server: uk-manchester.eiw2eemo.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: uk-manchester.eiw2eemo.com}}}
+  - {name: IN_403 |11.08Mb, server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 129.227.201.234}}}
+  - {name: IN_404 |21.44Mb, server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: aicoo6du.com}}}
+  - {name: 🇯🇵 JP_410 |15.63Mb, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, skip-cert-verify: false}
+  - {name: 🇯🇵 JP_428 | 5.32Mb, server: 185.202.103.202, port: 22148, type: vmess, uuid: 13c29b2a-3425-4425-9e73-a1ead7bf9728, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇳🇱 NL_642 |12.67Mb, server: 41.216.177.41, port: 443, type: trojan, password: 274c1b23-2bfe-40ac-943c-ebc1aa044b22, skip-cert-verify: false}
+  - {name: 🇷🇺 RU_683 |10.83Mb, server: ru.2046.gq, port: 4443, type: trojan, password: 794871c6-022b-4498-b816-296e8a581d86, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_754 |22.88Mb, server: sg.sharecentrepro.tk, port: 443, type: trojan, password: sharecentre, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_847 |22.90Mb, server: 103.253.26.134, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 103.253.26.134}}}
+  - {name: 🇸🇬 SG_848 |12.83Mb, server: 202.61.141.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 202.61.141.130}}}
+  - {name: 🇸🇬 SG_849 | 9.69Mb, server: ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: ycgyg.com}}}
+  - {name: 🇸🇬 SG_850 |22.78Mb, server: 103.253.26.20, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 103.253.26.20}}}
+  - {name: 🇸🇬 SG_851 |24.18Mb, server: 8.210.127.214, port: 443, type: vmess, uuid: 5b00bd34-a2a7-4471-8b17-3f4768ac0330, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 SG_853 |15.48Mb, server: eeh7iewe.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: eeh7iewe.com}}}
+  - {name: 🇸🇬 SG_854 |22.62Mb, server: zecjk.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: zecjk.com}}}
+  - {name: 🇸🇬 SG_859 |11.89Mb, server: trojan1.udpgw.com, port: 443, type: trojan, password: affae2e0-e84b-11ec-b09f-1239d0255272, skip-cert-verify: false}
+  - {name: 🇨🇳 TW_861 |11.13Mb, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 61.222.202.140}}}
+  - {name: 🇨🇳 TW_862 |23.97Mb, server: 61.222.202.140, port: 15789, type: vmess, uuid: 4535e708-5988-4377-a083-755ed60d8068, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 TW_864 | 7.69Mb, server: lc-hk01-direct01.lc-hk01.lc-node.com, port: 443, type: vmess, uuid: ec736482-173e-3eff-9114-b49df8056e7d, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: lc-hk01-direct01.lc-hk01.lc-node.com}}}
+  - {name: UA_875 | 7.42Mb, server: cz5.v2ce.com, port: 443, type: trojan, password: HTrovQkamDxNfaD5, skip-cert-verify: false}
+  - {name: UA_876 |35.98Mb, server: ce.rutracker-cn.com, port: 443, type: trojan, password: 5y8y3CwxRVYhyfSY, skip-cert-verify: false}
+  - {name: UA_877 |19.56Mb, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, skip-cert-verify: false}
+  - {name: UA_878 | 8.86Mb, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, skip-cert-verify: false}
+  - {name: UA_879 |17.65Mb, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, skip-cert-verify: false}
+  - {name: 🇺🇸 US_880 |94.21Mb, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: false}
+  - {name: 🇺🇸 US_881 |10.51Mb, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: false}
+  - {name: 🇺🇸 US_882 |32.71Mb, server: ss2.2046.gq, port: 4443, type: trojan, password: 794871c6-022b-4498-b816-296e8a581d86, skip-cert-verify: false}
+  - {name: 🇺🇸 US_883 |93.96Mb, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: false}
+  - {name: 🇺🇸 US_884 |62.74Mb, server: vs.2046.gq, port: 4443, type: trojan, password: 794871c6-022b-4498-b816-296e8a581d86, skip-cert-verify: false}
+  - {name: 🇺🇸 US_885 |15.74Mb, server: sgg.2046.gq, port: 4443, type: trojan, password: 794871c6-022b-4498-b816-296e8a581d86, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1428 |75.87Mb, server: 51.81.223.17, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1429 |16.04Mb, server: 104.166.135.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 104.166.135.10}}}
+  - {name: 🇺🇸 US_1430 | 7.44Mb, server: 51.81.223.32, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1431 |32.65Mb, server: 23.94.120.19, port: 28554, type: vmess, uuid: 4a4c96c5-7b8b-4612-c715-6b91a9c34d07, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1432 |46.47Mb, server: viibah6u.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: viibah6u.com}}}
+  - {name: 🇺🇸 US_1433 |44.88Mb, server: 20.123.187.212, port: 27931, type: vmess, uuid: 256eae41-0b8f-4faa-bce8-6366011dc19f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1434 |22.06Mb, server: us2.asasas.top, port: 18117, type: vmess, uuid: 80efa71b-a164-3057-bdfd-ed28521256fe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: us2.asasas.top}}}
+  - {name: 🇺🇸 US_1435 |56.74Mb, server: 51.81.223.0, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1436 |23.06Mb, server: 138.2.38.46, port: 25565, type: vmess, uuid: 49a1f87e-abf9-4180-8700-72fe502f3fae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1438 | 7.91Mb, server: 51.81.223.6, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1439 |29.35Mb, server: 34.215.130.186, port: 10089, type: vmess, uuid: 3608c9dc-1eeb-48b0-b570-43074b4a0c9e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 34.215.130.186}}}
+  - {name: 🇺🇸 US_1440 |78.81Mb, server: 154.94.214.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 154.94.214.2}}}
+  - {name: 🇺🇸 US_1441 |11.38Mb, server: iesei1ei.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}}
+  - {name: 🇺🇸 US_1442 |17.68Mb, server: 150.230.4.136, port: 11151, type: vmess, uuid: 18ef8b86-5dfe-48a9-b4e4-b5f595f7e555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1443 | 7.99Mb, server: 51.81.223.10, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1444 |27.74Mb, server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1445 |34.97Mb, server: 138.2.15.23, port: 46370, type: vmess, uuid: 998151e5-0bc5-4377-e390-c41bb26fdd0c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1446 |80.18Mb, server: 150.230.41.9, port: 23292, type: vmess, uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1447 |37.74Mb, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 208.98.48.2}}}
+  - {name: 🇺🇸 US_1449 |41.47Mb, server: 154.94.218.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 154.94.218.130}}}
+  - {name: 🇺🇸 US_1450 |139.62Mb, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}}
+  - {name: 🇺🇸 US_1451 |337.77Mb, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 192.96.204.250}}}
+  - {name: 🇺🇸 US_1452 |54.10Mb, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 45.35.84.162}}}
+  - {name: 🇺🇸 US_1453 |50.62Mb, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}}
+  - {name: 🇺🇸 US_1456 |75.90Mb, server: 51.81.223.31, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1458 |55.44Mb, server: 173.82.226.27, port: 23662, type: vmess, uuid: efa2ab76-539d-4b6a-9572-24ba709fb81b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 173.82.226.27}}}
+  - {name: 🇺🇸 US_1460 | 9.63Mb, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1461 |12.04Mb, server: tj-sg02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1462 |77.37Mb, server: tj-us01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1476 |50.28Mb, server: usfree1.jiantian.xyz, port: 23425, type: trojan, password: eecb88a3-d8c1-4fc3-bea0-8a4f13aa42be, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1504 |24.73Mb, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: false}
+  - {name: 🇺🇸 US_1505 |71.60Mb, server: lsj02.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: false}
 proxy-groups:
   - name: ✅ 节点选择
     type: select
@@ -241,308 +235,291 @@ proxy-groups:
     interval: 120
     tolerance: 5
     proxies:
-      - _23 | 6.58Mb
-      - _24 | 6.88Mb
-      - 🇦🇺 AU_99 |16.29Mb
-      - 🇦🇺 AU_100 |11.30Mb
-      - 🇦🇺 AU_101 |18.87Mb
-      - 🇦🇺 AU_102 |25.81Mb
-      - CA_134 |21.16Mb
-      - CA_135 |18.53Mb
-      - CA_136 |35.04Mb
-      - CA_137 |11.08Mb
-      - CA_138 |22.50Mb
-      - CA_139 |11.08Mb
-      - CZ_213 |10.29Mb
-      - CZ_214 | 5.93Mb
-      - 🇩🇪 DE_260 |44.67Mb
-      - 🇩🇪 DE_261 |42.03Mb
-      - 🇩🇪 DE_262 | 5.74Mb
-      - 🇫🇷 FR_327 |27.33Mb
-      - 🇫🇷 FR_328 |71.47Mb
-      - 🇬🇧 GB_354 |51.65Mb
-      - 🇬🇧 GB_355 |52.17Mb
-      - 🇬🇧 GB_357 |10.40Mb
-      - 🇬🇧 GB_358 |66.78Mb
-      - 🇬🇧 GB_360 |39.94Mb
-      - 🇭🇰 HK_367 |10.43Mb
-      - IN_383 |15.73Mb
-      - IN_384 |16.04Mb
-      - 🇯🇵 JP_416 |19.68Mb
-      - 🇳🇱 NL_619 | 8.16Mb
-      - 🇷🇺 RU_749 |37.15Mb
-      - 🇸🇬 SG_844 |22.64Mb
-      - 🇸🇬 SG_845 | 7.82Mb
-      - 🇸🇬 SG_846 |15.90Mb
-      - 🇸🇬 SG_847 |16.13Mb
-      - 🇸🇬 SG_848 |19.10Mb
-      - 🇸🇬 SG_849 |18.86Mb
-      - 🇸🇬 SG_850 |19.04Mb
-      - 🇸🇬 SG_851 | 6.24Mb
-      - 🇸🇬 SG_853 |11.26Mb
-      - 🇸🇬 SG_855 |19.30Mb
-      - 🇨🇳 TW_871 |20.58Mb
-      - 🇨🇳 TW_872 |16.63Mb
-      - UA_883 |17.12Mb
-      - UA_884 | 8.33Mb
-      - UA_885 |14.82Mb
-      - UA_887 | 8.25Mb
-      - 🇺🇸 US_1431 | 5.49Mb
-      - 🇺🇸 US_1432 |37.61Mb
-      - 🇺🇸 US_1436 |29.94Mb
-      - 🇺🇸 US_1437 |38.51Mb
-      - 🇺🇸 US_1438 |75.90Mb
-      - 🇺🇸 US_1440 |33.02Mb
-      - 🇺🇸 US_1441 |33.01Mb
-      - 🇺🇸 US_1442 |45.21Mb
-      - 🇺🇸 US_1443 |51.27Mb
-      - 🇺🇸 US_1444 |19.06Mb
-      - 🇺🇸 US_1445 |50.95Mb
-      - 🇺🇸 US_1446 |65.79Mb
-      - 🇺🇸 US_1447 |19.29Mb
-      - 🇺🇸 US_1448 |10.60Mb
-      - 🇺🇸 US_1449 |27.22Mb
-      - 🇺🇸 US_1451 |33.45Mb
-      - 🇺🇸 US_1452 |72.03Mb
-      - 🇺🇸 US_1453 |41.94Mb
-      - 🇺🇸 US_1454 |46.88Mb
-      - 🇺🇸 US_1455 |253.02Mb
-      - 🇺🇸 US_1456 |20.21Mb
-      - 🇺🇸 US_1457 |53.98Mb
-      - 🇺🇸 US_1458 |80.11Mb
-      - 🇺🇸 US_1459 |29.10Mb
-      - 🇺🇸 US_1460 |55.39Mb
-      - 🇺🇸 US_1470 |42.55Mb
-      - 🇺🇸 US_1472 |51.71Mb
-      - 🇺🇸 US_1473 |15.08Mb
-      - 🇺🇸 US_1474 |11.00Mb
-      - 🇺🇸 US_1479 | 9.11Mb
-      - 🇺🇸 US_1481 | 7.91Mb
-      - 🇺🇸 US_1482 |49.09Mb
-      - 🇺🇸 US_1483 |89.94Mb
-      - 🇺🇸 US_1485 |88.98Mb
-      - 🇺🇸 US_1493 |64.55Mb
-      - 🇺🇸 US_1498 | 9.14Mb
-      - 🇺🇸 US_1501 |56.63Mb
-      - 🇺🇸 US_1507 |53.87Mb
-      - 🇺🇸 US_1515 |37.93Mb
+      - _38 | 6.57Mb
+      - _39 | 6.66Mb
+      - 🇦🇺 AU_52 |22.05Mb
+      - CA_153 | 8.15Mb
+      - CA_154 |11.30Mb
+      - CA_155 |22.68Mb
+      - CA_156 |22.38Mb
+      - CA_157 |15.72Mb
+      - CZ_235 |15.69Mb
+      - CZ_236 | 7.55Mb
+      - 🇩🇪 DE_282 |46.37Mb
+      - 🇩🇪 DE_283 |43.25Mb
+      - 🇩🇪 DE_285 |23.09Mb
+      - 🇫🇷 FR_349 | 9.35Mb
+      - 🇬🇧 GB_353 |31.41Mb
+      - 🇬🇧 GB_354 |42.22Mb
+      - 🇬🇧 GB_379 |52.86Mb
+      - 🇬🇧 GB_380 |52.89Mb
+      - IN_403 |11.08Mb
+      - IN_404 |21.44Mb
+      - 🇯🇵 JP_410 |15.63Mb
+      - 🇯🇵 JP_428 | 5.32Mb
+      - 🇳🇱 NL_642 |12.67Mb
+      - 🇷🇺 RU_683 |10.83Mb
+      - 🇸🇬 SG_754 |22.88Mb
+      - 🇸🇬 SG_847 |22.90Mb
+      - 🇸🇬 SG_848 |12.83Mb
+      - 🇸🇬 SG_849 | 9.69Mb
+      - 🇸🇬 SG_850 |22.78Mb
+      - 🇸🇬 SG_851 |24.18Mb
+      - 🇸🇬 SG_853 |15.48Mb
+      - 🇸🇬 SG_854 |22.62Mb
+      - 🇸🇬 SG_859 |11.89Mb
+      - 🇨🇳 TW_861 |11.13Mb
+      - 🇨🇳 TW_862 |23.97Mb
+      - 🇨🇳 TW_864 | 7.69Mb
+      - UA_875 | 7.42Mb
+      - UA_876 |35.98Mb
+      - UA_877 |19.56Mb
+      - UA_878 | 8.86Mb
+      - UA_879 |17.65Mb
+      - 🇺🇸 US_880 |94.21Mb
+      - 🇺🇸 US_881 |10.51Mb
+      - 🇺🇸 US_882 |32.71Mb
+      - 🇺🇸 US_883 |93.96Mb
+      - 🇺🇸 US_884 |62.74Mb
+      - 🇺🇸 US_885 |15.74Mb
+      - 🇺🇸 US_1428 |75.87Mb
+      - 🇺🇸 US_1429 |16.04Mb
+      - 🇺🇸 US_1430 | 7.44Mb
+      - 🇺🇸 US_1431 |32.65Mb
+      - 🇺🇸 US_1432 |46.47Mb
+      - 🇺🇸 US_1433 |44.88Mb
+      - 🇺🇸 US_1434 |22.06Mb
+      - 🇺🇸 US_1435 |56.74Mb
+      - 🇺🇸 US_1436 |23.06Mb
+      - 🇺🇸 US_1438 | 7.91Mb
+      - 🇺🇸 US_1439 |29.35Mb
+      - 🇺🇸 US_1440 |78.81Mb
+      - 🇺🇸 US_1441 |11.38Mb
+      - 🇺🇸 US_1442 |17.68Mb
+      - 🇺🇸 US_1443 | 7.99Mb
+      - 🇺🇸 US_1444 |27.74Mb
+      - 🇺🇸 US_1445 |34.97Mb
+      - 🇺🇸 US_1446 |80.18Mb
+      - 🇺🇸 US_1447 |37.74Mb
+      - 🇺🇸 US_1449 |41.47Mb
+      - 🇺🇸 US_1450 |139.62Mb
+      - 🇺🇸 US_1451 |337.77Mb
+      - 🇺🇸 US_1452 |54.10Mb
+      - 🇺🇸 US_1453 |50.62Mb
+      - 🇺🇸 US_1456 |75.90Mb
+      - 🇺🇸 US_1458 |55.44Mb
+      - 🇺🇸 US_1460 | 9.63Mb
+      - 🇺🇸 US_1461 |12.04Mb
+      - 🇺🇸 US_1462 |77.37Mb
+      - 🇺🇸 US_1476 |50.28Mb
+      - 🇺🇸 US_1504 |24.73Mb
+      - 🇺🇸 US_1505 |71.60Mb
   - name: 🌐 手动切换
     type: select
     proxies:
-      - _23 | 6.58Mb
-      - _24 | 6.88Mb
-      - 🇦🇺 AU_99 |16.29Mb
-      - 🇦🇺 AU_100 |11.30Mb
-      - 🇦🇺 AU_101 |18.87Mb
-      - 🇦🇺 AU_102 |25.81Mb
-      - CA_134 |21.16Mb
-      - CA_135 |18.53Mb
-      - CA_136 |35.04Mb
-      - CA_137 |11.08Mb
-      - CA_138 |22.50Mb
-      - CA_139 |11.08Mb
-      - CZ_213 |10.29Mb
-      - CZ_214 | 5.93Mb
-      - 🇩🇪 DE_260 |44.67Mb
-      - 🇩🇪 DE_261 |42.03Mb
-      - 🇩🇪 DE_262 | 5.74Mb
-      - 🇫🇷 FR_327 |27.33Mb
-      - 🇫🇷 FR_328 |71.47Mb
-      - 🇬🇧 GB_354 |51.65Mb
-      - 🇬🇧 GB_355 |52.17Mb
-      - 🇬🇧 GB_357 |10.40Mb
-      - 🇬🇧 GB_358 |66.78Mb
-      - 🇬🇧 GB_360 |39.94Mb
-      - 🇭🇰 HK_367 |10.43Mb
-      - IN_383 |15.73Mb
-      - IN_384 |16.04Mb
-      - 🇯🇵 JP_416 |19.68Mb
-      - 🇳🇱 NL_619 | 8.16Mb
-      - 🇷🇺 RU_749 |37.15Mb
-      - 🇸🇬 SG_844 |22.64Mb
-      - 🇸🇬 SG_845 | 7.82Mb
-      - 🇸🇬 SG_846 |15.90Mb
-      - 🇸🇬 SG_847 |16.13Mb
-      - 🇸🇬 SG_848 |19.10Mb
-      - 🇸🇬 SG_849 |18.86Mb
-      - 🇸🇬 SG_850 |19.04Mb
-      - 🇸🇬 SG_851 | 6.24Mb
-      - 🇸🇬 SG_853 |11.26Mb
-      - 🇸🇬 SG_855 |19.30Mb
-      - 🇨🇳 TW_871 |20.58Mb
-      - 🇨🇳 TW_872 |16.63Mb
-      - UA_883 |17.12Mb
-      - UA_884 | 8.33Mb
-      - UA_885 |14.82Mb
-      - UA_887 | 8.25Mb
-      - 🇺🇸 US_1431 | 5.49Mb
-      - 🇺🇸 US_1432 |37.61Mb
-      - 🇺🇸 US_1436 |29.94Mb
-      - 🇺🇸 US_1437 |38.51Mb
-      - 🇺🇸 US_1438 |75.90Mb
-      - 🇺🇸 US_1440 |33.02Mb
-      - 🇺🇸 US_1441 |33.01Mb
-      - 🇺🇸 US_1442 |45.21Mb
-      - 🇺🇸 US_1443 |51.27Mb
-      - 🇺🇸 US_1444 |19.06Mb
-      - 🇺🇸 US_1445 |50.95Mb
-      - 🇺🇸 US_1446 |65.79Mb
-      - 🇺🇸 US_1447 |19.29Mb
-      - 🇺🇸 US_1448 |10.60Mb
-      - 🇺🇸 US_1449 |27.22Mb
-      - 🇺🇸 US_1451 |33.45Mb
-      - 🇺🇸 US_1452 |72.03Mb
-      - 🇺🇸 US_1453 |41.94Mb
-      - 🇺🇸 US_1454 |46.88Mb
-      - 🇺🇸 US_1455 |253.02Mb
-      - 🇺🇸 US_1456 |20.21Mb
-      - 🇺🇸 US_1457 |53.98Mb
-      - 🇺🇸 US_1458 |80.11Mb
-      - 🇺🇸 US_1459 |29.10Mb
-      - 🇺🇸 US_1460 |55.39Mb
-      - 🇺🇸 US_1470 |42.55Mb
-      - 🇺🇸 US_1472 |51.71Mb
-      - 🇺🇸 US_1473 |15.08Mb
-      - 🇺🇸 US_1474 |11.00Mb
-      - 🇺🇸 US_1479 | 9.11Mb
-      - 🇺🇸 US_1481 | 7.91Mb
-      - 🇺🇸 US_1482 |49.09Mb
-      - 🇺🇸 US_1483 |89.94Mb
-      - 🇺🇸 US_1485 |88.98Mb
-      - 🇺🇸 US_1493 |64.55Mb
-      - 🇺🇸 US_1498 | 9.14Mb
-      - 🇺🇸 US_1501 |56.63Mb
-      - 🇺🇸 US_1507 |53.87Mb
-      - 🇺🇸 US_1515 |37.93Mb
+      - _38 | 6.57Mb
+      - _39 | 6.66Mb
+      - 🇦🇺 AU_52 |22.05Mb
+      - CA_153 | 8.15Mb
+      - CA_154 |11.30Mb
+      - CA_155 |22.68Mb
+      - CA_156 |22.38Mb
+      - CA_157 |15.72Mb
+      - CZ_235 |15.69Mb
+      - CZ_236 | 7.55Mb
+      - 🇩🇪 DE_282 |46.37Mb
+      - 🇩🇪 DE_283 |43.25Mb
+      - 🇩🇪 DE_285 |23.09Mb
+      - 🇫🇷 FR_349 | 9.35Mb
+      - 🇬🇧 GB_353 |31.41Mb
+      - 🇬🇧 GB_354 |42.22Mb
+      - 🇬🇧 GB_379 |52.86Mb
+      - 🇬🇧 GB_380 |52.89Mb
+      - IN_403 |11.08Mb
+      - IN_404 |21.44Mb
+      - 🇯🇵 JP_410 |15.63Mb
+      - 🇯🇵 JP_428 | 5.32Mb
+      - 🇳🇱 NL_642 |12.67Mb
+      - 🇷🇺 RU_683 |10.83Mb
+      - 🇸🇬 SG_754 |22.88Mb
+      - 🇸🇬 SG_847 |22.90Mb
+      - 🇸🇬 SG_848 |12.83Mb
+      - 🇸🇬 SG_849 | 9.69Mb
+      - 🇸🇬 SG_850 |22.78Mb
+      - 🇸🇬 SG_851 |24.18Mb
+      - 🇸🇬 SG_853 |15.48Mb
+      - 🇸🇬 SG_854 |22.62Mb
+      - 🇸🇬 SG_859 |11.89Mb
+      - 🇨🇳 TW_861 |11.13Mb
+      - 🇨🇳 TW_862 |23.97Mb
+      - 🇨🇳 TW_864 | 7.69Mb
+      - UA_875 | 7.42Mb
+      - UA_876 |35.98Mb
+      - UA_877 |19.56Mb
+      - UA_878 | 8.86Mb
+      - UA_879 |17.65Mb
+      - 🇺🇸 US_880 |94.21Mb
+      - 🇺🇸 US_881 |10.51Mb
+      - 🇺🇸 US_882 |32.71Mb
+      - 🇺🇸 US_883 |93.96Mb
+      - 🇺🇸 US_884 |62.74Mb
+      - 🇺🇸 US_885 |15.74Mb
+      - 🇺🇸 US_1428 |75.87Mb
+      - 🇺🇸 US_1429 |16.04Mb
+      - 🇺🇸 US_1430 | 7.44Mb
+      - 🇺🇸 US_1431 |32.65Mb
+      - 🇺🇸 US_1432 |46.47Mb
+      - 🇺🇸 US_1433 |44.88Mb
+      - 🇺🇸 US_1434 |22.06Mb
+      - 🇺🇸 US_1435 |56.74Mb
+      - 🇺🇸 US_1436 |23.06Mb
+      - 🇺🇸 US_1438 | 7.91Mb
+      - 🇺🇸 US_1439 |29.35Mb
+      - 🇺🇸 US_1440 |78.81Mb
+      - 🇺🇸 US_1441 |11.38Mb
+      - 🇺🇸 US_1442 |17.68Mb
+      - 🇺🇸 US_1443 | 7.99Mb
+      - 🇺🇸 US_1444 |27.74Mb
+      - 🇺🇸 US_1445 |34.97Mb
+      - 🇺🇸 US_1446 |80.18Mb
+      - 🇺🇸 US_1447 |37.74Mb
+      - 🇺🇸 US_1449 |41.47Mb
+      - 🇺🇸 US_1450 |139.62Mb
+      - 🇺🇸 US_1451 |337.77Mb
+      - 🇺🇸 US_1452 |54.10Mb
+      - 🇺🇸 US_1453 |50.62Mb
+      - 🇺🇸 US_1456 |75.90Mb
+      - 🇺🇸 US_1458 |55.44Mb
+      - 🇺🇸 US_1460 | 9.63Mb
+      - 🇺🇸 US_1461 |12.04Mb
+      - 🇺🇸 US_1462 |77.37Mb
+      - 🇺🇸 US_1476 |50.28Mb
+      - 🇺🇸 US_1504 |24.73Mb
+      - 🇺🇸 US_1505 |71.60Mb
   - name: 🇭🇰 港澳节点
     type: url-test
     url: http://edge.microsoft.com/captiveportal/generate_204
     interval: 300
     tolerance: 5
     proxies:
-      - 🇭🇰 HK_367 |10.43Mb
+      - DIRECT
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://edge.microsoft.com/captiveportal/generate_204
     interval: 300
     tolerance: 5
     proxies:
-      - 🇯🇵 JP_416 |19.68Mb
+      - 🇯🇵 JP_410 |15.63Mb
+      - 🇯🇵 JP_428 | 5.32Mb
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://edge.microsoft.com/captiveportal/generate_204
     interval: 300
     tolerance: 5
     proxies:
-      - _23 | 6.58Mb
-      - _24 | 6.88Mb
-      - 🇦🇺 AU_99 |16.29Mb
-      - 🇦🇺 AU_100 |11.30Mb
-      - 🇦🇺 AU_101 |18.87Mb
-      - 🇦🇺 AU_102 |25.81Mb
-      - CA_134 |21.16Mb
-      - CA_135 |18.53Mb
-      - CA_136 |35.04Mb
-      - CA_137 |11.08Mb
-      - CA_138 |22.50Mb
-      - CA_139 |11.08Mb
-      - CZ_213 |10.29Mb
-      - CZ_214 | 5.93Mb
-      - 🇩🇪 DE_260 |44.67Mb
-      - 🇩🇪 DE_261 |42.03Mb
-      - 🇩🇪 DE_262 | 5.74Mb
-      - 🇫🇷 FR_327 |27.33Mb
-      - 🇫🇷 FR_328 |71.47Mb
-      - 🇬🇧 GB_354 |51.65Mb
-      - 🇬🇧 GB_355 |52.17Mb
-      - 🇬🇧 GB_357 |10.40Mb
-      - 🇬🇧 GB_358 |66.78Mb
-      - 🇬🇧 GB_360 |39.94Mb
-      - 🇭🇰 HK_367 |10.43Mb
-      - IN_383 |15.73Mb
-      - IN_384 |16.04Mb
-      - 🇯🇵 JP_416 |19.68Mb
-      - 🇳🇱 NL_619 | 8.16Mb
-      - 🇷🇺 RU_749 |37.15Mb
-      - 🇸🇬 SG_844 |22.64Mb
-      - 🇸🇬 SG_845 | 7.82Mb
-      - 🇸🇬 SG_846 |15.90Mb
-      - 🇸🇬 SG_847 |16.13Mb
-      - 🇸🇬 SG_848 |19.10Mb
-      - 🇸🇬 SG_849 |18.86Mb
-      - 🇸🇬 SG_850 |19.04Mb
-      - 🇸🇬 SG_851 | 6.24Mb
-      - 🇸🇬 SG_853 |11.26Mb
-      - 🇸🇬 SG_855 |19.30Mb
-      - 🇨🇳 TW_871 |20.58Mb
-      - 🇨🇳 TW_872 |16.63Mb
-      - UA_883 |17.12Mb
-      - UA_884 | 8.33Mb
-      - UA_885 |14.82Mb
-      - UA_887 | 8.25Mb
-      - 🇺🇸 US_1431 | 5.49Mb
-      - 🇺🇸 US_1432 |37.61Mb
-      - 🇺🇸 US_1436 |29.94Mb
-      - 🇺🇸 US_1437 |38.51Mb
-      - 🇺🇸 US_1438 |75.90Mb
-      - 🇺🇸 US_1440 |33.02Mb
-      - 🇺🇸 US_1441 |33.01Mb
-      - 🇺🇸 US_1442 |45.21Mb
-      - 🇺🇸 US_1443 |51.27Mb
-      - 🇺🇸 US_1444 |19.06Mb
-      - 🇺🇸 US_1445 |50.95Mb
-      - 🇺🇸 US_1446 |65.79Mb
-      - 🇺🇸 US_1447 |19.29Mb
-      - 🇺🇸 US_1448 |10.60Mb
-      - 🇺🇸 US_1449 |27.22Mb
-      - 🇺🇸 US_1451 |33.45Mb
-      - 🇺🇸 US_1452 |72.03Mb
-      - 🇺🇸 US_1453 |41.94Mb
-      - 🇺🇸 US_1454 |46.88Mb
-      - 🇺🇸 US_1455 |253.02Mb
-      - 🇺🇸 US_1456 |20.21Mb
-      - 🇺🇸 US_1457 |53.98Mb
-      - 🇺🇸 US_1458 |80.11Mb
-      - 🇺🇸 US_1459 |29.10Mb
-      - 🇺🇸 US_1460 |55.39Mb
-      - 🇺🇸 US_1470 |42.55Mb
-      - 🇺🇸 US_1472 |51.71Mb
-      - 🇺🇸 US_1473 |15.08Mb
-      - 🇺🇸 US_1474 |11.00Mb
-      - 🇺🇸 US_1479 | 9.11Mb
-      - 🇺🇸 US_1481 | 7.91Mb
-      - 🇺🇸 US_1482 |49.09Mb
-      - 🇺🇸 US_1483 |89.94Mb
-      - 🇺🇸 US_1485 |88.98Mb
-      - 🇺🇸 US_1493 |64.55Mb
-      - 🇺🇸 US_1498 | 9.14Mb
-      - 🇺🇸 US_1501 |56.63Mb
-      - 🇺🇸 US_1507 |53.87Mb
-      - 🇺🇸 US_1515 |37.93Mb
+      - _38 | 6.57Mb
+      - _39 | 6.66Mb
+      - 🇦🇺 AU_52 |22.05Mb
+      - CA_153 | 8.15Mb
+      - CA_154 |11.30Mb
+      - CA_155 |22.68Mb
+      - CA_156 |22.38Mb
+      - CA_157 |15.72Mb
+      - CZ_235 |15.69Mb
+      - CZ_236 | 7.55Mb
+      - 🇩🇪 DE_282 |46.37Mb
+      - 🇩🇪 DE_283 |43.25Mb
+      - 🇩🇪 DE_285 |23.09Mb
+      - 🇫🇷 FR_349 | 9.35Mb
+      - 🇬🇧 GB_353 |31.41Mb
+      - 🇬🇧 GB_354 |42.22Mb
+      - 🇬🇧 GB_379 |52.86Mb
+      - 🇬🇧 GB_380 |52.89Mb
+      - IN_403 |11.08Mb
+      - IN_404 |21.44Mb
+      - 🇯🇵 JP_410 |15.63Mb
+      - 🇯🇵 JP_428 | 5.32Mb
+      - 🇳🇱 NL_642 |12.67Mb
+      - 🇷🇺 RU_683 |10.83Mb
+      - 🇸🇬 SG_754 |22.88Mb
+      - 🇸🇬 SG_847 |22.90Mb
+      - 🇸🇬 SG_848 |12.83Mb
+      - 🇸🇬 SG_849 | 9.69Mb
+      - 🇸🇬 SG_850 |22.78Mb
+      - 🇸🇬 SG_851 |24.18Mb
+      - 🇸🇬 SG_853 |15.48Mb
+      - 🇸🇬 SG_854 |22.62Mb
+      - 🇸🇬 SG_859 |11.89Mb
+      - 🇨🇳 TW_861 |11.13Mb
+      - 🇨🇳 TW_862 |23.97Mb
+      - 🇨🇳 TW_864 | 7.69Mb
+      - UA_875 | 7.42Mb
+      - UA_876 |35.98Mb
+      - UA_877 |19.56Mb
+      - UA_878 | 8.86Mb
+      - UA_879 |17.65Mb
+      - 🇺🇸 US_880 |94.21Mb
+      - 🇺🇸 US_881 |10.51Mb
+      - 🇺🇸 US_882 |32.71Mb
+      - 🇺🇸 US_883 |93.96Mb
+      - 🇺🇸 US_884 |62.74Mb
+      - 🇺🇸 US_885 |15.74Mb
+      - 🇺🇸 US_1428 |75.87Mb
+      - 🇺🇸 US_1429 |16.04Mb
+      - 🇺🇸 US_1430 | 7.44Mb
+      - 🇺🇸 US_1431 |32.65Mb
+      - 🇺🇸 US_1432 |46.47Mb
+      - 🇺🇸 US_1433 |44.88Mb
+      - 🇺🇸 US_1434 |22.06Mb
+      - 🇺🇸 US_1435 |56.74Mb
+      - 🇺🇸 US_1436 |23.06Mb
+      - 🇺🇸 US_1438 | 7.91Mb
+      - 🇺🇸 US_1439 |29.35Mb
+      - 🇺🇸 US_1440 |78.81Mb
+      - 🇺🇸 US_1441 |11.38Mb
+      - 🇺🇸 US_1442 |17.68Mb
+      - 🇺🇸 US_1443 | 7.99Mb
+      - 🇺🇸 US_1444 |27.74Mb
+      - 🇺🇸 US_1445 |34.97Mb
+      - 🇺🇸 US_1446 |80.18Mb
+      - 🇺🇸 US_1447 |37.74Mb
+      - 🇺🇸 US_1449 |41.47Mb
+      - 🇺🇸 US_1450 |139.62Mb
+      - 🇺🇸 US_1451 |337.77Mb
+      - 🇺🇸 US_1452 |54.10Mb
+      - 🇺🇸 US_1453 |50.62Mb
+      - 🇺🇸 US_1456 |75.90Mb
+      - 🇺🇸 US_1458 |55.44Mb
+      - 🇺🇸 US_1460 | 9.63Mb
+      - 🇺🇸 US_1461 |12.04Mb
+      - 🇺🇸 US_1462 |77.37Mb
+      - 🇺🇸 US_1476 |50.28Mb
+      - 🇺🇸 US_1504 |24.73Mb
+      - 🇺🇸 US_1505 |71.60Mb
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://edge.microsoft.com/captiveportal/generate_204
     interval: 300
     tolerance: 5
     proxies:
-      - 🇨🇳 TW_871 |20.58Mb
-      - 🇨🇳 TW_872 |16.63Mb
+      - 🇨🇳 TW_861 |11.13Mb
+      - 🇨🇳 TW_862 |23.97Mb
+      - 🇨🇳 TW_864 | 7.69Mb
   - name: 🇸🇬 狮城节点
     type: url-test
     url: http://edge.microsoft.com/captiveportal/generate_204
     interval: 300
     tolerance: 5
     proxies:
-      - 🇸🇬 SG_844 |22.64Mb
-      - 🇸🇬 SG_845 | 7.82Mb
-      - 🇸🇬 SG_846 |15.90Mb
-      - 🇸🇬 SG_847 |16.13Mb
-      - 🇸🇬 SG_848 |19.10Mb
-      - 🇸🇬 SG_849 |18.86Mb
-      - 🇸🇬 SG_850 |19.04Mb
-      - 🇸🇬 SG_851 | 6.24Mb
-      - 🇸🇬 SG_853 |11.26Mb
-      - 🇸🇬 SG_855 |19.30Mb
+      - 🇸🇬 SG_754 |22.88Mb
+      - 🇸🇬 SG_847 |22.90Mb
+      - 🇸🇬 SG_848 |12.83Mb
+      - 🇸🇬 SG_849 | 9.69Mb
+      - 🇸🇬 SG_850 |22.78Mb
+      - 🇸🇬 SG_851 |24.18Mb
+      - 🇸🇬 SG_853 |15.48Mb
+      - 🇸🇬 SG_854 |22.62Mb
+      - 🇸🇬 SG_859 |11.89Mb
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://edge.microsoft.com/captiveportal/generate_204
@@ -550,54 +527,60 @@ proxy-groups:
     tolerance: 5
     proxies:
       - DIRECT
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - ✅ 节点选择
+      - 🧐 智能推荐
 rules:
- - DOMAIN-SUFFIX,acl4.ssr,DIRECT
- - DOMAIN-SUFFIX,ip6-localhost,DIRECT
- - DOMAIN-SUFFIX,ip6-loopback,DIRECT
- - DOMAIN-SUFFIX,local,DIRECT
- - DOMAIN-SUFFIX,localhost,DIRECT
- - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
- - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
- - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
- - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
- - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
- - IP-CIDR,198.18.0.0/16,DIRECT,no-resolve
- - IP-CIDR6,::1/128,DIRECT,no-resolve
- - IP-CIDR6,fc00::/7,DIRECT,no-resolve
- - IP-CIDR6,fe80::/10,DIRECT,no-resolve
- - IP-CIDR6,fd00::/8,DIRECT,no-resolve
- - DOMAIN,instant.arubanetworks.com,DIRECT
- - DOMAIN,setmeup.arubanetworks.com,DIRECT
- - DOMAIN,router.asus.com,DIRECT
- - DOMAIN-SUFFIX,hiwifi.com,DIRECT
- - DOMAIN-SUFFIX,leike.cc,DIRECT
- - DOMAIN-SUFFIX,miwifi.com,DIRECT
- - DOMAIN-SUFFIX,my.router,DIRECT
- - DOMAIN-SUFFIX,p.to,DIRECT
- - DOMAIN-SUFFIX,peiluyou.com,DIRECT
- - DOMAIN-SUFFIX,phicomm.me,DIRECT
- - DOMAIN-SUFFIX,router.ctc,DIRECT
- - DOMAIN-SUFFIX,routerlogin.com,DIRECT
- - DOMAIN-SUFFIX,tendawifi.com,DIRECT
- - DOMAIN-SUFFIX,zte.home,DIRECT
- - DOMAIN-SUFFIX,ol.epicgames.com,DIRECT
- - DOMAIN-SUFFIX,dizhensubao.getui.com,DIRECT
- - DOMAIN,dl.google.com,DIRECT
- - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
- - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,DIRECT
- - DOMAIN,origin-a.akamaihd.net,DIRECT
- - DOMAIN,xivanalysis.com,DIRECT
- - DOMAIN,picanalysis.vivo.com.cn,DIRECT
- - DOMAIN,fairplay.l.qq.com,DIRECT
- - DOMAIN,livew.l.qq.com,DIRECT
- - DOMAIN,vd.l.qq.com,DIRECT
- - DOMAIN,analytics.strava.com,DIRECT
- - DOMAIN,errlog.umeng.com,DIRECT
- - DOMAIN,msg.umeng.com,DIRECT
- - DOMAIN,msg.umengcloud.com,DIRECT
- - DOMAIN,tracking.miui.com,DIRECT
- - DOMAIN,app.adjust.com,DIRECT
- - DOMAIN,bdtj.tagtic.cn,DIRECT
+ - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
+ - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
+ - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
+ - DOMAIN-SUFFIX,local,🎯 全球直连
+ - DOMAIN-SUFFIX,localhost,🎯 全球直连
+ - IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve
+ - IP-CIDR,100.64.0.0/10,🎯 全球直连,no-resolve
+ - IP-CIDR,127.0.0.0/8,🎯 全球直连,no-resolve
+ - IP-CIDR,172.16.0.0/12,🎯 全球直连,no-resolve
+ - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,198.18.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR6,::1/128,🎯 全球直连,no-resolve
+ - IP-CIDR6,fc00::/7,🎯 全球直连,no-resolve
+ - IP-CIDR6,fe80::/10,🎯 全球直连,no-resolve
+ - IP-CIDR6,fd00::/8,🎯 全球直连,no-resolve
+ - DOMAIN,instant.arubanetworks.com,🎯 全球直连
+ - DOMAIN,setmeup.arubanetworks.com,🎯 全球直连
+ - DOMAIN,router.asus.com,🎯 全球直连
+ - DOMAIN-SUFFIX,hiwifi.com,🎯 全球直连
+ - DOMAIN-SUFFIX,leike.cc,🎯 全球直连
+ - DOMAIN-SUFFIX,miwifi.com,🎯 全球直连
+ - DOMAIN-SUFFIX,my.router,🎯 全球直连
+ - DOMAIN-SUFFIX,p.to,🎯 全球直连
+ - DOMAIN-SUFFIX,peiluyou.com,🎯 全球直连
+ - DOMAIN-SUFFIX,phicomm.me,🎯 全球直连
+ - DOMAIN-SUFFIX,router.ctc,🎯 全球直连
+ - DOMAIN-SUFFIX,routerlogin.com,🎯 全球直连
+ - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
+ - DOMAIN-SUFFIX,zte.home,🎯 全球直连
+ - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
+ - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
+ - DOMAIN,dl.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
+ - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯 全球直连
+ - DOMAIN,origin-a.akamaihd.net,🎯 全球直连
+ - DOMAIN,xivanalysis.com,🎯 全球直连
+ - DOMAIN,picanalysis.vivo.com.cn,🎯 全球直连
+ - DOMAIN,fairplay.l.qq.com,🎯 全球直连
+ - DOMAIN,livew.l.qq.com,🎯 全球直连
+ - DOMAIN,vd.l.qq.com,🎯 全球直连
+ - DOMAIN,analytics.strava.com,🎯 全球直连
+ - DOMAIN,errlog.umeng.com,🎯 全球直连
+ - DOMAIN,msg.umeng.com,🎯 全球直连
+ - DOMAIN,msg.umengcloud.com,🎯 全球直连
+ - DOMAIN,tracking.miui.com,🎯 全球直连
+ - DOMAIN,app.adjust.com,🎯 全球直连
+ - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
  - DOMAIN,alt1-mtalk.google.com,✅ 节点选择
  - DOMAIN,alt2-mtalk.google.com,✅ 节点选择
  - DOMAIN,alt3-mtalk.google.com,✅ 节点选择
@@ -955,18 +938,18 @@ rules:
  - IP-CIDR,192.35.50.0/24,✅ 节点选择,no-resolve
  - IP-CIDR,198.183.17.0/24,✅ 节点选择,no-resolve
  - IP-CIDR,205.180.175.0/24,✅ 节点选择,no-resolve
- - DOMAIN-SUFFIX,cn,DIRECT
- - DOMAIN-SUFFIX,speedtest.net,DIRECT
- - DOMAIN-SUFFIX,139.com,DIRECT
- - DOMAIN-SUFFIX,chinamobile.com,DIRECT
- - DOMAIN-SUFFIX,paypal.com,DIRECT
- - DOMAIN-KEYWORD,announce,DIRECT
- - DOMAIN-KEYWORD,torrent,DIRECT
- - DOMAIN-KEYWORD,tracker,DIRECT
- - DOMAIN-SUFFIX,oray.com,DIRECT
- - DOMAIN-SUFFIX,oray.net,DIRECT
- - DOMAIN-SUFFIX,orayimg.com,DIRECT
- - DOMAIN-SUFFIX,cibntv.net,DIRECT
+ - DOMAIN-SUFFIX,cn,🎯 全球直连
+ - DOMAIN-SUFFIX,speedtest.net,🎯 全球直连
+ - DOMAIN-SUFFIX,139.com,🎯 全球直连
+ - DOMAIN-SUFFIX,chinamobile.com,🎯 全球直连
+ - DOMAIN-SUFFIX,paypal.com,🎯 全球直连
+ - DOMAIN-KEYWORD,announce,🎯 全球直连
+ - DOMAIN-KEYWORD,torrent,🎯 全球直连
+ - DOMAIN-KEYWORD,tracker,🎯 全球直连
+ - DOMAIN-SUFFIX,oray.com,🎯 全球直连
+ - DOMAIN-SUFFIX,oray.net,🎯 全球直连
+ - DOMAIN-SUFFIX,orayimg.com,🎯 全球直连
+ - DOMAIN-SUFFIX,cibntv.net,🎯 全球直连
  - DOMAIN-SUFFIX,hk,🇭🇰 港澳节点
  - DOMAIN-SUFFIX,tw,🇨🇳 台湾节点
  - DOMAIN-SUFFIX,hinet.net,🇨🇳 台湾节点
@@ -1391,881 +1374,881 @@ rules:
  - DOMAIN-SUFFIX,icntv.xyz,✅ 节点选择
  - DOMAIN-SUFFIX,flzbcdn.xyz,✅ 节点选择
  - DOMAIN-SUFFIX,ocnttv.com,✅ 节点选择
- - DOMAIN-SUFFIX,265.com,DIRECT
- - DOMAIN-SUFFIX,2mdn.net,DIRECT
- - DOMAIN-SUFFIX,alt1-mtalk.google.com,DIRECT
- - DOMAIN-SUFFIX,alt2-mtalk.google.com,DIRECT
- - DOMAIN-SUFFIX,alt3-mtalk.google.com,DIRECT
- - DOMAIN-SUFFIX,alt4-mtalk.google.com,DIRECT
- - DOMAIN-SUFFIX,alt5-mtalk.google.com,DIRECT
- - DOMAIN-SUFFIX,alt6-mtalk.google.com,DIRECT
- - DOMAIN-SUFFIX,alt7-mtalk.google.com,DIRECT
- - DOMAIN-SUFFIX,alt8-mtalk.google.com,DIRECT
- - DOMAIN-SUFFIX,app-measurement.com,DIRECT
- - DOMAIN-SUFFIX,c.android.clients.google.com,DIRECT
- - DOMAIN-SUFFIX,cache.pack.google.com,DIRECT
- - DOMAIN-SUFFIX,clickserve.dartsearch.net,DIRECT
- - DOMAIN-SUFFIX,clientservices.googleapis.com,DIRECT
- - DOMAIN-SUFFIX,crl.pki.goog,DIRECT
- - DOMAIN-SUFFIX,dl.google.com,DIRECT
- - DOMAIN-SUFFIX,dl.l.google.com,DIRECT
- - DOMAIN-SUFFIX,fonts.googleapis.com,DIRECT
- - DOMAIN-SUFFIX,fonts.gstatic.com,DIRECT
- - DOMAIN-SUFFIX,googletagmanager.com,DIRECT
- - DOMAIN-SUFFIX,googletagservices.com,DIRECT
- - DOMAIN-SUFFIX,gtm.oasisfeng.com,DIRECT
- - DOMAIN-SUFFIX,imasdk.googleapis.com,DIRECT
- - DOMAIN-SUFFIX,mtalk.google.com,DIRECT
- - DOMAIN-SUFFIX,ocsp.pki.goog,DIRECT
- - DOMAIN-SUFFIX,recaptcha.net,DIRECT
- - DOMAIN-SUFFIX,safebrowsing-cache.google.com,DIRECT
- - DOMAIN-SUFFIX,safebrowsing.googleapis.com,DIRECT
- - DOMAIN-SUFFIX,settings.crashlytics.com,DIRECT
- - DOMAIN-SUFFIX,ssl-google-analytics.l.google.com,DIRECT
- - DOMAIN-SUFFIX,ssl.gstatic.com,DIRECT
- - DOMAIN-SUFFIX,toolbarqueries.google.com,DIRECT
- - DOMAIN-SUFFIX,tools.google.com,DIRECT
- - DOMAIN-SUFFIX,tools.l.google.com,DIRECT
- - DOMAIN-SUFFIX,update.googleapis.com,DIRECT
- - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,DIRECT
- - DOMAIN-SUFFIX,www.gstatic.com,DIRECT
- - DOMAIN-SUFFIX,13th.tech,DIRECT
- - DOMAIN-SUFFIX,423down.com,DIRECT
- - DOMAIN-SUFFIX,bokecc.com,DIRECT
- - DOMAIN-SUFFIX,chaipip.com,DIRECT
- - DOMAIN-SUFFIX,chinaplay.store,DIRECT
- - DOMAIN-SUFFIX,hrtsea.com,DIRECT
- - DOMAIN-SUFFIX,kaikeba.com,DIRECT
- - DOMAIN-SUFFIX,laomo.me,DIRECT
- - DOMAIN-SUFFIX,mpyit.com,DIRECT
- - DOMAIN-SUFFIX,msftconnecttest.com,DIRECT
- - DOMAIN-SUFFIX,msftncsi.com,DIRECT
- - DOMAIN-SUFFIX,qupu123.com,DIRECT
- - DOMAIN-SUFFIX,pdfwifi.com,DIRECT
- - DOMAIN-SUFFIX,zhenguanyu.biz,DIRECT
- - DOMAIN-SUFFIX,zhenguanyu.com,DIRECT
- - DOMAIN-SUFFIX,cn,DIRECT
- - DOMAIN-SUFFIX,xn--fiqs8s,DIRECT
- - DOMAIN-SUFFIX,xn--55qx5d,DIRECT
- - DOMAIN-SUFFIX,xn--io0a7i,DIRECT
- - DOMAIN-KEYWORD,-cn,DIRECT
- - DOMAIN-KEYWORD,360buy,DIRECT
- - DOMAIN-KEYWORD,alicdn,DIRECT
- - DOMAIN-KEYWORD,alimama,DIRECT
- - DOMAIN-KEYWORD,alipay,DIRECT
- - DOMAIN-KEYWORD,appzapp,DIRECT
- - DOMAIN-KEYWORD,baidupcs,DIRECT
- - DOMAIN-KEYWORD,bilibili,DIRECT
- - DOMAIN-KEYWORD,ccgslb,DIRECT
- - DOMAIN-KEYWORD,chinacache,DIRECT
- - DOMAIN-KEYWORD,duobao,DIRECT
- - DOMAIN-KEYWORD,duolingo,DIRECT
- - DOMAIN-KEYWORD,jdpay,DIRECT
- - DOMAIN-KEYWORD,moke,DIRECT
- - DOMAIN-KEYWORD,qhimg,DIRECT
- - DOMAIN-KEYWORD,vpimg,DIRECT
- - DOMAIN-KEYWORD,xiami,DIRECT
- - DOMAIN-KEYWORD,xiaomi,DIRECT
- - DOMAIN-SUFFIX,360.com,DIRECT
- - DOMAIN-SUFFIX,360kuai.com,DIRECT
- - DOMAIN-SUFFIX,360safe.com,DIRECT
- - DOMAIN-SUFFIX,dhrest.com,DIRECT
- - DOMAIN-SUFFIX,qhres.com,DIRECT
- - DOMAIN-SUFFIX,qhstatic.com,DIRECT
- - DOMAIN-SUFFIX,qhupdate.com,DIRECT
- - DOMAIN-SUFFIX,so.com,DIRECT
- - DOMAIN-SUFFIX,4399.com,DIRECT
- - DOMAIN-SUFFIX,4399pk.com,DIRECT
- - DOMAIN-SUFFIX,5054399.com,DIRECT
- - DOMAIN-SUFFIX,img4399.com,DIRECT
- - DOMAIN-SUFFIX,58.com,DIRECT
- - DOMAIN-SUFFIX,1688.com,DIRECT
- - DOMAIN-SUFFIX,aliapp.org,DIRECT
- - DOMAIN-SUFFIX,alibaba.com,DIRECT
- - DOMAIN-SUFFIX,alibabacloud.com,DIRECT
- - DOMAIN-SUFFIX,alibabausercontent.com,DIRECT
- - DOMAIN-SUFFIX,alicdn.com,DIRECT
- - DOMAIN-SUFFIX,alicloudccp.com,DIRECT
- - DOMAIN-SUFFIX,aliexpress.com,DIRECT
- - DOMAIN-SUFFIX,aliimg.com,DIRECT
- - DOMAIN-SUFFIX,alikunlun.com,DIRECT
- - DOMAIN-SUFFIX,alipay.com,DIRECT
- - DOMAIN-SUFFIX,alipayobjects.com,DIRECT
- - DOMAIN-SUFFIX,alisoft.com,DIRECT
- - DOMAIN-SUFFIX,aliyun.com,DIRECT
- - DOMAIN-SUFFIX,aliyuncdn.com,DIRECT
- - DOMAIN-SUFFIX,aliyuncs.com,DIRECT
- - DOMAIN-SUFFIX,aliyundrive.com,DIRECT
- - DOMAIN-SUFFIX,amap.com,DIRECT
- - DOMAIN-SUFFIX,autonavi.com,DIRECT
- - DOMAIN-SUFFIX,dingtalk.com,DIRECT
- - DOMAIN-SUFFIX,ele.me,DIRECT
- - DOMAIN-SUFFIX,hichina.com,DIRECT
- - DOMAIN-SUFFIX,mmstat.com,DIRECT
- - DOMAIN-SUFFIX,mxhichina.com,DIRECT
- - DOMAIN-SUFFIX,soku.com,DIRECT
- - DOMAIN-SUFFIX,taobao.com,DIRECT
- - DOMAIN-SUFFIX,taobaocdn.com,DIRECT
- - DOMAIN-SUFFIX,tbcache.com,DIRECT
- - DOMAIN-SUFFIX,tbcdn.com,DIRECT
- - DOMAIN-SUFFIX,tmall.com,DIRECT
- - DOMAIN-SUFFIX,tmall.hk,DIRECT
- - DOMAIN-SUFFIX,ucweb.com,DIRECT
- - DOMAIN-SUFFIX,xiami.com,DIRECT
- - DOMAIN-SUFFIX,xiami.net,DIRECT
- - DOMAIN-SUFFIX,ykimg.com,DIRECT
- - DOMAIN-SUFFIX,youku.com,DIRECT
- - DOMAIN-SUFFIX,baidu.com,DIRECT
- - DOMAIN-SUFFIX,baidubcr.com,DIRECT
- - DOMAIN-SUFFIX,baidupcs.com,DIRECT
- - DOMAIN-SUFFIX,baidustatic.com,DIRECT
- - DOMAIN-SUFFIX,bcebos.com,DIRECT
- - DOMAIN-SUFFIX,bdimg.com,DIRECT
- - DOMAIN-SUFFIX,bdstatic.com,DIRECT
- - DOMAIN-SUFFIX,bdurl.net,DIRECT
- - DOMAIN-SUFFIX,hao123.com,DIRECT
- - DOMAIN-SUFFIX,hao123img.com,DIRECT
- - DOMAIN-SUFFIX,jomodns.com,DIRECT
- - DOMAIN-SUFFIX,yunjiasu-cdn.net,DIRECT
- - DOMAIN-SUFFIX,acg.tv,DIRECT
- - DOMAIN-SUFFIX,acgvideo.com,DIRECT
- - DOMAIN-SUFFIX,b23.tv,DIRECT
- - DOMAIN-SUFFIX,bigfun.cn,DIRECT
- - DOMAIN-SUFFIX,bigfunapp.cn,DIRECT
- - DOMAIN-SUFFIX,biliapi.com,DIRECT
- - DOMAIN-SUFFIX,biliapi.net,DIRECT
- - DOMAIN-SUFFIX,bilibili.com,DIRECT
- - DOMAIN-SUFFIX,biligame.com,DIRECT
- - DOMAIN-SUFFIX,biligame.net,DIRECT
- - DOMAIN-SUFFIX,bilivideo.com,DIRECT
- - DOMAIN-SUFFIX,bilivideo.cn,DIRECT
- - DOMAIN-SUFFIX,hdslb.com,DIRECT
- - DOMAIN-SUFFIX,im9.com,DIRECT
- - DOMAIN-SUFFIX,smtcdns.net,DIRECT
- - DOMAIN-SUFFIX,battle.net,DIRECT
- - DOMAIN-SUFFIX,battlenet.com,DIRECT
- - DOMAIN-SUFFIX,blizzard.com,DIRECT
- - DOMAIN-SUFFIX,amemv.com,DIRECT
- - DOMAIN-SUFFIX,bdxiguaimg.com,DIRECT
- - DOMAIN-SUFFIX,bdxiguastatic.com,DIRECT
- - DOMAIN-SUFFIX,byted-static.com,DIRECT
- - DOMAIN-SUFFIX,bytedance.com,DIRECT
- - DOMAIN-SUFFIX,bytedance.net,DIRECT
- - DOMAIN-SUFFIX,bytedns.net,DIRECT
- - DOMAIN-SUFFIX,bytednsdoc.com,DIRECT
- - DOMAIN-SUFFIX,bytegoofy.com,DIRECT
- - DOMAIN-SUFFIX,byteimg.com,DIRECT
- - DOMAIN-SUFFIX,bytescm.com,DIRECT
- - DOMAIN-SUFFIX,bytetos.com,DIRECT
- - DOMAIN-SUFFIX,bytexservice.com,DIRECT
- - DOMAIN-SUFFIX,douyin.com,DIRECT
- - DOMAIN-SUFFIX,douyinpic.com,DIRECT
- - DOMAIN-SUFFIX,douyinstatic.com,DIRECT
- - DOMAIN-SUFFIX,douyinvod.com,DIRECT
- - DOMAIN-SUFFIX,feelgood.cn,DIRECT
- - DOMAIN-SUFFIX,feiliao.com,DIRECT
- - DOMAIN-SUFFIX,gifshow.com,DIRECT
- - DOMAIN-SUFFIX,huoshan.com,DIRECT
- - DOMAIN-SUFFIX,huoshanzhibo.com,DIRECT
- - DOMAIN-SUFFIX,ibytedapm.com,DIRECT
- - DOMAIN-SUFFIX,iesdouyin.com,DIRECT
- - DOMAIN-SUFFIX,ixigua.com,DIRECT
- - DOMAIN-SUFFIX,kspkg.com,DIRECT
- - DOMAIN-SUFFIX,pstatp.com,DIRECT
- - DOMAIN-SUFFIX,snssdk.com,DIRECT
- - DOMAIN-SUFFIX,toutiao.com,DIRECT
- - DOMAIN-SUFFIX,toutiao13.com,DIRECT
- - DOMAIN-SUFFIX,toutiaoapi.com,DIRECT
- - DOMAIN-SUFFIX,toutiaocdn.com,DIRECT
- - DOMAIN-SUFFIX,toutiaocdn.net,DIRECT
- - DOMAIN-SUFFIX,toutiaocloud.com,DIRECT
- - DOMAIN-SUFFIX,toutiaohao.com,DIRECT
- - DOMAIN-SUFFIX,toutiaohao.net,DIRECT
- - DOMAIN-SUFFIX,toutiaoimg.com,DIRECT
- - DOMAIN-SUFFIX,toutiaopage.com,DIRECT
- - DOMAIN-SUFFIX,wukong.com,DIRECT
- - DOMAIN-SUFFIX,zijieapi.com,DIRECT
- - DOMAIN-SUFFIX,zijieimg.com,DIRECT
- - DOMAIN-SUFFIX,zjbyte.com,DIRECT
- - DOMAIN-SUFFIX,zjcdn.com,DIRECT
- - DOMAIN-SUFFIX,cctv.com,DIRECT
- - DOMAIN-SUFFIX,cctvpic.com,DIRECT
- - DOMAIN-SUFFIX,livechina.com,DIRECT
- - DOMAIN-SUFFIX,21cn.com,DIRECT
- - DOMAIN-SUFFIX,didialift.com,DIRECT
- - DOMAIN-SUFFIX,didiglobal.com,DIRECT
- - DOMAIN-SUFFIX,udache.com,DIRECT
- - DOMAIN-SUFFIX,douyu.com,DIRECT
- - DOMAIN-SUFFIX,douyu.tv,DIRECT
- - DOMAIN-SUFFIX,douyuscdn.com,DIRECT
- - DOMAIN-SUFFIX,douyutv.com,DIRECT
- - DOMAIN-SUFFIX,epicgames.com,DIRECT
- - DOMAIN-SUFFIX,helpshift.com,DIRECT
- - DOMAIN-SUFFIX,paragon.com,DIRECT
- - DOMAIN-SUFFIX,unrealengine.com,DIRECT
- - DOMAIN-SUFFIX,dbankcdn.com,DIRECT
- - DOMAIN-SUFFIX,hc-cdn.com,DIRECT
- - DOMAIN-SUFFIX,hicloud.com,DIRECT
- - DOMAIN-SUFFIX,huawei.com,DIRECT
- - DOMAIN-SUFFIX,huaweicloud.com,DIRECT
- - DOMAIN-SUFFIX,huaweishop.net,DIRECT
- - DOMAIN-SUFFIX,hwccpc.com,DIRECT
- - DOMAIN-SUFFIX,vmall.com,DIRECT
- - DOMAIN-SUFFIX,vmallres.com,DIRECT
- - DOMAIN-SUFFIX,iflyink.com,DIRECT
- - DOMAIN-SUFFIX,iflyrec.com,DIRECT
- - DOMAIN-SUFFIX,iflytek.com,DIRECT
- - DOMAIN-SUFFIX,71.am,DIRECT
- - DOMAIN-SUFFIX,71edge.com,DIRECT
- - DOMAIN-SUFFIX,iqiyi.com,DIRECT
- - DOMAIN-SUFFIX,iqiyipic.com,DIRECT
- - DOMAIN-SUFFIX,ppsimg.com,DIRECT
- - DOMAIN-SUFFIX,qiyi.com,DIRECT
- - DOMAIN-SUFFIX,qiyipic.com,DIRECT
- - DOMAIN-SUFFIX,qy.net,DIRECT
- - DOMAIN-SUFFIX,360buy.com,DIRECT
- - DOMAIN-SUFFIX,360buyimg.com,DIRECT
- - DOMAIN-SUFFIX,jcloudcs.com,DIRECT
- - DOMAIN-SUFFIX,jd.com,DIRECT
- - DOMAIN-SUFFIX,jd.hk,DIRECT
- - DOMAIN-SUFFIX,jdcloud.com,DIRECT
- - DOMAIN-SUFFIX,jdpay.com,DIRECT
- - DOMAIN-SUFFIX,paipai.com,DIRECT
- - DOMAIN-SUFFIX,iciba.com,DIRECT
- - DOMAIN-SUFFIX,ksosoft.com,DIRECT
- - DOMAIN-SUFFIX,ksyun.com,DIRECT
- - DOMAIN-SUFFIX,kuaishou.com,DIRECT
- - DOMAIN-SUFFIX,yximgs.com,DIRECT
- - DOMAIN-SUFFIX,meitu.com,DIRECT
- - DOMAIN-SUFFIX,meitudata.com,DIRECT
- - DOMAIN-SUFFIX,meitustat.com,DIRECT
- - DOMAIN-SUFFIX,meipai.com,DIRECT
- - DOMAIN-SUFFIX,le.com,DIRECT
- - DOMAIN-SUFFIX,lecloud.com,DIRECT
- - DOMAIN-SUFFIX,letv.com,DIRECT
- - DOMAIN-SUFFIX,letvcloud.com,DIRECT
- - DOMAIN-SUFFIX,letvimg.com,DIRECT
- - DOMAIN-SUFFIX,letvlive.com,DIRECT
- - DOMAIN-SUFFIX,letvstore.com,DIRECT
- - DOMAIN-SUFFIX,hitv.com,DIRECT
- - DOMAIN-SUFFIX,hunantv.com,DIRECT
- - DOMAIN-SUFFIX,mgtv.com,DIRECT
- - DOMAIN-SUFFIX,duokan.com,DIRECT
- - DOMAIN-SUFFIX,mi-img.com,DIRECT
- - DOMAIN-SUFFIX,mi.com,DIRECT
- - DOMAIN-SUFFIX,miui.com,DIRECT
- - DOMAIN-SUFFIX,xiaomi.com,DIRECT
- - DOMAIN-SUFFIX,xiaomi.net,DIRECT
- - DOMAIN-SUFFIX,xiaomicp.com,DIRECT
- - DOMAIN-SUFFIX,126.com,DIRECT
- - DOMAIN-SUFFIX,126.net,DIRECT
- - DOMAIN-SUFFIX,127.net,DIRECT
- - DOMAIN-SUFFIX,163.com,DIRECT
- - DOMAIN-SUFFIX,163yun.com,DIRECT
- - DOMAIN-SUFFIX,lofter.com,DIRECT
- - DOMAIN-SUFFIX,netease.com,DIRECT
- - DOMAIN-SUFFIX,ydstatic.com,DIRECT
- - DOMAIN-SUFFIX,youdao.com,DIRECT
- - DOMAIN-SUFFIX,pplive.com,DIRECT
- - DOMAIN-SUFFIX,pptv.com,DIRECT
- - DOMAIN-SUFFIX,pinduoduo.com,DIRECT
- - DOMAIN-SUFFIX,yangkeduo.com,DIRECT
- - DOMAIN-SUFFIX,leju.com,DIRECT
- - DOMAIN-SUFFIX,miaopai.com,DIRECT
- - DOMAIN-SUFFIX,sina.com,DIRECT
- - DOMAIN-SUFFIX,sinaapp.com,DIRECT
- - DOMAIN-SUFFIX,sinaimg.com,DIRECT
- - DOMAIN-SUFFIX,weibo.com,DIRECT
- - DOMAIN-SUFFIX,weibocdn.com,DIRECT
- - DOMAIN-SUFFIX,xiaoka.tv,DIRECT
- - DOMAIN-SUFFIX,go2map.com,DIRECT
- - DOMAIN-SUFFIX,sogo.com,DIRECT
- - DOMAIN-SUFFIX,sogou.com,DIRECT
- - DOMAIN-SUFFIX,sogoucdn.com,DIRECT
- - DOMAIN-SUFFIX,sohu-inc.com,DIRECT
- - DOMAIN-SUFFIX,sohu.com,DIRECT
- - DOMAIN-SUFFIX,sohucs.com,DIRECT
- - DOMAIN-SUFFIX,sohuno.com,DIRECT
- - DOMAIN-SUFFIX,sohurdc.com,DIRECT
- - DOMAIN-SUFFIX,v-56.com,DIRECT
- - DOMAIN-SUFFIX,playstation.com,DIRECT
- - DOMAIN-SUFFIX,playstation.net,DIRECT
- - DOMAIN-SUFFIX,playstationnetwork.com,DIRECT
- - DOMAIN-SUFFIX,sony.com,DIRECT
- - DOMAIN-SUFFIX,sonyentertainmentnetwork.com,DIRECT
- - DOMAIN-SUFFIX,cm.steampowered.com,DIRECT
- - DOMAIN-SUFFIX,steamcontent.com,DIRECT
- - DOMAIN-SUFFIX,steamusercontent.com,DIRECT
- - DOMAIN-SUFFIX,steamchina.com,DIRECT
- - DOMAIN,csgo.wmsj.cn,DIRECT
- - DOMAIN,dota2.wmsj.cn,DIRECT
- - DOMAIN,wmsjsteam.com,DIRECT
- - DOMAIN,dl.steam.clngaa.com,DIRECT
- - DOMAIN,dl.steam.ksyna.com,DIRECT
- - DOMAIN,st.dl.bscstorage.net,DIRECT
- - DOMAIN,st.dl.eccdnx.com,DIRECT
- - DOMAIN,st.dl.pinyuncloud.com,DIRECT
- - DOMAIN,steampipe.steamcontent.tnkjmec.com,DIRECT
- - DOMAIN,steampowered.com.8686c.com,DIRECT
- - DOMAIN,steamstatic.com.8686c.com,DIRECT
- - DOMAIN-SUFFIX,foxmail.com,DIRECT
- - DOMAIN-SUFFIX,gtimg.com,DIRECT
- - DOMAIN-SUFFIX,idqqimg.com,DIRECT
- - DOMAIN-SUFFIX,igamecj.com,DIRECT
- - DOMAIN-SUFFIX,myapp.com,DIRECT
- - DOMAIN-SUFFIX,myqcloud.com,DIRECT
- - DOMAIN-SUFFIX,qq.com,DIRECT
- - DOMAIN-SUFFIX,qqmail.com,DIRECT
- - DOMAIN-SUFFIX,qqurl.com,DIRECT
- - DOMAIN-SUFFIX,smtcdns.com,DIRECT
- - DOMAIN-SUFFIX,smtcdns.net,DIRECT
- - DOMAIN-SUFFIX,soso.com,DIRECT
- - DOMAIN-SUFFIX,tencent-cloud.net,DIRECT
- - DOMAIN-SUFFIX,tencent.com,DIRECT
- - DOMAIN-SUFFIX,tencentmind.com,DIRECT
- - DOMAIN-SUFFIX,tenpay.com,DIRECT
- - DOMAIN-SUFFIX,wechat.com,DIRECT
- - DOMAIN-SUFFIX,weixin.com,DIRECT
- - DOMAIN-SUFFIX,weiyun.com,DIRECT
- - DOMAIN-SUFFIX,appsimg.com,DIRECT
- - DOMAIN-SUFFIX,appvipshop.com,DIRECT
- - DOMAIN-SUFFIX,vip.com,DIRECT
- - DOMAIN-SUFFIX,vipstatic.com,DIRECT
- - DOMAIN-SUFFIX,ximalaya.com,DIRECT
- - DOMAIN-SUFFIX,xmcdn.com,DIRECT
- - DOMAIN-SUFFIX,00cdn.com,DIRECT
- - DOMAIN-SUFFIX,88cdn.com,DIRECT
- - DOMAIN-SUFFIX,kanimg.com,DIRECT
- - DOMAIN-SUFFIX,kankan.com,DIRECT
- - DOMAIN-SUFFIX,p2cdn.com,DIRECT
- - DOMAIN-SUFFIX,sandai.net,DIRECT
- - DOMAIN-SUFFIX,thundercdn.com,DIRECT
- - DOMAIN-SUFFIX,xunlei.com,DIRECT
- - DOMAIN-SUFFIX,got001.com,DIRECT
- - DOMAIN-SUFFIX,p4pfile.com,DIRECT
- - DOMAIN-SUFFIX,rrys.tv,DIRECT
- - DOMAIN-SUFFIX,rrys2020.com,DIRECT
- - DOMAIN-SUFFIX,yyets.com,DIRECT
- - DOMAIN-SUFFIX,zimuzu.io,DIRECT
- - DOMAIN-SUFFIX,zimuzu.tv,DIRECT
- - DOMAIN-SUFFIX,zmz001.com,DIRECT
- - DOMAIN-SUFFIX,zmz002.com,DIRECT
- - DOMAIN-SUFFIX,zmz003.com,DIRECT
- - DOMAIN-SUFFIX,zmz004.com,DIRECT
- - DOMAIN-SUFFIX,zmz2019.com,DIRECT
- - DOMAIN-SUFFIX,zmzapi.com,DIRECT
- - DOMAIN-SUFFIX,zmzapi.net,DIRECT
- - DOMAIN-SUFFIX,zmzfile.com,DIRECT
- - DOMAIN-KEYWORD,announce,DIRECT
- - DOMAIN-KEYWORD,torrent,DIRECT
- - DOMAIN-KEYWORD,tracker,DIRECT
- - DOMAIN-SUFFIX,animebytes.tv,DIRECT
- - DOMAIN-SUFFIX,animetorrents.me,DIRECT
- - DOMAIN-SUFFIX,awesome-hd.me,DIRECT
- - DOMAIN-SUFFIX,beitai.pt,DIRECT
- - DOMAIN-SUFFIX,bittorrent.com,DIRECT
- - DOMAIN-SUFFIX,broadcasthe.net,DIRECT
- - DOMAIN-SUFFIX,chdbits.co,DIRECT
- - DOMAIN-SUFFIX,classix-unlimited.co.uk,DIRECT
- - DOMAIN-SUFFIX,empornium.me,DIRECT
- - DOMAIN-SUFFIX,gazellegames.net,DIRECT
- - DOMAIN-SUFFIX,hd4fans.org,DIRECT
- - DOMAIN-SUFFIX,hdchina.org,DIRECT
- - DOMAIN-SUFFIX,hdhome.org,DIRECT
- - DOMAIN-SUFFIX,hdsky.me,DIRECT
- - DOMAIN-SUFFIX,hdtime.org,DIRECT
- - DOMAIN-SUFFIX,hdzone.me,DIRECT
- - DOMAIN-SUFFIX,icetorrent.org,DIRECT
- - DOMAIN-SUFFIX,jpopsuki.eu,DIRECT
- - DOMAIN-SUFFIX,keepfrds.com,DIRECT
- - DOMAIN-SUFFIX,leaguehd.com,DIRECT
- - DOMAIN-SUFFIX,m-team.cc,DIRECT
- - DOMAIN-SUFFIX,madsrevolution.net,DIRECT
- - DOMAIN-SUFFIX,msg.vg,DIRECT
- - DOMAIN-SUFFIX,nanyangpt.com,DIRECT
- - DOMAIN-SUFFIX,ncore.cc,DIRECT
- - DOMAIN-SUFFIX,open.cd,DIRECT
- - DOMAIN-SUFFIX,ourbits.club,DIRECT
- - DOMAIN-SUFFIX,passthepopcorn.me,DIRECT
- - DOMAIN-SUFFIX,privatehd.to,DIRECT
- - DOMAIN-SUFFIX,pthome.net,DIRECT
- - DOMAIN-SUFFIX,redacted.ch,DIRECT
- - DOMAIN-SUFFIX,springsunday.net,DIRECT
- - DOMAIN-SUFFIX,tjupt.org,DIRECT
- - DOMAIN-SUFFIX,totheglory.im,DIRECT
- - DOMAIN-SUFFIX,trontv.com,DIRECT
- - DOMAIN-SUFFIX,teamviewer.com,DIRECT
- - IP-CIDR,109.239.140.0/24,DIRECT,no-resolve
- - IP-CIDR,139.220.243.27/32,DIRECT,no-resolve
- - IP-CIDR,172.16.102.56/32,DIRECT,no-resolve
- - IP-CIDR,185.188.32.1/28,DIRECT,no-resolve
- - IP-CIDR,221.226.128.146/32,DIRECT,no-resolve
- - IP-CIDR6,2a0b:b580::/48,DIRECT,no-resolve
- - IP-CIDR6,2a0b:b581::/48,DIRECT,no-resolve
- - IP-CIDR6,2a0b:b582::/48,DIRECT,no-resolve
- - IP-CIDR6,2a0b:b583::/48,DIRECT,no-resolve
- - DOMAIN-SUFFIX,baomitu.com,DIRECT
- - DOMAIN-SUFFIX,bootcss.com,DIRECT
- - DOMAIN-SUFFIX,jiasule.com,DIRECT
- - DOMAIN-SUFFIX,staticfile.org,DIRECT
- - DOMAIN-SUFFIX,upaiyun.com,DIRECT
- - DOMAIN-SUFFIX,10010.com,DIRECT
- - DOMAIN-SUFFIX,115.com,DIRECT
- - DOMAIN-SUFFIX,12306.com,DIRECT
- - DOMAIN-SUFFIX,17173.com,DIRECT
- - DOMAIN-SUFFIX,178.com,DIRECT
- - DOMAIN-SUFFIX,17k.com,DIRECT
- - DOMAIN-SUFFIX,360doc.com,DIRECT
- - DOMAIN-SUFFIX,36kr.com,DIRECT
- - DOMAIN-SUFFIX,3dmgame.com,DIRECT
- - DOMAIN-SUFFIX,51cto.com,DIRECT
- - DOMAIN-SUFFIX,51job.com,DIRECT
- - DOMAIN-SUFFIX,51jobcdn.com,DIRECT
- - DOMAIN-SUFFIX,56.com,DIRECT
- - DOMAIN-SUFFIX,8686c.com,DIRECT
- - DOMAIN-SUFFIX,abchina.com,DIRECT
- - DOMAIN-SUFFIX,abercrombie.com,DIRECT
- - DOMAIN-SUFFIX,acfun.tv,DIRECT
- - DOMAIN-SUFFIX,air-matters.com,DIRECT
- - DOMAIN-SUFFIX,air-matters.io,DIRECT
- - DOMAIN-SUFFIX,aixifan.com,DIRECT
- - DOMAIN-SUFFIX,algocasts.io,DIRECT
- - DOMAIN-SUFFIX,babytree.com,DIRECT
- - DOMAIN-SUFFIX,babytreeimg.com,DIRECT
- - DOMAIN-SUFFIX,baicizhan.com,DIRECT
- - DOMAIN-SUFFIX,baidupan.com,DIRECT
- - DOMAIN-SUFFIX,baike.com,DIRECT
- - DOMAIN-SUFFIX,biqudu.com,DIRECT
- - DOMAIN-SUFFIX,biquge.com,DIRECT
- - DOMAIN-SUFFIX,bitauto.com,DIRECT
- - DOMAIN-SUFFIX,c-ctrip.com,DIRECT
- - DOMAIN-SUFFIX,camera360.com,DIRECT
- - DOMAIN-SUFFIX,cdnmama.com,DIRECT
- - DOMAIN-SUFFIX,chaoxing.com,DIRECT
- - DOMAIN-SUFFIX,che168.com,DIRECT
- - DOMAIN-SUFFIX,chinacache.net,DIRECT
- - DOMAIN-SUFFIX,chinaso.com,DIRECT
- - DOMAIN-SUFFIX,chinaz.com,DIRECT
- - DOMAIN-SUFFIX,chinaz.net,DIRECT
- - DOMAIN-SUFFIX,chuimg.com,DIRECT
- - DOMAIN-SUFFIX,cibntv.net,DIRECT
- - DOMAIN-SUFFIX,clouddn.com,DIRECT
- - DOMAIN-SUFFIX,cloudxns.net,DIRECT
- - DOMAIN-SUFFIX,cn163.net,DIRECT
- - DOMAIN-SUFFIX,cnbeta.com,DIRECT
- - DOMAIN-SUFFIX,cnbetacdn.com,DIRECT
- - DOMAIN-SUFFIX,cnblogs.com,DIRECT
- - DOMAIN-SUFFIX,cnki.net,DIRECT
- - DOMAIN-SUFFIX,cnmstl.net,DIRECT
- - DOMAIN-SUFFIX,coolapk.com,DIRECT
- - DOMAIN-SUFFIX,coolapkmarket.com,DIRECT
- - DOMAIN-SUFFIX,csdn.net,DIRECT
- - DOMAIN-SUFFIX,ctrip.com,DIRECT
- - DOMAIN-SUFFIX,dangdang.com,DIRECT
- - DOMAIN-SUFFIX,dfcfw.com,DIRECT
- - DOMAIN-SUFFIX,dianping.com,DIRECT
- - DOMAIN-SUFFIX,dilidili.wang,DIRECT
- - DOMAIN-SUFFIX,douban.com,DIRECT
- - DOMAIN-SUFFIX,doubanio.com,DIRECT
- - DOMAIN-SUFFIX,dpfile.com,DIRECT
- - DOMAIN-SUFFIX,duowan.com,DIRECT
- - DOMAIN-SUFFIX,dxycdn.com,DIRECT
- - DOMAIN-SUFFIX,dytt8.net,DIRECT
- - DOMAIN-SUFFIX,easou.com,DIRECT
- - DOMAIN-SUFFIX,eastday.com,DIRECT
- - DOMAIN-SUFFIX,eastmoney.com,DIRECT
- - DOMAIN-SUFFIX,ecitic.com,DIRECT
- - DOMAIN-SUFFIX,ewqcxz.com,DIRECT
- - DOMAIN-SUFFIX,fang.com,DIRECT
- - DOMAIN-SUFFIX,fantasy.tv,DIRECT
- - DOMAIN-SUFFIX,feng.com,DIRECT
- - DOMAIN-SUFFIX,fengkongcloud.com,DIRECT
- - DOMAIN-SUFFIX,fir.im,DIRECT
- - DOMAIN-SUFFIX,frdic.com,DIRECT
- - DOMAIN-SUFFIX,fresh-ideas.cc,DIRECT
- - DOMAIN-SUFFIX,ganji.com,DIRECT
- - DOMAIN-SUFFIX,ganjistatic1.com,DIRECT
- - DOMAIN-SUFFIX,geetest.com,DIRECT
- - DOMAIN-SUFFIX,geilicdn.com,DIRECT
- - DOMAIN-SUFFIX,ghpym.com,DIRECT
- - DOMAIN-SUFFIX,godic.net,DIRECT
- - DOMAIN-SUFFIX,guazi.com,DIRECT
- - DOMAIN-SUFFIX,gwdang.com,DIRECT
- - DOMAIN-SUFFIX,gzlzfm.com,DIRECT
- - DOMAIN-SUFFIX,haibian.com,DIRECT
- - DOMAIN-SUFFIX,haosou.com,DIRECT
- - DOMAIN-SUFFIX,hollisterco.com,DIRECT
- - DOMAIN-SUFFIX,hongxiu.com,DIRECT
- - DOMAIN-SUFFIX,huajiao.com,DIRECT
- - DOMAIN-SUFFIX,hupu.com,DIRECT
- - DOMAIN-SUFFIX,huxiucdn.com,DIRECT
- - DOMAIN-SUFFIX,huya.com,DIRECT
- - DOMAIN-SUFFIX,ifeng.com,DIRECT
- - DOMAIN-SUFFIX,ifengimg.com,DIRECT
- - DOMAIN-SUFFIX,images-amazon.com,DIRECT
- - DOMAIN-SUFFIX,infzm.com,DIRECT
- - DOMAIN-SUFFIX,ipip.net,DIRECT
- - DOMAIN-SUFFIX,it168.com,DIRECT
- - DOMAIN-SUFFIX,ithome.com,DIRECT
- - DOMAIN-SUFFIX,ixdzs.com,DIRECT
- - DOMAIN-SUFFIX,jianguoyun.com,DIRECT
- - DOMAIN-SUFFIX,jianshu.com,DIRECT
- - DOMAIN-SUFFIX,jianshu.io,DIRECT
- - DOMAIN-SUFFIX,jianshuapi.com,DIRECT
- - DOMAIN-SUFFIX,jiathis.com,DIRECT
- - DOMAIN-SUFFIX,jmstatic.com,DIRECT
- - DOMAIN-SUFFIX,jumei.com,DIRECT
- - DOMAIN-SUFFIX,kaola.com,DIRECT
- - DOMAIN-SUFFIX,knewone.com,DIRECT
- - DOMAIN-SUFFIX,koowo.com,DIRECT
- - DOMAIN-SUFFIX,ksyungslb.com,DIRECT
- - DOMAIN-SUFFIX,kuaidi100.com,DIRECT
- - DOMAIN-SUFFIX,kugou.com,DIRECT
- - DOMAIN-SUFFIX,lancdns.com,DIRECT
- - DOMAIN-SUFFIX,landiannews.com,DIRECT
- - DOMAIN-SUFFIX,lanzou.com,DIRECT
- - DOMAIN-SUFFIX,lanzoui.com,DIRECT
- - DOMAIN-SUFFIX,lanzoux.com,DIRECT
- - DOMAIN-SUFFIX,lemicp.com,DIRECT
- - DOMAIN-SUFFIX,letitfly.me,DIRECT
- - DOMAIN-SUFFIX,lizhi.fm,DIRECT
- - DOMAIN-SUFFIX,lizhi.io,DIRECT
- - DOMAIN-SUFFIX,lizhifm.com,DIRECT
- - DOMAIN-SUFFIX,luoo.net,DIRECT
- - DOMAIN-SUFFIX,lvmama.com,DIRECT
- - DOMAIN-SUFFIX,lxdns.com,DIRECT
- - DOMAIN-SUFFIX,maoyan.com,DIRECT
- - DOMAIN-SUFFIX,meilishuo.com,DIRECT
- - DOMAIN-SUFFIX,meituan.com,DIRECT
- - DOMAIN-SUFFIX,meituan.net,DIRECT
- - DOMAIN-SUFFIX,meizu.com,DIRECT
- - DOMAIN-SUFFIX,migucloud.com,DIRECT
- - DOMAIN-SUFFIX,miguvideo.com,DIRECT
- - DOMAIN-SUFFIX,mobike.com,DIRECT
- - DOMAIN-SUFFIX,mogu.com,DIRECT
- - DOMAIN-SUFFIX,mogucdn.com,DIRECT
- - DOMAIN-SUFFIX,mogujie.com,DIRECT
- - DOMAIN-SUFFIX,moji.com,DIRECT
- - DOMAIN-SUFFIX,moke.com,DIRECT
- - DOMAIN-SUFFIX,msstatic.com,DIRECT
- - DOMAIN-SUFFIX,mubu.com,DIRECT
- - DOMAIN-SUFFIX,myunlu.com,DIRECT
- - DOMAIN-SUFFIX,nruan.com,DIRECT
- - DOMAIN-SUFFIX,nuomi.com,DIRECT
- - DOMAIN-SUFFIX,onedns.net,DIRECT
- - DOMAIN-SUFFIX,onlinedown.net,DIRECT
- - DOMAIN-SUFFIX,oracle.com,DIRECT
- - DOMAIN-SUFFIX,oschina.net,DIRECT
- - DOMAIN-SUFFIX,ourdvs.com,DIRECT
- - DOMAIN-SUFFIX,polyv.net,DIRECT
- - DOMAIN-SUFFIX,qbox.me,DIRECT
- - DOMAIN-SUFFIX,qcloud.com,DIRECT
- - DOMAIN-SUFFIX,qcloudcdn.com,DIRECT
- - DOMAIN-SUFFIX,qdaily.com,DIRECT
- - DOMAIN-SUFFIX,qdmm.com,DIRECT
- - DOMAIN-SUFFIX,qhimg.com,DIRECT
- - DOMAIN-SUFFIX,qianqian.com,DIRECT
- - DOMAIN-SUFFIX,qidian.com,DIRECT
- - DOMAIN-SUFFIX,qihucdn.com,DIRECT
- - DOMAIN-SUFFIX,qin.io,DIRECT
- - DOMAIN-SUFFIX,qiniu.com,DIRECT
- - DOMAIN-SUFFIX,qiniucdn.com,DIRECT
- - DOMAIN-SUFFIX,qiniudn.com,DIRECT
- - DOMAIN-SUFFIX,qiushibaike.com,DIRECT
- - DOMAIN-SUFFIX,quanmin.tv,DIRECT
- - DOMAIN-SUFFIX,qunar.com,DIRECT
- - DOMAIN-SUFFIX,qunarzz.com,DIRECT
- - DOMAIN-SUFFIX,repaik.com,DIRECT
- - DOMAIN-SUFFIX,ruguoapp.com,DIRECT
- - DOMAIN-SUFFIX,runoob.com,DIRECT
- - DOMAIN-SUFFIX,sankuai.com,DIRECT
- - DOMAIN-SUFFIX,segmentfault.com,DIRECT
- - DOMAIN-SUFFIX,sf-express.com,DIRECT
- - DOMAIN-SUFFIX,shumilou.net,DIRECT
- - DOMAIN-SUFFIX,simplecd.me,DIRECT
- - DOMAIN-SUFFIX,smzdm.com,DIRECT
- - DOMAIN-SUFFIX,snwx.com,DIRECT
- - DOMAIN-SUFFIX,soufunimg.com,DIRECT
- - DOMAIN-SUFFIX,sspai.com,DIRECT
- - DOMAIN-SUFFIX,startssl.com,DIRECT
- - DOMAIN-SUFFIX,suning.com,DIRECT
- - DOMAIN-SUFFIX,synology.com,DIRECT
- - DOMAIN-SUFFIX,taihe.com,DIRECT
- - DOMAIN-SUFFIX,th-sjy.com,DIRECT
- - DOMAIN-SUFFIX,tianqi.com,DIRECT
- - DOMAIN-SUFFIX,tianqistatic.com,DIRECT
- - DOMAIN-SUFFIX,tianyancha.com,DIRECT
- - DOMAIN-SUFFIX,tianyaui.com,DIRECT
- - DOMAIN-SUFFIX,tietuku.com,DIRECT
- - DOMAIN-SUFFIX,tiexue.net,DIRECT
- - DOMAIN-SUFFIX,tmiaoo.com,DIRECT
- - DOMAIN-SUFFIX,trip.com,DIRECT
- - DOMAIN-SUFFIX,ttmeiju.com,DIRECT
- - DOMAIN-SUFFIX,tudou.com,DIRECT
- - DOMAIN-SUFFIX,tuniu.com,DIRECT
- - DOMAIN-SUFFIX,tuniucdn.com,DIRECT
- - DOMAIN-SUFFIX,umengcloud.com,DIRECT
- - DOMAIN-SUFFIX,upyun.com,DIRECT
- - DOMAIN-SUFFIX,uxengine.net,DIRECT
- - DOMAIN-SUFFIX,videocc.net,DIRECT
- - DOMAIN-SUFFIX,wandoujia.com,DIRECT
- - DOMAIN-SUFFIX,weather.com,DIRECT
- - DOMAIN-SUFFIX,weico.cc,DIRECT
- - DOMAIN-SUFFIX,weidian.com,DIRECT
- - DOMAIN-SUFFIX,weiphone.com,DIRECT
- - DOMAIN-SUFFIX,weiphone.net,DIRECT
- - DOMAIN-SUFFIX,womai.com,DIRECT
- - DOMAIN-SUFFIX,wscdns.com,DIRECT
- - DOMAIN-SUFFIX,xdrig.com,DIRECT
- - DOMAIN-SUFFIX,xhscdn.com,DIRECT
- - DOMAIN-SUFFIX,xiachufang.com,DIRECT
- - DOMAIN-SUFFIX,xiaohongshu.com,DIRECT
- - DOMAIN-SUFFIX,xiaojukeji.com,DIRECT
- - DOMAIN-SUFFIX,xinhuanet.com,DIRECT
- - DOMAIN-SUFFIX,xip.io,DIRECT
- - DOMAIN-SUFFIX,xitek.com,DIRECT
- - DOMAIN-SUFFIX,xiumi.us,DIRECT
- - DOMAIN-SUFFIX,xslb.net,DIRECT
- - DOMAIN-SUFFIX,xueqiu.com,DIRECT
- - DOMAIN-SUFFIX,yach.me,DIRECT
- - DOMAIN-SUFFIX,yeepay.com,DIRECT
- - DOMAIN-SUFFIX,yhd.com,DIRECT
- - DOMAIN-SUFFIX,yihaodianimg.com,DIRECT
- - DOMAIN-SUFFIX,yinxiang.com,DIRECT
- - DOMAIN-SUFFIX,yinyuetai.com,DIRECT
- - DOMAIN-SUFFIX,yixia.com,DIRECT
- - DOMAIN-SUFFIX,ys168.com,DIRECT
- - DOMAIN-SUFFIX,yuewen.com,DIRECT
- - DOMAIN-SUFFIX,yy.com,DIRECT
- - DOMAIN-SUFFIX,yystatic.com,DIRECT
- - DOMAIN-SUFFIX,zealer.com,DIRECT
- - DOMAIN-SUFFIX,zhangzishi.cc,DIRECT
- - DOMAIN-SUFFIX,zhanqi.tv,DIRECT
- - DOMAIN-SUFFIX,zhaopin.com,DIRECT
- - DOMAIN-SUFFIX,zhihu.com,DIRECT
- - DOMAIN-SUFFIX,zhimg.com,DIRECT
- - DOMAIN-SUFFIX,zhongsou.com,DIRECT
- - DOMAIN-SUFFIX,zhuihd.com,DIRECT
- - IP-CIDR,8.128.0.0/10,DIRECT,no-resolve
- - IP-CIDR,8.208.0.0/12,DIRECT,no-resolve
- - IP-CIDR,14.1.112.0/22,DIRECT,no-resolve
- - IP-CIDR,41.222.240.0/22,DIRECT,no-resolve
- - IP-CIDR,41.223.119.0/24,DIRECT,no-resolve
- - IP-CIDR,43.242.168.0/22,DIRECT,no-resolve
- - IP-CIDR,45.112.212.0/22,DIRECT,no-resolve
- - IP-CIDR,47.52.0.0/16,DIRECT,no-resolve
- - IP-CIDR,47.56.0.0/15,DIRECT,no-resolve
- - IP-CIDR,47.74.0.0/15,DIRECT,no-resolve
- - IP-CIDR,47.76.0.0/14,DIRECT,no-resolve
- - IP-CIDR,47.80.0.0/12,DIRECT,no-resolve
- - IP-CIDR,47.235.0.0/16,DIRECT,no-resolve
- - IP-CIDR,47.236.0.0/14,DIRECT,no-resolve
- - IP-CIDR,47.240.0.0/14,DIRECT,no-resolve
- - IP-CIDR,47.244.0.0/15,DIRECT,no-resolve
- - IP-CIDR,47.246.0.0/16,DIRECT,no-resolve
- - IP-CIDR,47.250.0.0/15,DIRECT,no-resolve
- - IP-CIDR,47.252.0.0/15,DIRECT,no-resolve
- - IP-CIDR,47.254.0.0/16,DIRECT,no-resolve
- - IP-CIDR,59.82.0.0/20,DIRECT,no-resolve
- - IP-CIDR,59.82.240.0/21,DIRECT,no-resolve
- - IP-CIDR,59.82.248.0/22,DIRECT,no-resolve
- - IP-CIDR,72.254.0.0/16,DIRECT,no-resolve
- - IP-CIDR,103.38.56.0/22,DIRECT,no-resolve
- - IP-CIDR,103.52.76.0/22,DIRECT,no-resolve
- - IP-CIDR,103.206.40.0/22,DIRECT,no-resolve
- - IP-CIDR,110.76.21.0/24,DIRECT,no-resolve
- - IP-CIDR,110.76.23.0/24,DIRECT,no-resolve
- - IP-CIDR,112.125.0.0/17,DIRECT,no-resolve
- - IP-CIDR,116.251.64.0/18,DIRECT,no-resolve
- - IP-CIDR,119.38.208.0/20,DIRECT,no-resolve
- - IP-CIDR,119.38.224.0/20,DIRECT,no-resolve
- - IP-CIDR,119.42.224.0/20,DIRECT,no-resolve
- - IP-CIDR,139.95.0.0/16,DIRECT,no-resolve
- - IP-CIDR,140.205.1.0/24,DIRECT,no-resolve
- - IP-CIDR,140.205.122.0/24,DIRECT,no-resolve
- - IP-CIDR,147.139.0.0/16,DIRECT,no-resolve
- - IP-CIDR,149.129.0.0/16,DIRECT,no-resolve
- - IP-CIDR,155.102.0.0/16,DIRECT,no-resolve
- - IP-CIDR,161.117.0.0/16,DIRECT,no-resolve
- - IP-CIDR,163.181.0.0/16,DIRECT,no-resolve
- - IP-CIDR,170.33.0.0/16,DIRECT,no-resolve
- - IP-CIDR,198.11.128.0/18,DIRECT,no-resolve
- - IP-CIDR,205.204.96.0/19,DIRECT,no-resolve
- - IP-CIDR,19.28.0.0/23,DIRECT,no-resolve
- - IP-CIDR,45.40.192.0/19,DIRECT,no-resolve
- - IP-CIDR,49.51.0.0/16,DIRECT,no-resolve
- - IP-CIDR,62.234.0.0/16,DIRECT,no-resolve
- - IP-CIDR,94.191.0.0/17,DIRECT,no-resolve
- - IP-CIDR,103.7.28.0/22,DIRECT,no-resolve
- - IP-CIDR,103.116.50.0/23,DIRECT,no-resolve
- - IP-CIDR,103.231.60.0/24,DIRECT,no-resolve
- - IP-CIDR,109.244.0.0/16,DIRECT,no-resolve
- - IP-CIDR,111.30.128.0/21,DIRECT,no-resolve
- - IP-CIDR,111.30.136.0/24,DIRECT,no-resolve
- - IP-CIDR,111.30.139.0/24,DIRECT,no-resolve
- - IP-CIDR,111.30.140.0/23,DIRECT,no-resolve
- - IP-CIDR,115.159.0.0/16,DIRECT,no-resolve
- - IP-CIDR,119.28.0.0/15,DIRECT,no-resolve
- - IP-CIDR,120.88.56.0/23,DIRECT,no-resolve
- - IP-CIDR,121.51.0.0/16,DIRECT,no-resolve
- - IP-CIDR,129.28.0.0/16,DIRECT,no-resolve
- - IP-CIDR,129.204.0.0/16,DIRECT,no-resolve
- - IP-CIDR,129.211.0.0/16,DIRECT,no-resolve
- - IP-CIDR,132.232.0.0/16,DIRECT,no-resolve
- - IP-CIDR,134.175.0.0/16,DIRECT,no-resolve
- - IP-CIDR,146.56.192.0/18,DIRECT,no-resolve
- - IP-CIDR,148.70.0.0/16,DIRECT,no-resolve
- - IP-CIDR,150.109.0.0/16,DIRECT,no-resolve
- - IP-CIDR,152.136.0.0/16,DIRECT,no-resolve
- - IP-CIDR,162.14.0.0/16,DIRECT,no-resolve
- - IP-CIDR,162.62.0.0/16,DIRECT,no-resolve
- - IP-CIDR,170.106.130.0/24,DIRECT,no-resolve
- - IP-CIDR,182.254.0.0/16,DIRECT,no-resolve
- - IP-CIDR,188.131.128.0/17,DIRECT,no-resolve
- - IP-CIDR,203.195.128.0/17,DIRECT,no-resolve
- - IP-CIDR,203.205.128.0/17,DIRECT,no-resolve
- - IP-CIDR,210.4.138.0/24,DIRECT,no-resolve
- - IP-CIDR,211.152.128.0/23,DIRECT,no-resolve
- - IP-CIDR,211.152.132.0/23,DIRECT,no-resolve
- - IP-CIDR,211.152.148.0/23,DIRECT,no-resolve
- - IP-CIDR,212.64.0.0/17,DIRECT,no-resolve
- - IP-CIDR,212.129.128.0/17,DIRECT,no-resolve
- - IP-CIDR,45.113.192.0/22,DIRECT,no-resolve
- - IP-CIDR,63.217.23.0/24,DIRECT,no-resolve
- - IP-CIDR,63.243.252.0/24,DIRECT,no-resolve
- - IP-CIDR,103.235.44.0/22,DIRECT,no-resolve
- - IP-CIDR,104.193.88.0/22,DIRECT,no-resolve
- - IP-CIDR,106.12.0.0/15,DIRECT,no-resolve
- - IP-CIDR,114.28.224.0/20,DIRECT,no-resolve
- - IP-CIDR,119.63.192.0/21,DIRECT,no-resolve
- - IP-CIDR,180.76.0.0/24,DIRECT,no-resolve
- - IP-CIDR,180.76.0.0/16,DIRECT,no-resolve
- - IP-CIDR,182.61.0.0/16,DIRECT,no-resolve
- - IP-CIDR,185.10.104.0/22,DIRECT,no-resolve
- - IP-CIDR,202.46.48.0/20,DIRECT,no-resolve
- - IP-CIDR,203.90.238.0/24,DIRECT,no-resolve
- - IP-CIDR,43.254.0.0/22,DIRECT,no-resolve
- - IP-CIDR,45.249.212.0/22,DIRECT,no-resolve
- - IP-CIDR,49.4.0.0/17,DIRECT,no-resolve
- - IP-CIDR,78.101.192.0/19,DIRECT,no-resolve
- - IP-CIDR,78.101.224.0/20,DIRECT,no-resolve
- - IP-CIDR,81.52.161.0/24,DIRECT,no-resolve
- - IP-CIDR,85.97.220.0/22,DIRECT,no-resolve
- - IP-CIDR,103.31.200.0/22,DIRECT,no-resolve
- - IP-CIDR,103.69.140.0/23,DIRECT,no-resolve
- - IP-CIDR,103.218.216.0/22,DIRECT,no-resolve
- - IP-CIDR,114.115.128.0/17,DIRECT,no-resolve
- - IP-CIDR,114.116.0.0/16,DIRECT,no-resolve
- - IP-CIDR,116.63.128.0/18,DIRECT,no-resolve
- - IP-CIDR,116.66.184.0/22,DIRECT,no-resolve
- - IP-CIDR,116.71.96.0/20,DIRECT,no-resolve
- - IP-CIDR,116.71.128.0/21,DIRECT,no-resolve
- - IP-CIDR,116.71.136.0/22,DIRECT,no-resolve
- - IP-CIDR,116.71.141.0/24,DIRECT,no-resolve
- - IP-CIDR,116.71.142.0/24,DIRECT,no-resolve
- - IP-CIDR,116.71.243.0/24,DIRECT,no-resolve
- - IP-CIDR,116.71.244.0/24,DIRECT,no-resolve
- - IP-CIDR,116.71.251.0/24,DIRECT,no-resolve
- - IP-CIDR,117.78.0.0/18,DIRECT,no-resolve
- - IP-CIDR,119.3.0.0/16,DIRECT,no-resolve
- - IP-CIDR,119.8.0.0/21,DIRECT,no-resolve
- - IP-CIDR,119.8.32.0/19,DIRECT,no-resolve
- - IP-CIDR,121.36.0.0/17,DIRECT,no-resolve
- - IP-CIDR,121.36.128.0/18,DIRECT,no-resolve
- - IP-CIDR,121.37.0.0/17,DIRECT,no-resolve
- - IP-CIDR,122.112.128.0/17,DIRECT,no-resolve
- - IP-CIDR,139.9.0.0/18,DIRECT,no-resolve
- - IP-CIDR,139.9.64.0/19,DIRECT,no-resolve
- - IP-CIDR,139.9.100.0/22,DIRECT,no-resolve
- - IP-CIDR,139.9.104.0/21,DIRECT,no-resolve
- - IP-CIDR,139.9.112.0/20,DIRECT,no-resolve
- - IP-CIDR,139.9.128.0/18,DIRECT,no-resolve
- - IP-CIDR,139.9.192.0/19,DIRECT,no-resolve
- - IP-CIDR,139.9.224.0/20,DIRECT,no-resolve
- - IP-CIDR,139.9.240.0/21,DIRECT,no-resolve
- - IP-CIDR,139.9.248.0/22,DIRECT,no-resolve
- - IP-CIDR,139.159.128.0/19,DIRECT,no-resolve
- - IP-CIDR,139.159.160.0/22,DIRECT,no-resolve
- - IP-CIDR,139.159.164.0/23,DIRECT,no-resolve
- - IP-CIDR,139.159.168.0/21,DIRECT,no-resolve
- - IP-CIDR,139.159.176.0/20,DIRECT,no-resolve
- - IP-CIDR,139.159.192.0/18,DIRECT,no-resolve
- - IP-CIDR,159.138.0.0/18,DIRECT,no-resolve
- - IP-CIDR,159.138.64.0/21,DIRECT,no-resolve
- - IP-CIDR,159.138.79.0/24,DIRECT,no-resolve
- - IP-CIDR,159.138.80.0/20,DIRECT,no-resolve
- - IP-CIDR,159.138.96.0/20,DIRECT,no-resolve
- - IP-CIDR,159.138.112.0/21,DIRECT,no-resolve
- - IP-CIDR,159.138.125.0/24,DIRECT,no-resolve
- - IP-CIDR,159.138.128.0/18,DIRECT,no-resolve
- - IP-CIDR,159.138.192.0/20,DIRECT,no-resolve
- - IP-CIDR,159.138.223.0/24,DIRECT,no-resolve
- - IP-CIDR,159.138.224.0/19,DIRECT,no-resolve
- - IP-CIDR,168.195.92.0/22,DIRECT,no-resolve
- - IP-CIDR,185.176.76.0/22,DIRECT,no-resolve
- - IP-CIDR,197.199.0.0/18,DIRECT,no-resolve
- - IP-CIDR,197.210.163.0/24,DIRECT,no-resolve
- - IP-CIDR,197.252.1.0/24,DIRECT,no-resolve
- - IP-CIDR,197.252.2.0/23,DIRECT,no-resolve
- - IP-CIDR,197.252.4.0/22,DIRECT,no-resolve
- - IP-CIDR,197.252.8.0/21,DIRECT,no-resolve
- - IP-CIDR,200.32.52.0/24,DIRECT,no-resolve
- - IP-CIDR,200.32.54.0/24,DIRECT,no-resolve
- - IP-CIDR,200.32.57.0/24,DIRECT,no-resolve
- - IP-CIDR,203.135.0.0/22,DIRECT,no-resolve
- - IP-CIDR,203.135.4.0/23,DIRECT,no-resolve
- - IP-CIDR,203.135.8.0/23,DIRECT,no-resolve
- - IP-CIDR,203.135.11.0/24,DIRECT,no-resolve
- - IP-CIDR,203.135.13.0/24,DIRECT,no-resolve
- - IP-CIDR,203.135.20.0/24,DIRECT,no-resolve
- - IP-CIDR,203.135.22.0/23,DIRECT,no-resolve
- - IP-CIDR,203.135.24.0/23,DIRECT,no-resolve
- - IP-CIDR,203.135.26.0/24,DIRECT,no-resolve
- - IP-CIDR,203.135.29.0/24,DIRECT,no-resolve
- - IP-CIDR,203.135.33.0/24,DIRECT,no-resolve
- - IP-CIDR,203.135.38.0/23,DIRECT,no-resolve
- - IP-CIDR,203.135.40.0/24,DIRECT,no-resolve
- - IP-CIDR,203.135.43.0/24,DIRECT,no-resolve
- - IP-CIDR,203.135.48.0/24,DIRECT,no-resolve
- - IP-CIDR,203.135.50.0/24,DIRECT,no-resolve
- - IP-CIDR,42.186.0.0/16,DIRECT,no-resolve
- - IP-CIDR,45.127.128.0/22,DIRECT,no-resolve
- - IP-CIDR,45.195.24.0/24,DIRECT,no-resolve
- - IP-CIDR,45.253.132.0/22,DIRECT,no-resolve
- - IP-CIDR,45.253.240.0/22,DIRECT,no-resolve
- - IP-CIDR,45.254.48.0/23,DIRECT,no-resolve
- - IP-CIDR,59.111.0.0/20,DIRECT,no-resolve
- - IP-CIDR,59.111.128.0/17,DIRECT,no-resolve
- - IP-CIDR,103.71.120.0/21,DIRECT,no-resolve
- - IP-CIDR,103.71.128.0/22,DIRECT,no-resolve
- - IP-CIDR,103.71.196.0/22,DIRECT,no-resolve
- - IP-CIDR,103.71.200.0/22,DIRECT,no-resolve
- - IP-CIDR,103.72.12.0/22,DIRECT,no-resolve
- - IP-CIDR,103.72.18.0/23,DIRECT,no-resolve
- - IP-CIDR,103.72.24.0/22,DIRECT,no-resolve
- - IP-CIDR,103.72.28.0/23,DIRECT,no-resolve
- - IP-CIDR,103.72.38.0/23,DIRECT,no-resolve
- - IP-CIDR,103.72.40.0/23,DIRECT,no-resolve
- - IP-CIDR,103.72.44.0/22,DIRECT,no-resolve
- - IP-CIDR,103.72.48.0/21,DIRECT,no-resolve
- - IP-CIDR,103.72.128.0/21,DIRECT,no-resolve
- - IP-CIDR,103.74.24.0/21,DIRECT,no-resolve
- - IP-CIDR,103.74.48.0/22,DIRECT,no-resolve
- - IP-CIDR,103.126.92.0/22,DIRECT,no-resolve
- - IP-CIDR,103.129.252.0/22,DIRECT,no-resolve
- - IP-CIDR,103.131.252.0/22,DIRECT,no-resolve
- - IP-CIDR,103.135.240.0/22,DIRECT,no-resolve
- - IP-CIDR,103.196.64.0/22,DIRECT,no-resolve
- - IP-CIDR,106.2.32.0/19,DIRECT,no-resolve
- - IP-CIDR,106.2.64.0/18,DIRECT,no-resolve
- - IP-CIDR,114.113.196.0/22,DIRECT,no-resolve
- - IP-CIDR,114.113.200.0/22,DIRECT,no-resolve
- - IP-CIDR,115.236.112.0/20,DIRECT,no-resolve
- - IP-CIDR,115.238.76.0/22,DIRECT,no-resolve
- - IP-CIDR,123.58.160.0/19,DIRECT,no-resolve
- - IP-CIDR,223.252.192.0/19,DIRECT,no-resolve
- - IP-CIDR,101.198.128.0/18,DIRECT,no-resolve
- - IP-CIDR,101.198.192.0/19,DIRECT,no-resolve
- - IP-CIDR,101.199.196.0/22,DIRECT,no-resolve
- - GEOIP,CN,DIRECT
+ - DOMAIN-SUFFIX,265.com,🎯 全球直连
+ - DOMAIN-SUFFIX,2mdn.net,🎯 全球直连
+ - DOMAIN-SUFFIX,alt1-mtalk.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,alt2-mtalk.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,alt3-mtalk.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,alt4-mtalk.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,alt5-mtalk.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,alt6-mtalk.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,alt7-mtalk.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,alt8-mtalk.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,app-measurement.com,🎯 全球直连
+ - DOMAIN-SUFFIX,c.android.clients.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,cache.pack.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,clickserve.dartsearch.net,🎯 全球直连
+ - DOMAIN-SUFFIX,clientservices.googleapis.com,🎯 全球直连
+ - DOMAIN-SUFFIX,crl.pki.goog,🎯 全球直连
+ - DOMAIN-SUFFIX,dl.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,dl.l.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,fonts.googleapis.com,🎯 全球直连
+ - DOMAIN-SUFFIX,fonts.gstatic.com,🎯 全球直连
+ - DOMAIN-SUFFIX,googletagmanager.com,🎯 全球直连
+ - DOMAIN-SUFFIX,googletagservices.com,🎯 全球直连
+ - DOMAIN-SUFFIX,gtm.oasisfeng.com,🎯 全球直连
+ - DOMAIN-SUFFIX,imasdk.googleapis.com,🎯 全球直连
+ - DOMAIN-SUFFIX,mtalk.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ocsp.pki.goog,🎯 全球直连
+ - DOMAIN-SUFFIX,recaptcha.net,🎯 全球直连
+ - DOMAIN-SUFFIX,safebrowsing-cache.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,safebrowsing.googleapis.com,🎯 全球直连
+ - DOMAIN-SUFFIX,settings.crashlytics.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ssl-google-analytics.l.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ssl.gstatic.com,🎯 全球直连
+ - DOMAIN-SUFFIX,toolbarqueries.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,tools.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,tools.l.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,update.googleapis.com,🎯 全球直连
+ - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,www.gstatic.com,🎯 全球直连
+ - DOMAIN-SUFFIX,13th.tech,🎯 全球直连
+ - DOMAIN-SUFFIX,423down.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bokecc.com,🎯 全球直连
+ - DOMAIN-SUFFIX,chaipip.com,🎯 全球直连
+ - DOMAIN-SUFFIX,chinaplay.store,🎯 全球直连
+ - DOMAIN-SUFFIX,hrtsea.com,🎯 全球直连
+ - DOMAIN-SUFFIX,kaikeba.com,🎯 全球直连
+ - DOMAIN-SUFFIX,laomo.me,🎯 全球直连
+ - DOMAIN-SUFFIX,mpyit.com,🎯 全球直连
+ - DOMAIN-SUFFIX,msftconnecttest.com,🎯 全球直连
+ - DOMAIN-SUFFIX,msftncsi.com,🎯 全球直连
+ - DOMAIN-SUFFIX,qupu123.com,🎯 全球直连
+ - DOMAIN-SUFFIX,pdfwifi.com,🎯 全球直连
+ - DOMAIN-SUFFIX,zhenguanyu.biz,🎯 全球直连
+ - DOMAIN-SUFFIX,zhenguanyu.com,🎯 全球直连
+ - DOMAIN-SUFFIX,cn,🎯 全球直连
+ - DOMAIN-SUFFIX,xn--fiqs8s,🎯 全球直连
+ - DOMAIN-SUFFIX,xn--55qx5d,🎯 全球直连
+ - DOMAIN-SUFFIX,xn--io0a7i,🎯 全球直连
+ - DOMAIN-KEYWORD,-cn,🎯 全球直连
+ - DOMAIN-KEYWORD,360buy,🎯 全球直连
+ - DOMAIN-KEYWORD,alicdn,🎯 全球直连
+ - DOMAIN-KEYWORD,alimama,🎯 全球直连
+ - DOMAIN-KEYWORD,alipay,🎯 全球直连
+ - DOMAIN-KEYWORD,appzapp,🎯 全球直连
+ - DOMAIN-KEYWORD,baidupcs,🎯 全球直连
+ - DOMAIN-KEYWORD,bilibili,🎯 全球直连
+ - DOMAIN-KEYWORD,ccgslb,🎯 全球直连
+ - DOMAIN-KEYWORD,chinacache,🎯 全球直连
+ - DOMAIN-KEYWORD,duobao,🎯 全球直连
+ - DOMAIN-KEYWORD,duolingo,🎯 全球直连
+ - DOMAIN-KEYWORD,jdpay,🎯 全球直连
+ - DOMAIN-KEYWORD,moke,🎯 全球直连
+ - DOMAIN-KEYWORD,qhimg,🎯 全球直连
+ - DOMAIN-KEYWORD,vpimg,🎯 全球直连
+ - DOMAIN-KEYWORD,xiami,🎯 全球直连
+ - DOMAIN-KEYWORD,xiaomi,🎯 全球直连
+ - DOMAIN-SUFFIX,360.com,🎯 全球直连
+ - DOMAIN-SUFFIX,360kuai.com,🎯 全球直连
+ - DOMAIN-SUFFIX,360safe.com,🎯 全球直连
+ - DOMAIN-SUFFIX,dhrest.com,🎯 全球直连
+ - DOMAIN-SUFFIX,qhres.com,🎯 全球直连
+ - DOMAIN-SUFFIX,qhstatic.com,🎯 全球直连
+ - DOMAIN-SUFFIX,qhupdate.com,🎯 全球直连
+ - DOMAIN-SUFFIX,so.com,🎯 全球直连
+ - DOMAIN-SUFFIX,4399.com,🎯 全球直连
+ - DOMAIN-SUFFIX,4399pk.com,🎯 全球直连
+ - DOMAIN-SUFFIX,5054399.com,🎯 全球直连
+ - DOMAIN-SUFFIX,img4399.com,🎯 全球直连
+ - DOMAIN-SUFFIX,58.com,🎯 全球直连
+ - DOMAIN-SUFFIX,1688.com,🎯 全球直连
+ - DOMAIN-SUFFIX,aliapp.org,🎯 全球直连
+ - DOMAIN-SUFFIX,alibaba.com,🎯 全球直连
+ - DOMAIN-SUFFIX,alibabacloud.com,🎯 全球直连
+ - DOMAIN-SUFFIX,alibabausercontent.com,🎯 全球直连
+ - DOMAIN-SUFFIX,alicdn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,alicloudccp.com,🎯 全球直连
+ - DOMAIN-SUFFIX,aliexpress.com,🎯 全球直连
+ - DOMAIN-SUFFIX,aliimg.com,🎯 全球直连
+ - DOMAIN-SUFFIX,alikunlun.com,🎯 全球直连
+ - DOMAIN-SUFFIX,alipay.com,🎯 全球直连
+ - DOMAIN-SUFFIX,alipayobjects.com,🎯 全球直连
+ - DOMAIN-SUFFIX,alisoft.com,🎯 全球直连
+ - DOMAIN-SUFFIX,aliyun.com,🎯 全球直连
+ - DOMAIN-SUFFIX,aliyuncdn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,aliyuncs.com,🎯 全球直连
+ - DOMAIN-SUFFIX,aliyundrive.com,🎯 全球直连
+ - DOMAIN-SUFFIX,amap.com,🎯 全球直连
+ - DOMAIN-SUFFIX,autonavi.com,🎯 全球直连
+ - DOMAIN-SUFFIX,dingtalk.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ele.me,🎯 全球直连
+ - DOMAIN-SUFFIX,hichina.com,🎯 全球直连
+ - DOMAIN-SUFFIX,mmstat.com,🎯 全球直连
+ - DOMAIN-SUFFIX,mxhichina.com,🎯 全球直连
+ - DOMAIN-SUFFIX,soku.com,🎯 全球直连
+ - DOMAIN-SUFFIX,taobao.com,🎯 全球直连
+ - DOMAIN-SUFFIX,taobaocdn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,tbcache.com,🎯 全球直连
+ - DOMAIN-SUFFIX,tbcdn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,tmall.com,🎯 全球直连
+ - DOMAIN-SUFFIX,tmall.hk,🎯 全球直连
+ - DOMAIN-SUFFIX,ucweb.com,🎯 全球直连
+ - DOMAIN-SUFFIX,xiami.com,🎯 全球直连
+ - DOMAIN-SUFFIX,xiami.net,🎯 全球直连
+ - DOMAIN-SUFFIX,ykimg.com,🎯 全球直连
+ - DOMAIN-SUFFIX,youku.com,🎯 全球直连
+ - DOMAIN-SUFFIX,baidu.com,🎯 全球直连
+ - DOMAIN-SUFFIX,baidubcr.com,🎯 全球直连
+ - DOMAIN-SUFFIX,baidupcs.com,🎯 全球直连
+ - DOMAIN-SUFFIX,baidustatic.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bcebos.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bdimg.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bdstatic.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bdurl.net,🎯 全球直连
+ - DOMAIN-SUFFIX,hao123.com,🎯 全球直连
+ - DOMAIN-SUFFIX,hao123img.com,🎯 全球直连
+ - DOMAIN-SUFFIX,jomodns.com,🎯 全球直连
+ - DOMAIN-SUFFIX,yunjiasu-cdn.net,🎯 全球直连
+ - DOMAIN-SUFFIX,acg.tv,🎯 全球直连
+ - DOMAIN-SUFFIX,acgvideo.com,🎯 全球直连
+ - DOMAIN-SUFFIX,b23.tv,🎯 全球直连
+ - DOMAIN-SUFFIX,bigfun.cn,🎯 全球直连
+ - DOMAIN-SUFFIX,bigfunapp.cn,🎯 全球直连
+ - DOMAIN-SUFFIX,biliapi.com,🎯 全球直连
+ - DOMAIN-SUFFIX,biliapi.net,🎯 全球直连
+ - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
+ - DOMAIN-SUFFIX,biligame.com,🎯 全球直连
+ - DOMAIN-SUFFIX,biligame.net,🎯 全球直连
+ - DOMAIN-SUFFIX,bilivideo.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bilivideo.cn,🎯 全球直连
+ - DOMAIN-SUFFIX,hdslb.com,🎯 全球直连
+ - DOMAIN-SUFFIX,im9.com,🎯 全球直连
+ - DOMAIN-SUFFIX,smtcdns.net,🎯 全球直连
+ - DOMAIN-SUFFIX,battle.net,🎯 全球直连
+ - DOMAIN-SUFFIX,battlenet.com,🎯 全球直连
+ - DOMAIN-SUFFIX,blizzard.com,🎯 全球直连
+ - DOMAIN-SUFFIX,amemv.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bdxiguaimg.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bdxiguastatic.com,🎯 全球直连
+ - DOMAIN-SUFFIX,byted-static.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bytedance.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bytedance.net,🎯 全球直连
+ - DOMAIN-SUFFIX,bytedns.net,🎯 全球直连
+ - DOMAIN-SUFFIX,bytednsdoc.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bytegoofy.com,🎯 全球直连
+ - DOMAIN-SUFFIX,byteimg.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bytescm.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bytetos.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bytexservice.com,🎯 全球直连
+ - DOMAIN-SUFFIX,douyin.com,🎯 全球直连
+ - DOMAIN-SUFFIX,douyinpic.com,🎯 全球直连
+ - DOMAIN-SUFFIX,douyinstatic.com,🎯 全球直连
+ - DOMAIN-SUFFIX,douyinvod.com,🎯 全球直连
+ - DOMAIN-SUFFIX,feelgood.cn,🎯 全球直连
+ - DOMAIN-SUFFIX,feiliao.com,🎯 全球直连
+ - DOMAIN-SUFFIX,gifshow.com,🎯 全球直连
+ - DOMAIN-SUFFIX,huoshan.com,🎯 全球直连
+ - DOMAIN-SUFFIX,huoshanzhibo.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ibytedapm.com,🎯 全球直连
+ - DOMAIN-SUFFIX,iesdouyin.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ixigua.com,🎯 全球直连
+ - DOMAIN-SUFFIX,kspkg.com,🎯 全球直连
+ - DOMAIN-SUFFIX,pstatp.com,🎯 全球直连
+ - DOMAIN-SUFFIX,snssdk.com,🎯 全球直连
+ - DOMAIN-SUFFIX,toutiao.com,🎯 全球直连
+ - DOMAIN-SUFFIX,toutiao13.com,🎯 全球直连
+ - DOMAIN-SUFFIX,toutiaoapi.com,🎯 全球直连
+ - DOMAIN-SUFFIX,toutiaocdn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,toutiaocdn.net,🎯 全球直连
+ - DOMAIN-SUFFIX,toutiaocloud.com,🎯 全球直连
+ - DOMAIN-SUFFIX,toutiaohao.com,🎯 全球直连
+ - DOMAIN-SUFFIX,toutiaohao.net,🎯 全球直连
+ - DOMAIN-SUFFIX,toutiaoimg.com,🎯 全球直连
+ - DOMAIN-SUFFIX,toutiaopage.com,🎯 全球直连
+ - DOMAIN-SUFFIX,wukong.com,🎯 全球直连
+ - DOMAIN-SUFFIX,zijieapi.com,🎯 全球直连
+ - DOMAIN-SUFFIX,zijieimg.com,🎯 全球直连
+ - DOMAIN-SUFFIX,zjbyte.com,🎯 全球直连
+ - DOMAIN-SUFFIX,zjcdn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,cctv.com,🎯 全球直连
+ - DOMAIN-SUFFIX,cctvpic.com,🎯 全球直连
+ - DOMAIN-SUFFIX,livechina.com,🎯 全球直连
+ - DOMAIN-SUFFIX,21cn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,didialift.com,🎯 全球直连
+ - DOMAIN-SUFFIX,didiglobal.com,🎯 全球直连
+ - DOMAIN-SUFFIX,udache.com,🎯 全球直连
+ - DOMAIN-SUFFIX,douyu.com,🎯 全球直连
+ - DOMAIN-SUFFIX,douyu.tv,🎯 全球直连
+ - DOMAIN-SUFFIX,douyuscdn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,douyutv.com,🎯 全球直连
+ - DOMAIN-SUFFIX,epicgames.com,🎯 全球直连
+ - DOMAIN-SUFFIX,helpshift.com,🎯 全球直连
+ - DOMAIN-SUFFIX,paragon.com,🎯 全球直连
+ - DOMAIN-SUFFIX,unrealengine.com,🎯 全球直连
+ - DOMAIN-SUFFIX,dbankcdn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,hc-cdn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,hicloud.com,🎯 全球直连
+ - DOMAIN-SUFFIX,huawei.com,🎯 全球直连
+ - DOMAIN-SUFFIX,huaweicloud.com,🎯 全球直连
+ - DOMAIN-SUFFIX,huaweishop.net,🎯 全球直连
+ - DOMAIN-SUFFIX,hwccpc.com,🎯 全球直连
+ - DOMAIN-SUFFIX,vmall.com,🎯 全球直连
+ - DOMAIN-SUFFIX,vmallres.com,🎯 全球直连
+ - DOMAIN-SUFFIX,iflyink.com,🎯 全球直连
+ - DOMAIN-SUFFIX,iflyrec.com,🎯 全球直连
+ - DOMAIN-SUFFIX,iflytek.com,🎯 全球直连
+ - DOMAIN-SUFFIX,71.am,🎯 全球直连
+ - DOMAIN-SUFFIX,71edge.com,🎯 全球直连
+ - DOMAIN-SUFFIX,iqiyi.com,🎯 全球直连
+ - DOMAIN-SUFFIX,iqiyipic.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ppsimg.com,🎯 全球直连
+ - DOMAIN-SUFFIX,qiyi.com,🎯 全球直连
+ - DOMAIN-SUFFIX,qiyipic.com,🎯 全球直连
+ - DOMAIN-SUFFIX,qy.net,🎯 全球直连
+ - DOMAIN-SUFFIX,360buy.com,🎯 全球直连
+ - DOMAIN-SUFFIX,360buyimg.com,🎯 全球直连
+ - DOMAIN-SUFFIX,jcloudcs.com,🎯 全球直连
+ - DOMAIN-SUFFIX,jd.com,🎯 全球直连
+ - DOMAIN-SUFFIX,jd.hk,🎯 全球直连
+ - DOMAIN-SUFFIX,jdcloud.com,🎯 全球直连
+ - DOMAIN-SUFFIX,jdpay.com,🎯 全球直连
+ - DOMAIN-SUFFIX,paipai.com,🎯 全球直连
+ - DOMAIN-SUFFIX,iciba.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ksosoft.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ksyun.com,🎯 全球直连
+ - DOMAIN-SUFFIX,kuaishou.com,🎯 全球直连
+ - DOMAIN-SUFFIX,yximgs.com,🎯 全球直连
+ - DOMAIN-SUFFIX,meitu.com,🎯 全球直连
+ - DOMAIN-SUFFIX,meitudata.com,🎯 全球直连
+ - DOMAIN-SUFFIX,meitustat.com,🎯 全球直连
+ - DOMAIN-SUFFIX,meipai.com,🎯 全球直连
+ - DOMAIN-SUFFIX,le.com,🎯 全球直连
+ - DOMAIN-SUFFIX,lecloud.com,🎯 全球直连
+ - DOMAIN-SUFFIX,letv.com,🎯 全球直连
+ - DOMAIN-SUFFIX,letvcloud.com,🎯 全球直连
+ - DOMAIN-SUFFIX,letvimg.com,🎯 全球直连
+ - DOMAIN-SUFFIX,letvlive.com,🎯 全球直连
+ - DOMAIN-SUFFIX,letvstore.com,🎯 全球直连
+ - DOMAIN-SUFFIX,hitv.com,🎯 全球直连
+ - DOMAIN-SUFFIX,hunantv.com,🎯 全球直连
+ - DOMAIN-SUFFIX,mgtv.com,🎯 全球直连
+ - DOMAIN-SUFFIX,duokan.com,🎯 全球直连
+ - DOMAIN-SUFFIX,mi-img.com,🎯 全球直连
+ - DOMAIN-SUFFIX,mi.com,🎯 全球直连
+ - DOMAIN-SUFFIX,miui.com,🎯 全球直连
+ - DOMAIN-SUFFIX,xiaomi.com,🎯 全球直连
+ - DOMAIN-SUFFIX,xiaomi.net,🎯 全球直连
+ - DOMAIN-SUFFIX,xiaomicp.com,🎯 全球直连
+ - DOMAIN-SUFFIX,126.com,🎯 全球直连
+ - DOMAIN-SUFFIX,126.net,🎯 全球直连
+ - DOMAIN-SUFFIX,127.net,🎯 全球直连
+ - DOMAIN-SUFFIX,163.com,🎯 全球直连
+ - DOMAIN-SUFFIX,163yun.com,🎯 全球直连
+ - DOMAIN-SUFFIX,lofter.com,🎯 全球直连
+ - DOMAIN-SUFFIX,netease.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ydstatic.com,🎯 全球直连
+ - DOMAIN-SUFFIX,youdao.com,🎯 全球直连
+ - DOMAIN-SUFFIX,pplive.com,🎯 全球直连
+ - DOMAIN-SUFFIX,pptv.com,🎯 全球直连
+ - DOMAIN-SUFFIX,pinduoduo.com,🎯 全球直连
+ - DOMAIN-SUFFIX,yangkeduo.com,🎯 全球直连
+ - DOMAIN-SUFFIX,leju.com,🎯 全球直连
+ - DOMAIN-SUFFIX,miaopai.com,🎯 全球直连
+ - DOMAIN-SUFFIX,sina.com,🎯 全球直连
+ - DOMAIN-SUFFIX,sinaapp.com,🎯 全球直连
+ - DOMAIN-SUFFIX,sinaimg.com,🎯 全球直连
+ - DOMAIN-SUFFIX,weibo.com,🎯 全球直连
+ - DOMAIN-SUFFIX,weibocdn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,xiaoka.tv,🎯 全球直连
+ - DOMAIN-SUFFIX,go2map.com,🎯 全球直连
+ - DOMAIN-SUFFIX,sogo.com,🎯 全球直连
+ - DOMAIN-SUFFIX,sogou.com,🎯 全球直连
+ - DOMAIN-SUFFIX,sogoucdn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,sohu-inc.com,🎯 全球直连
+ - DOMAIN-SUFFIX,sohu.com,🎯 全球直连
+ - DOMAIN-SUFFIX,sohucs.com,🎯 全球直连
+ - DOMAIN-SUFFIX,sohuno.com,🎯 全球直连
+ - DOMAIN-SUFFIX,sohurdc.com,🎯 全球直连
+ - DOMAIN-SUFFIX,v-56.com,🎯 全球直连
+ - DOMAIN-SUFFIX,playstation.com,🎯 全球直连
+ - DOMAIN-SUFFIX,playstation.net,🎯 全球直连
+ - DOMAIN-SUFFIX,playstationnetwork.com,🎯 全球直连
+ - DOMAIN-SUFFIX,sony.com,🎯 全球直连
+ - DOMAIN-SUFFIX,sonyentertainmentnetwork.com,🎯 全球直连
+ - DOMAIN-SUFFIX,cm.steampowered.com,🎯 全球直连
+ - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
+ - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连
+ - DOMAIN-SUFFIX,steamchina.com,🎯 全球直连
+ - DOMAIN,csgo.wmsj.cn,🎯 全球直连
+ - DOMAIN,dota2.wmsj.cn,🎯 全球直连
+ - DOMAIN,wmsjsteam.com,🎯 全球直连
+ - DOMAIN,dl.steam.clngaa.com,🎯 全球直连
+ - DOMAIN,dl.steam.ksyna.com,🎯 全球直连
+ - DOMAIN,st.dl.bscstorage.net,🎯 全球直连
+ - DOMAIN,st.dl.eccdnx.com,🎯 全球直连
+ - DOMAIN,st.dl.pinyuncloud.com,🎯 全球直连
+ - DOMAIN,steampipe.steamcontent.tnkjmec.com,🎯 全球直连
+ - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
+ - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
+ - DOMAIN-SUFFIX,foxmail.com,🎯 全球直连
+ - DOMAIN-SUFFIX,gtimg.com,🎯 全球直连
+ - DOMAIN-SUFFIX,idqqimg.com,🎯 全球直连
+ - DOMAIN-SUFFIX,igamecj.com,🎯 全球直连
+ - DOMAIN-SUFFIX,myapp.com,🎯 全球直连
+ - DOMAIN-SUFFIX,myqcloud.com,🎯 全球直连
+ - DOMAIN-SUFFIX,qq.com,🎯 全球直连
+ - DOMAIN-SUFFIX,qqmail.com,🎯 全球直连
+ - DOMAIN-SUFFIX,qqurl.com,🎯 全球直连
+ - DOMAIN-SUFFIX,smtcdns.com,🎯 全球直连
+ - DOMAIN-SUFFIX,smtcdns.net,🎯 全球直连
+ - DOMAIN-SUFFIX,soso.com,🎯 全球直连
+ - DOMAIN-SUFFIX,tencent-cloud.net,🎯 全球直连
+ - DOMAIN-SUFFIX,tencent.com,🎯 全球直连
+ - DOMAIN-SUFFIX,tencentmind.com,🎯 全球直连
+ - DOMAIN-SUFFIX,tenpay.com,🎯 全球直连
+ - DOMAIN-SUFFIX,wechat.com,🎯 全球直连
+ - DOMAIN-SUFFIX,weixin.com,🎯 全球直连
+ - DOMAIN-SUFFIX,weiyun.com,🎯 全球直连
+ - DOMAIN-SUFFIX,appsimg.com,🎯 全球直连
+ - DOMAIN-SUFFIX,appvipshop.com,🎯 全球直连
+ - DOMAIN-SUFFIX,vip.com,🎯 全球直连
+ - DOMAIN-SUFFIX,vipstatic.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ximalaya.com,🎯 全球直连
+ - DOMAIN-SUFFIX,xmcdn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,00cdn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,88cdn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,kanimg.com,🎯 全球直连
+ - DOMAIN-SUFFIX,kankan.com,🎯 全球直连
+ - DOMAIN-SUFFIX,p2cdn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,sandai.net,🎯 全球直连
+ - DOMAIN-SUFFIX,thundercdn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,xunlei.com,🎯 全球直连
+ - DOMAIN-SUFFIX,got001.com,🎯 全球直连
+ - DOMAIN-SUFFIX,p4pfile.com,🎯 全球直连
+ - DOMAIN-SUFFIX,rrys.tv,🎯 全球直连
+ - DOMAIN-SUFFIX,rrys2020.com,🎯 全球直连
+ - DOMAIN-SUFFIX,yyets.com,🎯 全球直连
+ - DOMAIN-SUFFIX,zimuzu.io,🎯 全球直连
+ - DOMAIN-SUFFIX,zimuzu.tv,🎯 全球直连
+ - DOMAIN-SUFFIX,zmz001.com,🎯 全球直连
+ - DOMAIN-SUFFIX,zmz002.com,🎯 全球直连
+ - DOMAIN-SUFFIX,zmz003.com,🎯 全球直连
+ - DOMAIN-SUFFIX,zmz004.com,🎯 全球直连
+ - DOMAIN-SUFFIX,zmz2019.com,🎯 全球直连
+ - DOMAIN-SUFFIX,zmzapi.com,🎯 全球直连
+ - DOMAIN-SUFFIX,zmzapi.net,🎯 全球直连
+ - DOMAIN-SUFFIX,zmzfile.com,🎯 全球直连
+ - DOMAIN-KEYWORD,announce,🎯 全球直连
+ - DOMAIN-KEYWORD,torrent,🎯 全球直连
+ - DOMAIN-KEYWORD,tracker,🎯 全球直连
+ - DOMAIN-SUFFIX,animebytes.tv,🎯 全球直连
+ - DOMAIN-SUFFIX,animetorrents.me,🎯 全球直连
+ - DOMAIN-SUFFIX,awesome-hd.me,🎯 全球直连
+ - DOMAIN-SUFFIX,beitai.pt,🎯 全球直连
+ - DOMAIN-SUFFIX,bittorrent.com,🎯 全球直连
+ - DOMAIN-SUFFIX,broadcasthe.net,🎯 全球直连
+ - DOMAIN-SUFFIX,chdbits.co,🎯 全球直连
+ - DOMAIN-SUFFIX,classix-unlimited.co.uk,🎯 全球直连
+ - DOMAIN-SUFFIX,empornium.me,🎯 全球直连
+ - DOMAIN-SUFFIX,gazellegames.net,🎯 全球直连
+ - DOMAIN-SUFFIX,hd4fans.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hdchina.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hdhome.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hdsky.me,🎯 全球直连
+ - DOMAIN-SUFFIX,hdtime.org,🎯 全球直连
+ - DOMAIN-SUFFIX,hdzone.me,🎯 全球直连
+ - DOMAIN-SUFFIX,icetorrent.org,🎯 全球直连
+ - DOMAIN-SUFFIX,jpopsuki.eu,🎯 全球直连
+ - DOMAIN-SUFFIX,keepfrds.com,🎯 全球直连
+ - DOMAIN-SUFFIX,leaguehd.com,🎯 全球直连
+ - DOMAIN-SUFFIX,m-team.cc,🎯 全球直连
+ - DOMAIN-SUFFIX,madsrevolution.net,🎯 全球直连
+ - DOMAIN-SUFFIX,msg.vg,🎯 全球直连
+ - DOMAIN-SUFFIX,nanyangpt.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ncore.cc,🎯 全球直连
+ - DOMAIN-SUFFIX,open.cd,🎯 全球直连
+ - DOMAIN-SUFFIX,ourbits.club,🎯 全球直连
+ - DOMAIN-SUFFIX,passthepopcorn.me,🎯 全球直连
+ - DOMAIN-SUFFIX,privatehd.to,🎯 全球直连
+ - DOMAIN-SUFFIX,pthome.net,🎯 全球直连
+ - DOMAIN-SUFFIX,redacted.ch,🎯 全球直连
+ - DOMAIN-SUFFIX,springsunday.net,🎯 全球直连
+ - DOMAIN-SUFFIX,tjupt.org,🎯 全球直连
+ - DOMAIN-SUFFIX,totheglory.im,🎯 全球直连
+ - DOMAIN-SUFFIX,trontv.com,🎯 全球直连
+ - DOMAIN-SUFFIX,teamviewer.com,🎯 全球直连
+ - IP-CIDR,109.239.140.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,139.220.243.27/32,🎯 全球直连,no-resolve
+ - IP-CIDR,172.16.102.56/32,🎯 全球直连,no-resolve
+ - IP-CIDR,185.188.32.1/28,🎯 全球直连,no-resolve
+ - IP-CIDR,221.226.128.146/32,🎯 全球直连,no-resolve
+ - IP-CIDR6,2a0b:b580::/48,🎯 全球直连,no-resolve
+ - IP-CIDR6,2a0b:b581::/48,🎯 全球直连,no-resolve
+ - IP-CIDR6,2a0b:b582::/48,🎯 全球直连,no-resolve
+ - IP-CIDR6,2a0b:b583::/48,🎯 全球直连,no-resolve
+ - DOMAIN-SUFFIX,baomitu.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bootcss.com,🎯 全球直连
+ - DOMAIN-SUFFIX,jiasule.com,🎯 全球直连
+ - DOMAIN-SUFFIX,staticfile.org,🎯 全球直连
+ - DOMAIN-SUFFIX,upaiyun.com,🎯 全球直连
+ - DOMAIN-SUFFIX,10010.com,🎯 全球直连
+ - DOMAIN-SUFFIX,115.com,🎯 全球直连
+ - DOMAIN-SUFFIX,12306.com,🎯 全球直连
+ - DOMAIN-SUFFIX,17173.com,🎯 全球直连
+ - DOMAIN-SUFFIX,178.com,🎯 全球直连
+ - DOMAIN-SUFFIX,17k.com,🎯 全球直连
+ - DOMAIN-SUFFIX,360doc.com,🎯 全球直连
+ - DOMAIN-SUFFIX,36kr.com,🎯 全球直连
+ - DOMAIN-SUFFIX,3dmgame.com,🎯 全球直连
+ - DOMAIN-SUFFIX,51cto.com,🎯 全球直连
+ - DOMAIN-SUFFIX,51job.com,🎯 全球直连
+ - DOMAIN-SUFFIX,51jobcdn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,56.com,🎯 全球直连
+ - DOMAIN-SUFFIX,8686c.com,🎯 全球直连
+ - DOMAIN-SUFFIX,abchina.com,🎯 全球直连
+ - DOMAIN-SUFFIX,abercrombie.com,🎯 全球直连
+ - DOMAIN-SUFFIX,acfun.tv,🎯 全球直连
+ - DOMAIN-SUFFIX,air-matters.com,🎯 全球直连
+ - DOMAIN-SUFFIX,air-matters.io,🎯 全球直连
+ - DOMAIN-SUFFIX,aixifan.com,🎯 全球直连
+ - DOMAIN-SUFFIX,algocasts.io,🎯 全球直连
+ - DOMAIN-SUFFIX,babytree.com,🎯 全球直连
+ - DOMAIN-SUFFIX,babytreeimg.com,🎯 全球直连
+ - DOMAIN-SUFFIX,baicizhan.com,🎯 全球直连
+ - DOMAIN-SUFFIX,baidupan.com,🎯 全球直连
+ - DOMAIN-SUFFIX,baike.com,🎯 全球直连
+ - DOMAIN-SUFFIX,biqudu.com,🎯 全球直连
+ - DOMAIN-SUFFIX,biquge.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bitauto.com,🎯 全球直连
+ - DOMAIN-SUFFIX,c-ctrip.com,🎯 全球直连
+ - DOMAIN-SUFFIX,camera360.com,🎯 全球直连
+ - DOMAIN-SUFFIX,cdnmama.com,🎯 全球直连
+ - DOMAIN-SUFFIX,chaoxing.com,🎯 全球直连
+ - DOMAIN-SUFFIX,che168.com,🎯 全球直连
+ - DOMAIN-SUFFIX,chinacache.net,🎯 全球直连
+ - DOMAIN-SUFFIX,chinaso.com,🎯 全球直连
+ - DOMAIN-SUFFIX,chinaz.com,🎯 全球直连
+ - DOMAIN-SUFFIX,chinaz.net,🎯 全球直连
+ - DOMAIN-SUFFIX,chuimg.com,🎯 全球直连
+ - DOMAIN-SUFFIX,cibntv.net,🎯 全球直连
+ - DOMAIN-SUFFIX,clouddn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,cloudxns.net,🎯 全球直连
+ - DOMAIN-SUFFIX,cn163.net,🎯 全球直连
+ - DOMAIN-SUFFIX,cnbeta.com,🎯 全球直连
+ - DOMAIN-SUFFIX,cnbetacdn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,cnblogs.com,🎯 全球直连
+ - DOMAIN-SUFFIX,cnki.net,🎯 全球直连
+ - DOMAIN-SUFFIX,cnmstl.net,🎯 全球直连
+ - DOMAIN-SUFFIX,coolapk.com,🎯 全球直连
+ - DOMAIN-SUFFIX,coolapkmarket.com,🎯 全球直连
+ - DOMAIN-SUFFIX,csdn.net,🎯 全球直连
+ - DOMAIN-SUFFIX,ctrip.com,🎯 全球直连
+ - DOMAIN-SUFFIX,dangdang.com,🎯 全球直连
+ - DOMAIN-SUFFIX,dfcfw.com,🎯 全球直连
+ - DOMAIN-SUFFIX,dianping.com,🎯 全球直连
+ - DOMAIN-SUFFIX,dilidili.wang,🎯 全球直连
+ - DOMAIN-SUFFIX,douban.com,🎯 全球直连
+ - DOMAIN-SUFFIX,doubanio.com,🎯 全球直连
+ - DOMAIN-SUFFIX,dpfile.com,🎯 全球直连
+ - DOMAIN-SUFFIX,duowan.com,🎯 全球直连
+ - DOMAIN-SUFFIX,dxycdn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,dytt8.net,🎯 全球直连
+ - DOMAIN-SUFFIX,easou.com,🎯 全球直连
+ - DOMAIN-SUFFIX,eastday.com,🎯 全球直连
+ - DOMAIN-SUFFIX,eastmoney.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ecitic.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ewqcxz.com,🎯 全球直连
+ - DOMAIN-SUFFIX,fang.com,🎯 全球直连
+ - DOMAIN-SUFFIX,fantasy.tv,🎯 全球直连
+ - DOMAIN-SUFFIX,feng.com,🎯 全球直连
+ - DOMAIN-SUFFIX,fengkongcloud.com,🎯 全球直连
+ - DOMAIN-SUFFIX,fir.im,🎯 全球直连
+ - DOMAIN-SUFFIX,frdic.com,🎯 全球直连
+ - DOMAIN-SUFFIX,fresh-ideas.cc,🎯 全球直连
+ - DOMAIN-SUFFIX,ganji.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ganjistatic1.com,🎯 全球直连
+ - DOMAIN-SUFFIX,geetest.com,🎯 全球直连
+ - DOMAIN-SUFFIX,geilicdn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ghpym.com,🎯 全球直连
+ - DOMAIN-SUFFIX,godic.net,🎯 全球直连
+ - DOMAIN-SUFFIX,guazi.com,🎯 全球直连
+ - DOMAIN-SUFFIX,gwdang.com,🎯 全球直连
+ - DOMAIN-SUFFIX,gzlzfm.com,🎯 全球直连
+ - DOMAIN-SUFFIX,haibian.com,🎯 全球直连
+ - DOMAIN-SUFFIX,haosou.com,🎯 全球直连
+ - DOMAIN-SUFFIX,hollisterco.com,🎯 全球直连
+ - DOMAIN-SUFFIX,hongxiu.com,🎯 全球直连
+ - DOMAIN-SUFFIX,huajiao.com,🎯 全球直连
+ - DOMAIN-SUFFIX,hupu.com,🎯 全球直连
+ - DOMAIN-SUFFIX,huxiucdn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,huya.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ifeng.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ifengimg.com,🎯 全球直连
+ - DOMAIN-SUFFIX,images-amazon.com,🎯 全球直连
+ - DOMAIN-SUFFIX,infzm.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ipip.net,🎯 全球直连
+ - DOMAIN-SUFFIX,it168.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ithome.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ixdzs.com,🎯 全球直连
+ - DOMAIN-SUFFIX,jianguoyun.com,🎯 全球直连
+ - DOMAIN-SUFFIX,jianshu.com,🎯 全球直连
+ - DOMAIN-SUFFIX,jianshu.io,🎯 全球直连
+ - DOMAIN-SUFFIX,jianshuapi.com,🎯 全球直连
+ - DOMAIN-SUFFIX,jiathis.com,🎯 全球直连
+ - DOMAIN-SUFFIX,jmstatic.com,🎯 全球直连
+ - DOMAIN-SUFFIX,jumei.com,🎯 全球直连
+ - DOMAIN-SUFFIX,kaola.com,🎯 全球直连
+ - DOMAIN-SUFFIX,knewone.com,🎯 全球直连
+ - DOMAIN-SUFFIX,koowo.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ksyungslb.com,🎯 全球直连
+ - DOMAIN-SUFFIX,kuaidi100.com,🎯 全球直连
+ - DOMAIN-SUFFIX,kugou.com,🎯 全球直连
+ - DOMAIN-SUFFIX,lancdns.com,🎯 全球直连
+ - DOMAIN-SUFFIX,landiannews.com,🎯 全球直连
+ - DOMAIN-SUFFIX,lanzou.com,🎯 全球直连
+ - DOMAIN-SUFFIX,lanzoui.com,🎯 全球直连
+ - DOMAIN-SUFFIX,lanzoux.com,🎯 全球直连
+ - DOMAIN-SUFFIX,lemicp.com,🎯 全球直连
+ - DOMAIN-SUFFIX,letitfly.me,🎯 全球直连
+ - DOMAIN-SUFFIX,lizhi.fm,🎯 全球直连
+ - DOMAIN-SUFFIX,lizhi.io,🎯 全球直连
+ - DOMAIN-SUFFIX,lizhifm.com,🎯 全球直连
+ - DOMAIN-SUFFIX,luoo.net,🎯 全球直连
+ - DOMAIN-SUFFIX,lvmama.com,🎯 全球直连
+ - DOMAIN-SUFFIX,lxdns.com,🎯 全球直连
+ - DOMAIN-SUFFIX,maoyan.com,🎯 全球直连
+ - DOMAIN-SUFFIX,meilishuo.com,🎯 全球直连
+ - DOMAIN-SUFFIX,meituan.com,🎯 全球直连
+ - DOMAIN-SUFFIX,meituan.net,🎯 全球直连
+ - DOMAIN-SUFFIX,meizu.com,🎯 全球直连
+ - DOMAIN-SUFFIX,migucloud.com,🎯 全球直连
+ - DOMAIN-SUFFIX,miguvideo.com,🎯 全球直连
+ - DOMAIN-SUFFIX,mobike.com,🎯 全球直连
+ - DOMAIN-SUFFIX,mogu.com,🎯 全球直连
+ - DOMAIN-SUFFIX,mogucdn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,mogujie.com,🎯 全球直连
+ - DOMAIN-SUFFIX,moji.com,🎯 全球直连
+ - DOMAIN-SUFFIX,moke.com,🎯 全球直连
+ - DOMAIN-SUFFIX,msstatic.com,🎯 全球直连
+ - DOMAIN-SUFFIX,mubu.com,🎯 全球直连
+ - DOMAIN-SUFFIX,myunlu.com,🎯 全球直连
+ - DOMAIN-SUFFIX,nruan.com,🎯 全球直连
+ - DOMAIN-SUFFIX,nuomi.com,🎯 全球直连
+ - DOMAIN-SUFFIX,onedns.net,🎯 全球直连
+ - DOMAIN-SUFFIX,onlinedown.net,🎯 全球直连
+ - DOMAIN-SUFFIX,oracle.com,🎯 全球直连
+ - DOMAIN-SUFFIX,oschina.net,🎯 全球直连
+ - DOMAIN-SUFFIX,ourdvs.com,🎯 全球直连
+ - DOMAIN-SUFFIX,polyv.net,🎯 全球直连
+ - DOMAIN-SUFFIX,qbox.me,🎯 全球直连
+ - DOMAIN-SUFFIX,qcloud.com,🎯 全球直连
+ - DOMAIN-SUFFIX,qcloudcdn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,qdaily.com,🎯 全球直连
+ - DOMAIN-SUFFIX,qdmm.com,🎯 全球直连
+ - DOMAIN-SUFFIX,qhimg.com,🎯 全球直连
+ - DOMAIN-SUFFIX,qianqian.com,🎯 全球直连
+ - DOMAIN-SUFFIX,qidian.com,🎯 全球直连
+ - DOMAIN-SUFFIX,qihucdn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,qin.io,🎯 全球直连
+ - DOMAIN-SUFFIX,qiniu.com,🎯 全球直连
+ - DOMAIN-SUFFIX,qiniucdn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,qiniudn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,qiushibaike.com,🎯 全球直连
+ - DOMAIN-SUFFIX,quanmin.tv,🎯 全球直连
+ - DOMAIN-SUFFIX,qunar.com,🎯 全球直连
+ - DOMAIN-SUFFIX,qunarzz.com,🎯 全球直连
+ - DOMAIN-SUFFIX,repaik.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ruguoapp.com,🎯 全球直连
+ - DOMAIN-SUFFIX,runoob.com,🎯 全球直连
+ - DOMAIN-SUFFIX,sankuai.com,🎯 全球直连
+ - DOMAIN-SUFFIX,segmentfault.com,🎯 全球直连
+ - DOMAIN-SUFFIX,sf-express.com,🎯 全球直连
+ - DOMAIN-SUFFIX,shumilou.net,🎯 全球直连
+ - DOMAIN-SUFFIX,simplecd.me,🎯 全球直连
+ - DOMAIN-SUFFIX,smzdm.com,🎯 全球直连
+ - DOMAIN-SUFFIX,snwx.com,🎯 全球直连
+ - DOMAIN-SUFFIX,soufunimg.com,🎯 全球直连
+ - DOMAIN-SUFFIX,sspai.com,🎯 全球直连
+ - DOMAIN-SUFFIX,startssl.com,🎯 全球直连
+ - DOMAIN-SUFFIX,suning.com,🎯 全球直连
+ - DOMAIN-SUFFIX,synology.com,🎯 全球直连
+ - DOMAIN-SUFFIX,taihe.com,🎯 全球直连
+ - DOMAIN-SUFFIX,th-sjy.com,🎯 全球直连
+ - DOMAIN-SUFFIX,tianqi.com,🎯 全球直连
+ - DOMAIN-SUFFIX,tianqistatic.com,🎯 全球直连
+ - DOMAIN-SUFFIX,tianyancha.com,🎯 全球直连
+ - DOMAIN-SUFFIX,tianyaui.com,🎯 全球直连
+ - DOMAIN-SUFFIX,tietuku.com,🎯 全球直连
+ - DOMAIN-SUFFIX,tiexue.net,🎯 全球直连
+ - DOMAIN-SUFFIX,tmiaoo.com,🎯 全球直连
+ - DOMAIN-SUFFIX,trip.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ttmeiju.com,🎯 全球直连
+ - DOMAIN-SUFFIX,tudou.com,🎯 全球直连
+ - DOMAIN-SUFFIX,tuniu.com,🎯 全球直连
+ - DOMAIN-SUFFIX,tuniucdn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,umengcloud.com,🎯 全球直连
+ - DOMAIN-SUFFIX,upyun.com,🎯 全球直连
+ - DOMAIN-SUFFIX,uxengine.net,🎯 全球直连
+ - DOMAIN-SUFFIX,videocc.net,🎯 全球直连
+ - DOMAIN-SUFFIX,wandoujia.com,🎯 全球直连
+ - DOMAIN-SUFFIX,weather.com,🎯 全球直连
+ - DOMAIN-SUFFIX,weico.cc,🎯 全球直连
+ - DOMAIN-SUFFIX,weidian.com,🎯 全球直连
+ - DOMAIN-SUFFIX,weiphone.com,🎯 全球直连
+ - DOMAIN-SUFFIX,weiphone.net,🎯 全球直连
+ - DOMAIN-SUFFIX,womai.com,🎯 全球直连
+ - DOMAIN-SUFFIX,wscdns.com,🎯 全球直连
+ - DOMAIN-SUFFIX,xdrig.com,🎯 全球直连
+ - DOMAIN-SUFFIX,xhscdn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,xiachufang.com,🎯 全球直连
+ - DOMAIN-SUFFIX,xiaohongshu.com,🎯 全球直连
+ - DOMAIN-SUFFIX,xiaojukeji.com,🎯 全球直连
+ - DOMAIN-SUFFIX,xinhuanet.com,🎯 全球直连
+ - DOMAIN-SUFFIX,xip.io,🎯 全球直连
+ - DOMAIN-SUFFIX,xitek.com,🎯 全球直连
+ - DOMAIN-SUFFIX,xiumi.us,🎯 全球直连
+ - DOMAIN-SUFFIX,xslb.net,🎯 全球直连
+ - DOMAIN-SUFFIX,xueqiu.com,🎯 全球直连
+ - DOMAIN-SUFFIX,yach.me,🎯 全球直连
+ - DOMAIN-SUFFIX,yeepay.com,🎯 全球直连
+ - DOMAIN-SUFFIX,yhd.com,🎯 全球直连
+ - DOMAIN-SUFFIX,yihaodianimg.com,🎯 全球直连
+ - DOMAIN-SUFFIX,yinxiang.com,🎯 全球直连
+ - DOMAIN-SUFFIX,yinyuetai.com,🎯 全球直连
+ - DOMAIN-SUFFIX,yixia.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ys168.com,🎯 全球直连
+ - DOMAIN-SUFFIX,yuewen.com,🎯 全球直连
+ - DOMAIN-SUFFIX,yy.com,🎯 全球直连
+ - DOMAIN-SUFFIX,yystatic.com,🎯 全球直连
+ - DOMAIN-SUFFIX,zealer.com,🎯 全球直连
+ - DOMAIN-SUFFIX,zhangzishi.cc,🎯 全球直连
+ - DOMAIN-SUFFIX,zhanqi.tv,🎯 全球直连
+ - DOMAIN-SUFFIX,zhaopin.com,🎯 全球直连
+ - DOMAIN-SUFFIX,zhihu.com,🎯 全球直连
+ - DOMAIN-SUFFIX,zhimg.com,🎯 全球直连
+ - DOMAIN-SUFFIX,zhongsou.com,🎯 全球直连
+ - DOMAIN-SUFFIX,zhuihd.com,🎯 全球直连
+ - IP-CIDR,8.128.0.0/10,🎯 全球直连,no-resolve
+ - IP-CIDR,8.208.0.0/12,🎯 全球直连,no-resolve
+ - IP-CIDR,14.1.112.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,41.222.240.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,41.223.119.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,43.242.168.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,45.112.212.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,47.52.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,47.56.0.0/15,🎯 全球直连,no-resolve
+ - IP-CIDR,47.74.0.0/15,🎯 全球直连,no-resolve
+ - IP-CIDR,47.76.0.0/14,🎯 全球直连,no-resolve
+ - IP-CIDR,47.80.0.0/12,🎯 全球直连,no-resolve
+ - IP-CIDR,47.235.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,47.236.0.0/14,🎯 全球直连,no-resolve
+ - IP-CIDR,47.240.0.0/14,🎯 全球直连,no-resolve
+ - IP-CIDR,47.244.0.0/15,🎯 全球直连,no-resolve
+ - IP-CIDR,47.246.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,47.250.0.0/15,🎯 全球直连,no-resolve
+ - IP-CIDR,47.252.0.0/15,🎯 全球直连,no-resolve
+ - IP-CIDR,47.254.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,59.82.0.0/20,🎯 全球直连,no-resolve
+ - IP-CIDR,59.82.240.0/21,🎯 全球直连,no-resolve
+ - IP-CIDR,59.82.248.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,72.254.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,103.38.56.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,103.52.76.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,103.206.40.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,110.76.21.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,110.76.23.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,112.125.0.0/17,🎯 全球直连,no-resolve
+ - IP-CIDR,116.251.64.0/18,🎯 全球直连,no-resolve
+ - IP-CIDR,119.38.208.0/20,🎯 全球直连,no-resolve
+ - IP-CIDR,119.38.224.0/20,🎯 全球直连,no-resolve
+ - IP-CIDR,119.42.224.0/20,🎯 全球直连,no-resolve
+ - IP-CIDR,139.95.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,140.205.1.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,140.205.122.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,147.139.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,149.129.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,155.102.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,161.117.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,163.181.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,170.33.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,198.11.128.0/18,🎯 全球直连,no-resolve
+ - IP-CIDR,205.204.96.0/19,🎯 全球直连,no-resolve
+ - IP-CIDR,19.28.0.0/23,🎯 全球直连,no-resolve
+ - IP-CIDR,45.40.192.0/19,🎯 全球直连,no-resolve
+ - IP-CIDR,49.51.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,62.234.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,94.191.0.0/17,🎯 全球直连,no-resolve
+ - IP-CIDR,103.7.28.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,103.116.50.0/23,🎯 全球直连,no-resolve
+ - IP-CIDR,103.231.60.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,109.244.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,111.30.128.0/21,🎯 全球直连,no-resolve
+ - IP-CIDR,111.30.136.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,111.30.139.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,111.30.140.0/23,🎯 全球直连,no-resolve
+ - IP-CIDR,115.159.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,119.28.0.0/15,🎯 全球直连,no-resolve
+ - IP-CIDR,120.88.56.0/23,🎯 全球直连,no-resolve
+ - IP-CIDR,121.51.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,129.28.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,129.204.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,129.211.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,132.232.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,134.175.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,146.56.192.0/18,🎯 全球直连,no-resolve
+ - IP-CIDR,148.70.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,150.109.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,152.136.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,162.14.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,162.62.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,170.106.130.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,182.254.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,188.131.128.0/17,🎯 全球直连,no-resolve
+ - IP-CIDR,203.195.128.0/17,🎯 全球直连,no-resolve
+ - IP-CIDR,203.205.128.0/17,🎯 全球直连,no-resolve
+ - IP-CIDR,210.4.138.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,211.152.128.0/23,🎯 全球直连,no-resolve
+ - IP-CIDR,211.152.132.0/23,🎯 全球直连,no-resolve
+ - IP-CIDR,211.152.148.0/23,🎯 全球直连,no-resolve
+ - IP-CIDR,212.64.0.0/17,🎯 全球直连,no-resolve
+ - IP-CIDR,212.129.128.0/17,🎯 全球直连,no-resolve
+ - IP-CIDR,45.113.192.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,63.217.23.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,63.243.252.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,103.235.44.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,104.193.88.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,106.12.0.0/15,🎯 全球直连,no-resolve
+ - IP-CIDR,114.28.224.0/20,🎯 全球直连,no-resolve
+ - IP-CIDR,119.63.192.0/21,🎯 全球直连,no-resolve
+ - IP-CIDR,180.76.0.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,180.76.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,182.61.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,185.10.104.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,202.46.48.0/20,🎯 全球直连,no-resolve
+ - IP-CIDR,203.90.238.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,43.254.0.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,45.249.212.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,49.4.0.0/17,🎯 全球直连,no-resolve
+ - IP-CIDR,78.101.192.0/19,🎯 全球直连,no-resolve
+ - IP-CIDR,78.101.224.0/20,🎯 全球直连,no-resolve
+ - IP-CIDR,81.52.161.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,85.97.220.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,103.31.200.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,103.69.140.0/23,🎯 全球直连,no-resolve
+ - IP-CIDR,103.218.216.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,114.115.128.0/17,🎯 全球直连,no-resolve
+ - IP-CIDR,114.116.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,116.63.128.0/18,🎯 全球直连,no-resolve
+ - IP-CIDR,116.66.184.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,116.71.96.0/20,🎯 全球直连,no-resolve
+ - IP-CIDR,116.71.128.0/21,🎯 全球直连,no-resolve
+ - IP-CIDR,116.71.136.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,116.71.141.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,116.71.142.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,116.71.243.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,116.71.244.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,116.71.251.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,117.78.0.0/18,🎯 全球直连,no-resolve
+ - IP-CIDR,119.3.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,119.8.0.0/21,🎯 全球直连,no-resolve
+ - IP-CIDR,119.8.32.0/19,🎯 全球直连,no-resolve
+ - IP-CIDR,121.36.0.0/17,🎯 全球直连,no-resolve
+ - IP-CIDR,121.36.128.0/18,🎯 全球直连,no-resolve
+ - IP-CIDR,121.37.0.0/17,🎯 全球直连,no-resolve
+ - IP-CIDR,122.112.128.0/17,🎯 全球直连,no-resolve
+ - IP-CIDR,139.9.0.0/18,🎯 全球直连,no-resolve
+ - IP-CIDR,139.9.64.0/19,🎯 全球直连,no-resolve
+ - IP-CIDR,139.9.100.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,139.9.104.0/21,🎯 全球直连,no-resolve
+ - IP-CIDR,139.9.112.0/20,🎯 全球直连,no-resolve
+ - IP-CIDR,139.9.128.0/18,🎯 全球直连,no-resolve
+ - IP-CIDR,139.9.192.0/19,🎯 全球直连,no-resolve
+ - IP-CIDR,139.9.224.0/20,🎯 全球直连,no-resolve
+ - IP-CIDR,139.9.240.0/21,🎯 全球直连,no-resolve
+ - IP-CIDR,139.9.248.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,139.159.128.0/19,🎯 全球直连,no-resolve
+ - IP-CIDR,139.159.160.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,139.159.164.0/23,🎯 全球直连,no-resolve
+ - IP-CIDR,139.159.168.0/21,🎯 全球直连,no-resolve
+ - IP-CIDR,139.159.176.0/20,🎯 全球直连,no-resolve
+ - IP-CIDR,139.159.192.0/18,🎯 全球直连,no-resolve
+ - IP-CIDR,159.138.0.0/18,🎯 全球直连,no-resolve
+ - IP-CIDR,159.138.64.0/21,🎯 全球直连,no-resolve
+ - IP-CIDR,159.138.79.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,159.138.80.0/20,🎯 全球直连,no-resolve
+ - IP-CIDR,159.138.96.0/20,🎯 全球直连,no-resolve
+ - IP-CIDR,159.138.112.0/21,🎯 全球直连,no-resolve
+ - IP-CIDR,159.138.125.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,159.138.128.0/18,🎯 全球直连,no-resolve
+ - IP-CIDR,159.138.192.0/20,🎯 全球直连,no-resolve
+ - IP-CIDR,159.138.223.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,159.138.224.0/19,🎯 全球直连,no-resolve
+ - IP-CIDR,168.195.92.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,185.176.76.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,197.199.0.0/18,🎯 全球直连,no-resolve
+ - IP-CIDR,197.210.163.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,197.252.1.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,197.252.2.0/23,🎯 全球直连,no-resolve
+ - IP-CIDR,197.252.4.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,197.252.8.0/21,🎯 全球直连,no-resolve
+ - IP-CIDR,200.32.52.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,200.32.54.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,200.32.57.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,203.135.0.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,203.135.4.0/23,🎯 全球直连,no-resolve
+ - IP-CIDR,203.135.8.0/23,🎯 全球直连,no-resolve
+ - IP-CIDR,203.135.11.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,203.135.13.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,203.135.20.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,203.135.22.0/23,🎯 全球直连,no-resolve
+ - IP-CIDR,203.135.24.0/23,🎯 全球直连,no-resolve
+ - IP-CIDR,203.135.26.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,203.135.29.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,203.135.33.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,203.135.38.0/23,🎯 全球直连,no-resolve
+ - IP-CIDR,203.135.40.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,203.135.43.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,203.135.48.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,203.135.50.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,42.186.0.0/16,🎯 全球直连,no-resolve
+ - IP-CIDR,45.127.128.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,45.195.24.0/24,🎯 全球直连,no-resolve
+ - IP-CIDR,45.253.132.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,45.253.240.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,45.254.48.0/23,🎯 全球直连,no-resolve
+ - IP-CIDR,59.111.0.0/20,🎯 全球直连,no-resolve
+ - IP-CIDR,59.111.128.0/17,🎯 全球直连,no-resolve
+ - IP-CIDR,103.71.120.0/21,🎯 全球直连,no-resolve
+ - IP-CIDR,103.71.128.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,103.71.196.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,103.71.200.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,103.72.12.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,103.72.18.0/23,🎯 全球直连,no-resolve
+ - IP-CIDR,103.72.24.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,103.72.28.0/23,🎯 全球直连,no-resolve
+ - IP-CIDR,103.72.38.0/23,🎯 全球直连,no-resolve
+ - IP-CIDR,103.72.40.0/23,🎯 全球直连,no-resolve
+ - IP-CIDR,103.72.44.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,103.72.48.0/21,🎯 全球直连,no-resolve
+ - IP-CIDR,103.72.128.0/21,🎯 全球直连,no-resolve
+ - IP-CIDR,103.74.24.0/21,🎯 全球直连,no-resolve
+ - IP-CIDR,103.74.48.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,103.126.92.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,103.129.252.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,103.131.252.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,103.135.240.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,103.196.64.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,106.2.32.0/19,🎯 全球直连,no-resolve
+ - IP-CIDR,106.2.64.0/18,🎯 全球直连,no-resolve
+ - IP-CIDR,114.113.196.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,114.113.200.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,115.236.112.0/20,🎯 全球直连,no-resolve
+ - IP-CIDR,115.238.76.0/22,🎯 全球直连,no-resolve
+ - IP-CIDR,123.58.160.0/19,🎯 全球直连,no-resolve
+ - IP-CIDR,223.252.192.0/19,🎯 全球直连,no-resolve
+ - IP-CIDR,101.198.128.0/18,🎯 全球直连,no-resolve
+ - IP-CIDR,101.198.192.0/19,🎯 全球直连,no-resolve
+ - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
+ - GEOIP,CN,🎯 全球直连
  - MATCH,✅ 节点选择
